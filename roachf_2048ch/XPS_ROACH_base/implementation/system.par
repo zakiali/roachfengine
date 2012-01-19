@@ -1,0 +1,444 @@
+Release 11.5 par L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+otto.eecs.berkeley.edu::  Mon Dec 19 14:47:16 2011
+
+par -ise ../__xps/ise/system.ise -xe n -w -ol high system_map.ncd system.ncd
+system.pcf 
+
+
+Constraints file: system.pcf.
+   "system" is an NCD, version 3.2, device xc5vsx95t, package ff1136, speed -1
+WARNING:ConstraintSystem:65 - Constraint <NET "roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in" PERIOD =
+           5 ns HIGH 50%;> [system.pcf(78619)] overrides constraint <NET
+   "roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in" PERIOD =         5 ns HIGH 50%;>
+   [system.pcf(78617)].
+
+WARNING:ConstraintSystem:65 - Constraint <NET "roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in" PERIOD =
+           5 ns HIGH 50%;> [system.pcf(78623)] overrides constraint <NET
+   "roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in" PERIOD =         5 ns HIGH 50%;>
+   [system.pcf(78621)].
+
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.66 2010-02-13".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFDSs                          2 out of 8      25%
+   Number of BUFGs                          16 out of 32     50%
+   Number of CRC64s                          4 out of 16     25%
+   Number of DCM_ADVs                        6 out of 12     50%
+   Number of DSP48Es                       136 out of 640    21%
+   Number of GTP_DUALs                       8 out of 8     100%
+   Number of ILOGICs                       113 out of 800    14%
+   Number of External IOBs                 194 out of 640    30%
+      Number of LOCed IOBs                 194 out of 194   100%
+
+   Number of External IPADs                 36 out of 690     5%
+      Number of LOCed IPADs                 36 out of 36    100%
+
+   Number of OLOGICs                        21 out of 800     2%
+   Number of External OPADs                 32 out of 32    100%
+      Number of LOCed OPADs                 32 out of 32    100%
+
+   Number of PLL_ADVs                        2 out of 6      33%
+   Number of RAMB18X2s                      40 out of 244    16%
+   Number of RAMB36_EXPs                   168 out of 244    68%
+   Number of Slice Registers             27580 out of 58880  46%
+      Number used as Flip Flops          27578
+      Number used as Latches                 0
+      Number used as LatchThrus              2
+
+   Number of Slice LUTS                  29451 out of 58880  50%
+   Number of Slice LUT-Flip Flop pairs   35445 out of 58880  60%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 mins 16 secs 
+Finished initial Timing Analysis.  REAL time: 1 mins 17 secs 
+
+WARNING:Par:288 - The signal infrastructure_inst/dly_clk has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 186712 unrouted;      REAL time: 1 mins 26 secs 
+
+Phase  2  : 110412 unrouted;      REAL time: 1 mins 50 secs 
+
+Phase  3  : 30992 unrouted;      REAL time: 4 mins 15 secs 
+
+Phase  4  : 31094 unrouted; (Setup:0, Hold:90760, Component Switching Limit:0)     REAL time: 4 mins 51 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:82236, Component Switching Limit:0)     REAL time: 7 mins 31 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:82236, Component Switching Limit:0)     REAL time: 7 mins 31 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:82236, Component Switching Limit:0)     REAL time: 7 mins 31 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:82236, Component Switching Limit:0)     REAL time: 7 mins 31 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 mins 58 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 mins 23 secs 
+Total REAL time to Router completion: 8 mins 23 secs 
+Total CPU time to Router completion: 8 mins 22 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|             arb_clk | BUFGCTRL_X0Y6| No   | 7592 |  0.899     |  2.436      |
++---------------------+--------------+------+------+------------+-------------+
+|             epb_clk | BUFGCTRL_X0Y1| No   |  656 |  0.752     |  2.297      |
++---------------------+--------------+------+------+------------+-------------+
+|           mgt_clk_0 |BUFGCTRL_X0Y23| No   |  858 |  0.666     |  2.254      |
++---------------------+--------------+------+------+------------+-------------+
+|           mgt_clk_1 | BUFGCTRL_X0Y3| No   |  853 |  0.755     |  2.309      |
++---------------------+--------------+------+------+------------+-------------+
+|roachf_2048ch_ADCs_q |              |      |      |            |             |
+|      uadc1/adc0_clk |BUFGCTRL_X0Y27| No   |   64 |  0.329     |  2.290      |
++---------------------+--------------+------+------+------------+-------------+
+|             sys_clk |BUFGCTRL_X0Y26| No   |    4 |  0.018     |  1.703      |
++---------------------+--------------+------+------+------------+-------------+
+|roachf_2048ch_ADCs_q |              |      |      |            |             |
+|      uadc0/adc0_clk |BUFGCTRL_X0Y30| No   |   64 |  0.462     |  2.290      |
++---------------------+--------------+------+------+------------+-------------+
+|roachf_2048ch_ADCs_q |              |      |      |            |             |
+|    uadc0/adc0_clk90 |BUFGCTRL_X0Y29| No   |    9 |  0.159     |  2.159      |
++---------------------+--------------+------+------+------------+-------------+
+|roachf_2048ch_ADCs_q |              |      |      |            |             |
+|    uadc1/adc0_clk90 |BUFGCTRL_X0Y28| No   |    9 |  0.094     |  2.201      |
++---------------------+--------------+------+------+------------+-------------+
+|         arb_clk_int | BUFGCTRL_X0Y5| No   |    3 |  0.000     |  1.814      |
++---------------------+--------------+------+------+------------+-------------+
+|xaui_infrastructure_ |              |      |      |            |             |
+|inst/xaui_infrastruc |              |      |      |            |             |
+|ture_inst/mgt_clk_mu |              |      |      |            |             |
+|              lt_2_t | BUFGCTRL_X0Y2| No   |   16 |  0.243     |  2.157      |
++---------------------+--------------+------+------+------------+-------------+
+|xaui_infrastructure_ |              |      |      |            |             |
+|inst/xaui_infrastruc |              |      |      |            |             |
+|ture_inst/mgt_clk_mu |              |      |      |            |             |
+|              lt_2_b |BUFGCTRL_X0Y24| No   |   16 |  0.243     |  2.157      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 17
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_arb_clk_dcm_phasegen_arb_clk_dcm_phase | SETUP       |     0.028ns|     4.972ns|       0|           0
+  gen_CLK0_BUF = PERIOD TIMEGRP         "ar | HOLD        |     0.217ns|            |       0|           0
+  b_clk_dcm_phasegen_arb_clk_dcm_phasegen_C |             |            |            |        |            
+  LK0_BUF"         TS_arb_clk_dcm_arb_clk_d |             |            |            |        |            
+  cm_CLKFX_BUF HIGH 50%                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_epb_clk = PERIOD TIMEGRP "epb_clk" 88  | SETUP       |     0.035ns|    11.328ns|       0|           0
+  MHz HIGH 50%                              | HOLD        |     0.109ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_mgt_clk_1 = PERIOD TIMEGRP "mgt_clk_1" | SETUP       |     0.069ns|     6.331ns|       0|           0
+   156.25 MHz HIGH 50%                      | HOLD        |     0.096ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_mgt_clk_0 = PERIOD TIMEGRP "mgt_clk_0" | SETUP       |     0.094ns|     6.306ns|       0|           0
+   156.25 MHz HIGH 50%                      | HOLD        |     0.093ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "roachf_2048ch_AD | SETUP       |     0.149ns|     4.801ns|       0|           0
+  Cs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_ | HOLD        |     4.034ns|            |       0|           0
+  clk_90_buf" derived from  NET "roachf_204 |             |            |            |        |            
+  8ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0 |             |            |            |        |            
+  /adc0_clk_in" PERIOD =        5 ns HIGH 5 |             |            |            |        |            
+  0%                                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "roachf_2048ch_AD | SETUP       |     0.543ns|     4.276ns|       0|           0
+  Cs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_ | HOLD        |     0.478ns|            |       0|           0
+  clk_buf" derived from  NET "roachf_2048ch |             |            |            |        |            
+  _ADCs_quadc0/roachf_2048ch_ADCs_quadc0/ad |             |            |            |        |            
+  c0_clk_in" PERIOD =        5 ns HIGH 50%  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "roachf_2048ch_AD | SETUP       |     0.558ns|     4.256ns|       0|           0
+  Cs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_ | HOLD        |     4.206ns|            |       0|           0
+  clk_90_buf" derived from  NET "roachf_204 |             |            |            |        |            
+  8ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1 |             |            |            |        |            
+  /adc0_clk_in" PERIOD =        5 ns HIGH 5 |             |            |            |        |            
+  0%                                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_arb_clk_dcm_arb_clk_dcm_CLKFX_BUF = PE | SETUP       |     3.926ns|     1.074ns|       0|           0
+  RIOD TIMEGRP         "arb_clk_dcm_arb_clk | HOLD        |     0.321ns|            |       0|           0
+  _dcm_CLKFX_BUF"         TS_infrastructure | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  _inst_infrastructure_inst_sys_clk_dcm * 2 |             |            |            |        |            
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_quadc1_adc0_clk_in_n = PERIOD TIMEGRP  | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  "quadc1_adc0_clk_in_n" 5 ns HIGH 50%      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_quadc1_adc0_clk_in_p = PERIOD TIMEGRP  | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  "quadc1_adc0_clk_in_p" 5 ns HIGH 50%      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_quadc0_adc0_clk_in_n = PERIOD TIMEGRP  | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  "quadc0_adc0_clk_in_n" 5 ns HIGH 50%      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_quadc0_adc0_clk_in_p = PERIOD TIMEGRP  | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  "quadc0_adc0_clk_in_p" 5 ns HIGH 50%      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "roachf_2048ch_ADCs_quadc1/roachf_204 | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  8ch_ADCs_quadc1/adc0_clk_in" PERIOD =     |             |            |            |        |            
+       5 ns HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "roachf_2048ch_ADCs_quadc0/roachf_204 | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  8ch_ADCs_quadc0/adc0_clk_in" PERIOD =     |             |            |            |        |            
+       5 ns HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "roachf_2048ch_AD | SETUP       |     1.585ns|     3.415ns|       0|           0
+  Cs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_ | HOLD        |     0.393ns|            |       0|           0
+  clk_buf" derived from  NET "roachf_2048ch |             |            |            |        |            
+  _ADCs_quadc1/roachf_2048ch_ADCs_quadc1/ad |             |            |            |        |            
+  c0_clk_in" PERIOD =        5 ns HIGH 50%  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_n = PERIOD TIMEGRP "sys_clk_n" | MINPERIOD   |     1.668ns|     8.332ns|       0|           0
+   100 MHz HIGH 50%                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_infrastructure_inst_infrastructure_ins | SETUP       |     8.168ns|     1.832ns|       0|           0
+  t_sys_clk_dcm = PERIOD TIMEGRP         "i | HOLD        |     0.465ns|            |       0|           0
+  nfrastructure_inst_infrastructure_inst_sy | MINPERIOD   |     1.668ns|     8.332ns|       0|           0
+  s_clk_dcm" TS_sys_clk_n         HIGH 50%  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "epb_cs_n_IBUF" MAXDELAY = 4 ns       | MAXDELAY    |     1.804ns|     2.196ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc0_roachf_2048c | MINLOWPULSE |     3.000ns|     2.000ns|       0|           0
+  h_ADCs_quadc0_adc0_clk_buf = PERIOD       |             |            |            |        |            
+     TIMEGRP         "roachf_2048ch_ADCs_qu |             |            |            |        |            
+  adc0_roachf_2048ch_ADCs_quadc0_adc0_clk_b |             |            |            |        |            
+  uf"         TS_quadc0_adc0_clk_in_p HIGH  |             |            |            |        |            
+  50%                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc0_roachf_2048c | MINLOWPULSE |     3.000ns|     2.000ns|       0|           0
+  h_ADCs_quadc0_adc0_clk_buf_0 = PERIOD     |             |            |            |        |            
+       TIMEGRP         "roachf_2048ch_ADCs_ |             |            |            |        |            
+  quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk |             |            |            |        |            
+  _buf_0"         TS_quadc0_adc0_clk_in_n H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc1_roachf_2048c | MINLOWPULSE |     3.000ns|     2.000ns|       0|           0
+  h_ADCs_quadc1_adc0_clk_buf = PERIOD       |             |            |            |        |            
+     TIMEGRP         "roachf_2048ch_ADCs_qu |             |            |            |        |            
+  adc1_roachf_2048ch_ADCs_quadc1_adc0_clk_b |             |            |            |        |            
+  uf"         TS_quadc1_adc0_clk_in_p HIGH  |             |            |            |        |            
+  50%                                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc1_roachf_2048c | MINLOWPULSE |     3.000ns|     2.000ns|       0|           0
+  h_ADCs_quadc1_adc0_clk_buf_0 = PERIOD     |             |            |            |        |            
+       TIMEGRP         "roachf_2048ch_ADCs_ |             |            |            |        |            
+  quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk |             |            |            |        |            
+  _buf_0"         TS_quadc1_adc0_clk_in_n H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc0_roachf_2048c | MINLOWPULSE |     4.182ns|     0.818ns|       0|           0
+  h_ADCs_quadc0_adc0_clk_90_buf =         P |             |            |            |        |            
+  ERIOD TIMEGRP         "roachf_2048ch_ADCs |             |            |            |        |            
+  _quadc0_roachf_2048ch_ADCs_quadc0_adc0_cl |             |            |            |        |            
+  k_90_buf"         TS_quadc0_adc0_clk_in_p |             |            |            |        |            
+   PHASE 1.25 ns HIGH 50%                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc0_roachf_2048c | MINLOWPULSE |     4.182ns|     0.818ns|       0|           0
+  h_ADCs_quadc0_adc0_clk_90_buf_0 =         |             |            |            |        |            
+   PERIOD TIMEGRP         "roachf_2048ch_AD |             |            |            |        |            
+  Cs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_ |             |            |            |        |            
+  clk_90_buf_0"         TS_quadc0_adc0_clk_ |             |            |            |        |            
+  in_n PHASE 1.25 ns HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc1_roachf_2048c | MINLOWPULSE |     4.182ns|     0.818ns|       0|           0
+  h_ADCs_quadc1_adc0_clk_90_buf =         P |             |            |            |        |            
+  ERIOD TIMEGRP         "roachf_2048ch_ADCs |             |            |            |        |            
+  _quadc1_roachf_2048ch_ADCs_quadc1_adc0_cl |             |            |            |        |            
+  k_90_buf"         TS_quadc1_adc0_clk_in_p |             |            |            |        |            
+   PHASE 1.25 ns HIGH 50%                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_roachf_2048ch_ADCs_quadc1_roachf_2048c | MINLOWPULSE |     4.182ns|     0.818ns|       0|           0
+  h_ADCs_quadc1_adc0_clk_90_buf_0 =         |             |            |            |        |            
+   PERIOD TIMEGRP         "roachf_2048ch_AD |             |            |            |        |            
+  Cs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_ |             |            |            |        |            
+  clk_90_buf_0"         TS_quadc1_adc0_clk_ |             |            |            |        |            
+  in_n PHASE 1.25 ns HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "roachf_2048ch_ADCs_quadc1/roachf_204 | N/A         |         N/A|         N/A|     N/A|         N/A
+  8ch_ADCs_quadc1/adc0_clk_in" PERIOD =     |             |            |            |        |            
+       5 ns HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "roachf_2048ch_ADCs_quadc0/roachf_204 | N/A         |         N/A|         N/A|     N/A|         N/A
+  8ch_ADCs_quadc0/adc0_clk_in" PERIOD =     |             |            |            |        |            
+       5 ns HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|roachf_2048ch_ADCs_quadc0/roach|      5.000ns|      3.600ns|      4.801ns|            0|            0|            0|          540|
+|f_2048ch_ADCs_quadc0/adc0_clk_i|             |             |             |             |             |             |             |
+|n                              |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc0/roac|      5.000ns|      4.801ns|          N/A|            0|            0|           33|            0|
+| hf_2048ch_ADCs_quadc0/adc0_clk|             |             |             |             |             |             |             |
+| _90_buf                       |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc0/roac|      5.000ns|      4.276ns|          N/A|            0|            0|          507|            0|
+| hf_2048ch_ADCs_quadc0/adc0_clk|             |             |             |             |             |             |             |
+| _buf                          |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|roachf_2048ch_ADCs_quadc1/roach|      5.000ns|      3.600ns|      4.256ns|            0|            0|            0|          540|
+|f_2048ch_ADCs_quadc1/adc0_clk_i|             |             |             |             |             |             |             |
+|n                              |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc1/roac|      5.000ns|      3.415ns|          N/A|            0|            0|          507|            0|
+| hf_2048ch_ADCs_quadc1/adc0_clk|             |             |             |             |             |             |             |
+| _buf                          |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc1/roac|      5.000ns|      4.256ns|          N/A|            0|            0|           33|            0|
+| hf_2048ch_ADCs_quadc1/adc0_clk|             |             |             |             |             |             |             |
+| _90_buf                       |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_sys_clk_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_n                   |     10.000ns|      8.332ns|      9.944ns|            0|            0|            0|       272809|
+| TS_infrastructure_inst_infrast|     10.000ns|      8.332ns|      9.944ns|            0|            0|            3|       272806|
+| ructure_inst_sys_clk_dcm      |             |             |             |             |             |             |             |
+|  TS_arb_clk_dcm_arb_clk_dcm_CL|      5.000ns|      3.600ns|      4.972ns|            0|            0|            3|       272803|
+|  KFX_BUF                      |             |             |             |             |             |             |             |
+|   TS_arb_clk_dcm_phasegen_arb_|      5.000ns|      4.972ns|          N/A|            0|            0|       272803|            0|
+|   clk_dcm_phasegen_CLK0_BUF   |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc0_adc0_clk_in_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc0_adc0_clk_in_p        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_buf                       |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf                    |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc0_adc0_clk_in_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc0_adc0_clk_in_n        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_buf_0                     |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf_0                  |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc1_adc0_clk_in_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc1_adc0_clk_in_p        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_buf                       |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf                    |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc1_adc0_clk_in_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc1_adc0_clk_in_n        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_buf_0                     |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf_0                  |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 8 mins 42 secs 
+Total CPU time to PAR completion: 8 mins 41 secs 
+
+Peak Memory Usage:  1442 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 5
+Number of info messages: 0
+
+Writing design to file system.ncd
+
+
+
+PAR done!

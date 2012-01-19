@@ -1,0 +1,554 @@
+--------------------------------------------------------------------------------
+Release 11.5 Trace  (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+/tools/xilinx/11.5/ISE/bin/lin64/unwrapped/trce -ise ../__xps/ise/system.ise -e
+200 -xml system.twx system.ncd system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc5vsx95t,ff1136,-1 (PRODUCTION 1.66 2010-02-13, STEPPING level 0)
+Report level:             error report, limited to 200 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "epb_cs_n_IBUF" MAXDELAY = 4 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.196ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET 
+"roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in" PERIOD =      
+   5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET 
+"roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in" PERIOD =      
+   5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.600ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_90_buf" derived 
+from  NET "roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in" 
+PERIOD =        5 ns HIGH 50%;  duty cycle corrected to 5 nS  HIGH 2.500 nS  
+
+ 33 paths analyzed, 33 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.801ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_buf" derived from 
+ NET "roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in" PERIOD = 
+       5 ns HIGH 50%;  duty cycle corrected to 5 nS  HIGH 2.500 nS  
+
+ 507 paths analyzed, 494 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.276ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET 
+"roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in" PERIOD =      
+   5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET 
+"roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in" PERIOD =      
+   5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.600ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_buf" derived from 
+ NET "roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in" PERIOD = 
+       5 ns HIGH 50%;  duty cycle corrected to 5 nS  HIGH 2.500 nS  
+
+ 507 paths analyzed, 494 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.415ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_90_buf" derived 
+from  NET "roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in" 
+PERIOD =        5 ns HIGH 50%;  duty cycle corrected to 5 nS  HIGH 2.500 nS  
+
+ 33 paths analyzed, 33 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.256ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_n = PERIOD TIMEGRP "sys_clk_n" 100 MHz HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   8.332ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_epb_clk = PERIOD TIMEGRP "epb_clk" 88 MHz HIGH 50%;
+
+ 770164 paths analyzed, 9671 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  11.328ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_mgt_clk_0 = PERIOD TIMEGRP "mgt_clk_0" 156.25 MHz HIGH 
+50%;
+
+ 36586 paths analyzed, 9342 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.306ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_mgt_clk_1 = PERIOD TIMEGRP "mgt_clk_1" 156.25 MHz HIGH 
+50%;
+
+ 36463 paths analyzed, 9301 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.331ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_quadc0_adc0_clk_in_p = PERIOD TIMEGRP 
+"quadc0_adc0_clk_in_p" 5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.600ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_quadc0_adc0_clk_in_n = PERIOD TIMEGRP 
+"quadc0_adc0_clk_in_n" 5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.600ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_quadc1_adc0_clk_in_p = PERIOD TIMEGRP 
+"quadc1_adc0_clk_in_p" 5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.600ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_quadc1_adc0_clk_in_n = PERIOD TIMEGRP 
+"quadc1_adc0_clk_in_n" 5 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.600ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_infrastructure_inst_infrastructure_inst_sys_clk_dcm = 
+PERIOD TIMEGRP         "infrastructure_inst_infrastructure_inst_sys_clk_dcm" 
+TS_sys_clk_n         HIGH 50%;
+
+ 3 paths analyzed, 3 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   8.332ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_buf = PERIOD    
+     TIMEGRP         
+"roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_buf"         
+TS_quadc0_adc0_clk_in_p HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_90_buf =        
+ PERIOD TIMEGRP         
+"roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_90_buf"         
+TS_quadc0_adc0_clk_in_p PHASE 1.25 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   0.818ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_buf_0 = PERIOD  
+       TIMEGRP         
+"roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_buf_0"         
+TS_quadc0_adc0_clk_in_n HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_90_buf_0 =      
+   PERIOD TIMEGRP         
+"roachf_2048ch_ADCs_quadc0_roachf_2048ch_ADCs_quadc0_adc0_clk_90_buf_0"         
+TS_quadc0_adc0_clk_in_n PHASE 1.25 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   0.818ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_buf = PERIOD    
+     TIMEGRP         
+"roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_buf"         
+TS_quadc1_adc0_clk_in_p HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_90_buf =        
+ PERIOD TIMEGRP         
+"roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_90_buf"         
+TS_quadc1_adc0_clk_in_p PHASE 1.25 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   0.818ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_buf_0 = PERIOD  
+       TIMEGRP         
+"roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_buf_0"         
+TS_quadc1_adc0_clk_in_n HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_90_buf_0 =      
+   PERIOD TIMEGRP         
+"roachf_2048ch_ADCs_quadc1_roachf_2048ch_ADCs_quadc1_adc0_clk_90_buf_0"         
+TS_quadc1_adc0_clk_in_n PHASE 1.25 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   0.818ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_arb_clk_dcm_arb_clk_dcm_CLKFX_BUF = PERIOD TIMEGRP        
+ "arb_clk_dcm_arb_clk_dcm_CLKFX_BUF"         
+TS_infrastructure_inst_infrastructure_inst_sys_clk_dcm * 2 HIGH 50%;
+
+ 3 paths analyzed, 3 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.600ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_arb_clk_dcm_phasegen_arb_clk_dcm_phasegen_CLK0_BUF = 
+PERIOD TIMEGRP         "arb_clk_dcm_phasegen_arb_clk_dcm_phasegen_CLK0_BUF"     
+    TS_arb_clk_dcm_arb_clk_dcm_CLKFX_BUF HIGH 50%;
+
+ 272803 paths analyzed, 68607 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.972ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|roachf_2048ch_ADCs_quadc0/roach|      5.000ns|      3.600ns|      4.801ns|            0|            0|            0|          540|
+|f_2048ch_ADCs_quadc0/adc0_clk_i|             |             |             |             |             |             |             |
+|n                              |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc0/roac|      5.000ns|      4.801ns|          N/A|            0|            0|           33|            0|
+| hf_2048ch_ADCs_quadc0/adc0_clk|             |             |             |             |             |             |             |
+| _90_buf                       |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc0/roac|      5.000ns|      4.276ns|          N/A|            0|            0|          507|            0|
+| hf_2048ch_ADCs_quadc0/adc0_clk|             |             |             |             |             |             |             |
+| _buf                          |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|roachf_2048ch_ADCs_quadc1/roach|      5.000ns|      3.600ns|      4.256ns|            0|            0|            0|          540|
+|f_2048ch_ADCs_quadc1/adc0_clk_i|             |             |             |             |             |             |             |
+|n                              |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc1/roac|      5.000ns|      3.415ns|          N/A|            0|            0|          507|            0|
+| hf_2048ch_ADCs_quadc1/adc0_clk|             |             |             |             |             |             |             |
+| _buf                          |             |             |             |             |             |             |             |
+| roachf_2048ch_ADCs_quadc1/roac|      5.000ns|      4.256ns|          N/A|            0|            0|           33|            0|
+| hf_2048ch_ADCs_quadc1/adc0_clk|             |             |             |             |             |             |             |
+| _90_buf                       |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_sys_clk_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_n                   |     10.000ns|      8.332ns|      9.944ns|            0|            0|            0|       272809|
+| TS_infrastructure_inst_infrast|     10.000ns|      8.332ns|      9.944ns|            0|            0|            3|       272806|
+| ructure_inst_sys_clk_dcm      |             |             |             |             |             |             |             |
+|  TS_arb_clk_dcm_arb_clk_dcm_CL|      5.000ns|      3.600ns|      4.972ns|            0|            0|            3|       272803|
+|  KFX_BUF                      |             |             |             |             |             |             |             |
+|   TS_arb_clk_dcm_phasegen_arb_|      5.000ns|      4.972ns|          N/A|            0|            0|       272803|            0|
+|   clk_dcm_phasegen_CLK0_BUF   |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc0_adc0_clk_in_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc0_adc0_clk_in_p        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_buf                       |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf                    |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc0_adc0_clk_in_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc0_adc0_clk_in_n        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_buf_0                     |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc0_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc0_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf_0                  |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc1_adc0_clk_in_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc1_adc0_clk_in_p        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_buf                       |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf                    |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_quadc1_adc0_clk_in_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_quadc1_adc0_clk_in_n        |      5.000ns|      3.600ns|      2.000ns|            0|            0|            0|            0|
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      2.000ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_buf_0                     |             |             |             |             |             |             |             |
+| TS_roachf_2048ch_ADCs_quadc1_r|      5.000ns|      0.818ns|          N/A|            0|            0|            0|            0|
+| oachf_2048ch_ADCs_quadc1_adc0_|             |             |             |             |             |             |             |
+| clk_90_buf_0                  |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock epb_clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+epb_clk_in     |   11.328|         |    5.236|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mgt_ref_clk_bottom_n
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+mgt_ref_clk_bottom_n|    6.306|         |         |         |
+mgt_ref_clk_bottom_p|    6.306|         |         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mgt_ref_clk_bottom_p
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+mgt_ref_clk_bottom_n|    6.306|         |         |         |
+mgt_ref_clk_bottom_p|    6.306|         |         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mgt_ref_clk_top_n
+-----------------+---------+---------+---------+---------+
+                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------+---------+---------+---------+---------+
+mgt_ref_clk_top_n|    6.331|         |         |         |
+mgt_ref_clk_top_p|    6.331|         |         |         |
+-----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mgt_ref_clk_top_p
+-----------------+---------+---------+---------+---------+
+                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------+---------+---------+---------+---------+
+mgt_ref_clk_top_n|    6.331|         |         |         |
+mgt_ref_clk_top_p|    6.331|         |         |         |
+-----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock quadc0_adc0_clk_in_n
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+quadc0_adc0_clk_in_n|    3.681|    3.601|         |         |
+quadc0_adc0_clk_in_p|    3.681|    3.601|         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock quadc0_adc0_clk_in_p
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+quadc0_adc0_clk_in_n|    3.681|    3.601|         |         |
+quadc0_adc0_clk_in_p|    3.681|    3.601|         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock quadc1_adc0_clk_in_n
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+quadc1_adc0_clk_in_n|    3.415|    3.192|         |         |
+quadc1_adc0_clk_in_p|    3.415|    3.192|         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock quadc1_adc0_clk_in_p
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+quadc1_adc0_clk_in_n|    3.415|    3.192|         |         |
+quadc1_adc0_clk_in_p|    3.415|    3.192|         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys_clk_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk_n      |    4.972|         |         |         |
+sys_clk_p      |    4.972|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys_clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk_n      |    4.972|         |         |         |
+sys_clk_p      |    4.972|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1117102 paths, 1 nets, and 113884 connections
+
+Design statistics:
+   Minimum period:  11.328ns   (Maximum frequency:  88.277MHz)
+   Maximum net delay:   2.196ns
+
+
+Analysis completed Mon Dec 19 14:57:51 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1287 MB
+
+Total REAL time to Trace completion: 1 mins 40 secs 
+Total CPU time to Trace completion: 1 mins 40 secs 
+
+
+

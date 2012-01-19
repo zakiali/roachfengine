@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="EDK" num="1582" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_v20</arg> INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 115</arg> - deprecated core for architecture &apos;<arg fmt="%s" index="4">virtex5sx</arg>&apos;!
+</msg>
+
+<msg type="warning" file="EDK" num="2028" delta="new" >Option &quot;<arg fmt="%s" index="1">CORE_STATE</arg>&quot; in <arg fmt="%s" index="2">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quadc_interface_v1_00_a/data/quadc_interface_v2_1_0.mpd line 8</arg>  is deprecated. Please use Option ARCH_SUPPORT_MAP instead. 
+</msg>
+
+<msg type="warning" file="EDK" num="1582" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_bram_if_cntlr</arg> INSTANCE:<arg fmt="%s" index="2">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 723</arg> - deprecated core for architecture &apos;<arg fmt="%s" index="4">virtex5sx</arg>&apos;!
+</msg>
+
+<msg type="warning" file="EDK" num="1582" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_bram_if_cntlr</arg> INSTANCE:<arg fmt="%s" index="2">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 754</arg> - deprecated core for architecture &apos;<arg fmt="%s" index="4">virtex5sx</arg>&apos;!
+</msg>
+
+<msg type="warning" file="EDK" num="1582" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_v20</arg> INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 115</arg> - deprecated core for architecture &apos;<arg fmt="%s" index="4">virtex5sx</arg>&apos;!
+</msg>
+
+<msg type="warning" file="EDK" num="1582" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_bram_if_cntlr</arg> INSTANCE:<arg fmt="%s" index="2">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 723</arg> - deprecated core for architecture &apos;<arg fmt="%s" index="4">virtex5sx</arg>&apos;!
+</msg>
+
+<msg type="warning" file="EDK" num="1582" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_bram_if_cntlr</arg> INSTANCE:<arg fmt="%s" index="2">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 754</arg> - deprecated core for architecture &apos;<arg fmt="%s" index="4">virtex5sx</arg>&apos;!
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramif</arg>:<arg fmt="%s" index="2">bram_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramif</arg>:<arg fmt="%s" index="2">bram_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_v20</arg> INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">/tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_NUM_MASTERS</arg> value to <arg fmt="%s" index="7">1</arg>
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">opb_v20</arg> INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">/tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_NUM_SLAVES</arg> value to <arg fmt="%s" index="7">25</arg>
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">bram_block</arg> INSTANCE:<arg fmt="%s" index="2">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk</arg> - <arg fmt="%s" index="3">/tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 69</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_MEMSIZE</arg> value to <arg fmt="%s" index="7">0x20000</arg>
+</msg>
+
+<msg type="info" file="EDK" num="1560" delta="new" >IPNAME:<arg fmt="%s" index="1">bram_block</arg> INSTANCE:<arg fmt="%s" index="2">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk</arg> - <arg fmt="%s" index="3">/tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a/data/bram_block_v2_1_0.mpd line 69</arg> - <arg fmt="%s" index="4">tool</arg> is overriding <arg fmt="%s" index="5">PARAMETER</arg> <arg fmt="%s" index="6">C_MEMSIZE</arg> value to <arg fmt="%s" index="7">0x20000</arg>
+</msg>
+
+<msg type="warning" file="EDK" num="2098" delta="new" >PORT:<arg fmt="%s" index="1">xaui_reset</arg> CONNECTOR:<arg fmt="%s" index="2">xaui_reset</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/data/kat_ten_gb_eth_v2_1_0.mpd line 77</arg> - No driver found. Port will be driven to <arg fmt="%s" index="4">GND</arg>!
+</msg>
+
+<msg type="warning" file="EDK" num="2098" delta="new" >PORT:<arg fmt="%s" index="1">xaui_reset</arg> CONNECTOR:<arg fmt="%s" index="2">xaui_reset</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/data/kat_ten_gb_eth_v2_1_0.mpd line 77</arg> - No driver found. Port will be driven to <arg fmt="%s" index="4">GND</arg>!
+</msg>
+
+<msg type="warning" file="EDK" num="2098" delta="new" >PORT:<arg fmt="%s" index="1">xaui_reset</arg> CONNECTOR:<arg fmt="%s" index="2">xgmii3_xaui_reset</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/data/xaui_phy_v2_1_0.mpd line 48</arg> - No driver found. Port will be driven to <arg fmt="%s" index="4">GND</arg>!
+</msg>
+
+<msg type="warning" file="EDK" num="2098" delta="new" >PORT:<arg fmt="%s" index="1">xaui_reset</arg> CONNECTOR:<arg fmt="%s" index="2">xgmii0_xaui_reset</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/data/xaui_phy_v2_1_0.mpd line 48</arg> - No driver found. Port will be driven to <arg fmt="%s" index="4">GND</arg>!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sys_clk90</arg> CONNECTOR:<arg fmt="%s" index="2">sys_clk90</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 78</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sys_clk180</arg> CONNECTOR:<arg fmt="%s" index="2">sys_clk180</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 79</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sys_clk270</arg> CONNECTOR:<arg fmt="%s" index="2">sys_clk270</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 80</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sys_clk2x</arg> CONNECTOR:<arg fmt="%s" index="2">sys_clk2x</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 82</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sys_clk2x90</arg> CONNECTOR:<arg fmt="%s" index="2">sys_clk2x90</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 83</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sys_clk2x180</arg> CONNECTOR:<arg fmt="%s" index="2">sys_clk2x180</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 84</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sys_clk2x270</arg> CONNECTOR:<arg fmt="%s" index="2">sys_clk2x270</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 85</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">dly_clk</arg> CONNECTOR:<arg fmt="%s" index="2">dly_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 86</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 87</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk90</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk90</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 88</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk180</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk180</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 89</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk270</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk270</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 90</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux1_clk</arg> CONNECTOR:<arg fmt="%s" index="2">aux1_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 91</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux1_clk90</arg> CONNECTOR:<arg fmt="%s" index="2">aux1_clk90</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 92</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux1_clk180</arg> CONNECTOR:<arg fmt="%s" index="2">aux1_clk180</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 93</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux1_clk270</arg> CONNECTOR:<arg fmt="%s" index="2">aux1_clk270</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 94</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk2x</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk2x</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 95</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk2x90</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk2x90</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 96</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk2x180</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk2x180</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 97</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">aux0_clk2x270</arg> CONNECTOR:<arg fmt="%s" index="2">aux0_clk2x270</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 98</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">idelay_rdy</arg> CONNECTOR:<arg fmt="%s" index="2">idelay_rdy</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 101</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">soft_reset</arg> CONNECTOR:<arg fmt="%s" index="2">soft_reset</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 183</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">CLK180</arg> CONNECTOR:<arg fmt="%s" index="2">arb_clk180</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 359</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">CLK270</arg> CONNECTOR:<arg fmt="%s" index="2">arb_clk270</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 360</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">sig_out</arg> CONNECTOR:<arg fmt="%s" index="2">fab_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 367</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc0_clk</arg> CONNECTOR:<arg fmt="%s" index="2">adc0_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 458</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc1_clk</arg> CONNECTOR:<arg fmt="%s" index="2">quadc0_0_adc1_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 459</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc2_clk</arg> CONNECTOR:<arg fmt="%s" index="2">quadc0_0_adc2_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 460</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc3_clk</arg> CONNECTOR:<arg fmt="%s" index="2">quadc0_0_adc3_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 461</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc0_clk90</arg> CONNECTOR:<arg fmt="%s" index="2">adc0_clk90</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 462</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc0_clk</arg> CONNECTOR:<arg fmt="%s" index="2">adc1_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 515</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc1_clk</arg> CONNECTOR:<arg fmt="%s" index="2">quadc0_1_adc1_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 516</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc2_clk</arg> CONNECTOR:<arg fmt="%s" index="2">quadc0_1_adc2_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 517</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc3_clk</arg> CONNECTOR:<arg fmt="%s" index="2">quadc0_1_adc3_clk</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 518</arg> - floating connection!
+</msg>
+
+<msg type="warning" file="EDK" num="2099" delta="new" >PORT:<arg fmt="%s" index="1">adc0_clk90</arg> CONNECTOR:<arg fmt="%s" index="2">adc1_clk90</arg> - <arg fmt="%s" index="3">/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs line 519</arg> - floating connection!
+</msg>
+
+<msg type="info" file="EDK" num="1038" delta="new" >Did not implement clock DRCs for parameter: <arg fmt="%s" index="1">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="1038" delta="new" >Did not implement clock DRCs for parameter: <arg fmt="%s" index="1">roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="2502" delta="new" >The following instances are synthesized with XST. The MPD option IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+</msg>
+
+</messages>
+

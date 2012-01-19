@@ -1,0 +1,12 @@
+WARNING:PhysDesignRules:1841 - One or more GTPs are being used in this design.
+   Evaluate the SelectIO-To-GTP Crosstalk section of the Virtex-5 RocketIO GTP
+   Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTP performance. 
+WARNING:PhysDesignRules:367 - The signal <infrastructure_inst/dly_clk> is
+   incomplete. The signal does not drive any load pins in the design.
+INFO:PhysDesignRules:1437 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM_ADV comp
+   arb_clk_dcm/arb_clk_dcm/Using_DCM_ADV.DCM_ADV_INST, consult the device Data
+   Sheet.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

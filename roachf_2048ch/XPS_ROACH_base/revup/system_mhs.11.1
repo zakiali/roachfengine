@@ -1,0 +1,956 @@
+# ##############################################################################
+# Target Board:  ROACH v1.0
+# Family:	     virtex5
+# Device:	     xc5vlx110t
+# Package:	     ff1136
+# Speed Grade:	 -1
+# Processor:     None
+# System clock frequency: 100.000000 MHz
+# ##############################################################################
+
+
+PARAMETER VERSION = 2.1.0
+
+# Clock Ports
+PORT sys_clk_n   = sys_clk_n,   DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+PORT sys_clk_p   = sys_clk_p,   DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+PORT dly_clk_n   = dly_clk_n,   DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+PORT dly_clk_p   = dly_clk_p,   DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+PORT aux0_clk_n  = aux0_clk_n,  DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+PORT aux0_clk_p  = aux0_clk_p,  DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+PORT aux1_clk_n  = aux1_clk_n,  DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+PORT aux1_clk_p  = aux1_clk_p,  DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+
+# EPB Ports
+PORT epb_clk_in  = epb_clk_in,  DIR = I
+PORT epb_data    = epb_data,    DIR = IO, VEC = [15:0]
+PORT epb_addr    = epb_addr,    DIR = I,  VEC = [22:0]
+PORT epb_addr_gp = epb_addr_gp, DIR = I,  VEC =  [5:0]
+PORT epb_cs_n    = epb_cs_n,    DIR = I
+PORT epb_be_n    = epb_be_n,    DIR = I,  VEC =  [1:0]
+PORT epb_r_w_n   = epb_r_w_n,   DIR = I
+PORT epb_oe_n    = epb_oe_n,    DIR = I
+PORT epb_rdy     = epb_rdy,     DIR = O
+
+PORT ppc_irq_n   = ppc_irq_n,   DIR = O
+
+PORT mgt_ref_clk_top_n    = xaui2_ref_clk_n, DIR = I
+PORT mgt_ref_clk_top_p    = xaui2_ref_clk_p, DIR = I
+PORT mgt_ref_clk_bottom_n = xaui0_ref_clk_n, DIR = I
+PORT mgt_ref_clk_bottom_p = xaui0_ref_clk_p, DIR = I
+PORT mgt_rx_top_1_n       = xaui3_mgt_rx_n,  DIR = I, VEC = [3:0]
+PORT mgt_rx_top_1_p       = xaui3_mgt_rx_p,  DIR = I, VEC = [3:0]
+PORT mgt_tx_top_1_n       = xaui3_mgt_tx_n,  DIR = O, VEC = [3:0]
+PORT mgt_tx_top_1_p       = xaui3_mgt_tx_p,  DIR = O, VEC = [3:0]
+PORT mgt_rx_top_0_n       = xaui2_mgt_rx_n,  DIR = I, VEC = [3:0]
+PORT mgt_rx_top_0_p       = xaui2_mgt_rx_p,  DIR = I, VEC = [3:0]
+PORT mgt_tx_top_0_n       = xaui2_mgt_tx_n,  DIR = O, VEC = [3:0]
+PORT mgt_tx_top_0_p       = xaui2_mgt_tx_p,  DIR = O, VEC = [3:0]
+PORT mgt_rx_bottom_1_n    = xaui1_mgt_rx_n,  DIR = I, VEC = [3:0]
+PORT mgt_rx_bottom_1_p    = xaui1_mgt_rx_p,  DIR = I, VEC = [3:0]
+PORT mgt_tx_bottom_1_n    = xaui1_mgt_tx_n,  DIR = O, VEC = [3:0]
+PORT mgt_tx_bottom_1_p    = xaui1_mgt_tx_p,  DIR = O, VEC = [3:0]
+PORT mgt_rx_bottom_0_n    = xaui0_mgt_rx_n,  DIR = I, VEC = [3:0]
+PORT mgt_rx_bottom_0_p    = xaui0_mgt_rx_p,  DIR = I, VEC = [3:0]
+PORT mgt_tx_bottom_0_n    = xaui0_mgt_tx_n,  DIR = O, VEC = [3:0]
+PORT mgt_tx_bottom_0_p    = xaui0_mgt_tx_p,  DIR = O, VEC = [3:0]
+
+
+
+
+
+
+
+BEGIN roach_infrastructure
+  PARAMETER INSTANCE = infrastructure_inst
+  PARAMETER HW_VER   = 1.00.a
+  PARAMETER CLK_FREQ = 200
+  PORT sys_clk_n     = sys_clk_n
+  PORT sys_clk_p     = sys_clk_p
+  PORT dly_clk_n     = dly_clk_n
+  PORT dly_clk_p     = dly_clk_p
+  PORT aux0_clk_n    = aux0_clk_n
+  PORT aux0_clk_p    = aux0_clk_p
+  PORT aux1_clk_n    = aux1_clk_n
+  PORT aux1_clk_p    = aux1_clk_p
+  PORT epb_clk_in    = epb_clk_in
+  PORT sys_clk       = sys_clk
+  PORT sys_clk90     = sys_clk90
+  PORT sys_clk180    = sys_clk180
+  PORT sys_clk270    = sys_clk270
+  PORT sys_clk_lock  = sys_clk_lock
+  PORT sys_clk2x     = sys_clk2x
+  PORT sys_clk2x90   = sys_clk2x90
+  PORT sys_clk2x180  = sys_clk2x180
+  PORT sys_clk2x270  = sys_clk2x270
+  PORT dly_clk       = dly_clk
+  PORT aux0_clk      = aux0_clk
+  PORT aux0_clk90    = aux0_clk90
+  PORT aux0_clk180   = aux0_clk180
+  PORT aux0_clk270   = aux0_clk270
+  PORT aux1_clk      = aux1_clk
+  PORT aux1_clk90    = aux1_clk90
+  PORT aux1_clk180   = aux1_clk180
+  PORT aux1_clk270   = aux1_clk270
+  PORT aux0_clk2x    = aux0_clk2x
+  PORT aux0_clk2x90  = aux0_clk2x90
+  PORT aux0_clk2x180 = aux0_clk2x180
+  PORT aux0_clk2x270 = aux0_clk2x270
+  PORT epb_clk       = epb_clk
+  PORT idelay_rst    = sys_reset
+  PORT idelay_rdy    = idelay_rdy
+END
+
+BEGIN reset_block
+  PARAMETER INSTANCE = reset_block_inst
+  PARAMETER HW_VER   = 1.00.a
+  PARAMETER DELAY    = 10
+  PARAMETER WIDTH    = 50
+  PORT clk           = epb_clk
+  PORT async_reset_i = 0b0
+  PORT reset_i       = 0b0
+  PORT reset_o       = sys_reset
+END
+
+BEGIN opb_v20
+  PARAMETER INSTANCE = opb0
+  PARAMETER HW_VER = 1.10.c
+  PARAMETER C_EXT_RESET_HIGH = 1
+  PARAMETER C_REG_GRANTS = 0
+  PORT SYS_Rst = 0b0
+  PORT OPB_Clk = epb_clk
+END
+
+BEGIN epb_opb_bridge
+  PARAMETER INSTANCE = epb_opb_bridge_inst
+  PARAMETER HW_VER   = 1.00.a
+  BUS_INTERFACE MOPB = opb0
+  PORT OPB_Clk       = epb_clk
+  PORT sys_reset     = 0b0
+  PORT epb_data_oe_n = epb_data_oe_n
+  PORT epb_cs_n      = epb_cs_n_int
+  PORT epb_oe_n      = epb_oe_n_int
+  PORT epb_r_w_n     = epb_r_w_n_int
+  PORT epb_be_n      = epb_be_n_int
+  PORT epb_addr      = epb_addr_int
+  PORT epb_addr_gp   = epb_addr_gp_int
+  PORT epb_data_i    = epb_data_i
+  PORT epb_data_o    = epb_data_o
+  PORT epb_rdy       = epb_rdy_buf
+  PORT epb_rdy_oe    = epb_rdy_oe
+END
+
+BEGIN epb_infrastructure
+  PARAMETER INSTANCE   = epb_infrastructure_inst
+  PARAMETER HW_VER     = 1.00.a
+
+  PORT epb_rdy_buf     = epb_rdy
+  PORT epb_rdy         = epb_rdy_buf
+  PORT epb_rdy_oe      = epb_rdy_oe
+  PORT epb_data_buf    = epb_data
+  PORT epb_data_oe_n_i = epb_data_oe_n
+  PORT epb_data_out_i  = epb_data_o
+  PORT epb_data_in_o   = epb_data_i
+  PORT epb_oe_n_buf    = epb_oe_n
+  PORT epb_oe_n        = epb_oe_n_int
+  PORT epb_cs_n_buf    = epb_cs_n
+  PORT epb_cs_n        = epb_cs_n_int
+  PORT epb_be_n_buf    = epb_be_n
+  PORT epb_be_n        = epb_be_n_int
+  PORT epb_r_w_n_buf   = epb_r_w_n
+  PORT epb_r_w_n       = epb_r_w_n_int
+  PORT epb_addr_buf    = epb_addr
+  PORT epb_addr        = epb_addr_int
+  PORT epb_addr_gp_buf = epb_addr_gp
+  PORT epb_addr_gp     = epb_addr_gp_int
+END
+
+BEGIN sys_block
+  PARAMETER INSTANCE = sys_block_inst
+  PARAMETER HW_VER = 1.00.a
+
+  PARAMETER BOARD_ID     = 0xB00B
+  PARAMETER REV_MAJOR    = 0x1
+  PARAMETER REV_MINOR    = 0x0
+  PARAMETER REV_RCS      = 0x0
+  PARAMETER RCS_UPTODATE = 0x0
+
+  PARAMETER C_BASEADDR   = 0x00000000
+  PARAMETER C_HIGHADDR   = 0x0000FFFF
+  BUS_INTERFACE SOPB = opb0
+
+  PORT OPB_Clk    = epb_clk
+  PORT soft_reset = soft_reset
+  PORT irq_n      = ppc_irq_n
+  PORT app_irq    = 0x0000
+
+  PORT fab_clk    = arb_clk
+END
+
+BEGIN xaui_infrastructure
+  PARAMETER INSTANCE = xaui_infrastructure_inst
+  PARAMETER HW_VER = 1.00.a
+  PARAMETER DIFF_BOOST = "TRUE"
+  PARAMETER DISABLE_0  = 0
+  PARAMETER DISABLE_3  = 0
+  PORT mgt_refclk_t_n = xaui2_ref_clk_n
+  PORT mgt_refclk_t_p = xaui2_ref_clk_p
+  PORT mgt_refclk_b_n = xaui0_ref_clk_n
+  PORT mgt_refclk_b_p = xaui0_ref_clk_p
+  PORT mgt_rx_t1_n    = xaui3_mgt_rx_n
+  PORT mgt_rx_t1_p    = xaui3_mgt_rx_p
+  PORT mgt_tx_t1_n    = xaui3_mgt_tx_n
+  PORT mgt_tx_t1_p    = xaui3_mgt_tx_p
+  PORT mgt_rx_t0_n    = xaui2_mgt_rx_n
+  PORT mgt_rx_t0_p    = xaui2_mgt_rx_p
+  PORT mgt_tx_t0_n    = xaui2_mgt_tx_n
+  PORT mgt_tx_t0_p    = xaui2_mgt_tx_p
+  PORT mgt_rx_b1_n    = xaui1_mgt_rx_n
+  PORT mgt_rx_b1_p    = xaui1_mgt_rx_p
+  PORT mgt_tx_b1_n    = xaui1_mgt_tx_n
+  PORT mgt_tx_b1_p    = xaui1_mgt_tx_p
+  PORT mgt_rx_b0_n    = xaui0_mgt_rx_n
+  PORT mgt_rx_b0_p    = xaui0_mgt_rx_p
+  PORT mgt_tx_b0_n    = xaui0_mgt_tx_n
+  PORT mgt_tx_b0_p    = xaui0_mgt_tx_p
+  PORT reset          = sys_reset
+  PORT mgt_clk_0      = mgt_clk_0
+  PORT mgt_clk_1      = mgt_clk_1
+  BUS_INTERFACE XAUI_SYS_0  = xaui_sys0
+  BUS_INTERFACE XAUI_SYS_3  = xaui_sys3
+  BUS_INTERFACE XAUI_CONF_0 = xaui_conf0
+  BUS_INTERFACE XAUI_CONF_3 = xaui_conf3
+END
+
+##############################################
+# User XSG IP core                           #
+##############################################
+
+BEGIN roachf_2048ch
+ PARAMETER INSTANCE = roachf_2048ch_XSG_core_config
+ PARAMETER HW_VER = 1.00.a
+ PORT clk = arb_clk
+ PORT roachf_2048ch_2GPU_gbe_gpu_led_rx = roachf_2048ch_2GPU_gbe_gpu_led_rx
+ PORT roachf_2048ch_2GPU_gbe_gpu_led_tx = roachf_2048ch_2GPU_gbe_gpu_led_tx
+ PORT roachf_2048ch_2GPU_gbe_gpu_led_up = roachf_2048ch_2GPU_gbe_gpu_led_up
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_bad_frame = roachf_2048ch_2GPU_gbe_gpu_rx_bad_frame
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_data = roachf_2048ch_2GPU_gbe_gpu_rx_data
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_end_of_frame = roachf_2048ch_2GPU_gbe_gpu_rx_end_of_frame
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_overrun = roachf_2048ch_2GPU_gbe_gpu_rx_overrun
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_source_ip = roachf_2048ch_2GPU_gbe_gpu_rx_source_ip
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_source_port = roachf_2048ch_2GPU_gbe_gpu_rx_source_port
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_valid = roachf_2048ch_2GPU_gbe_gpu_rx_valid
+ PORT roachf_2048ch_2GPU_gbe_gpu_tx_afull = roachf_2048ch_2GPU_gbe_gpu_tx_afull
+ PORT roachf_2048ch_2GPU_gbe_gpu_tx_overflow = roachf_2048ch_2GPU_gbe_gpu_tx_overflow
+ PORT roachf_2048ch_2GPU_gbe_gpu_rst = roachf_2048ch_2GPU_gbe_gpu_rst
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_ack = roachf_2048ch_2GPU_gbe_gpu_rx_ack
+ PORT roachf_2048ch_2GPU_gbe_gpu_rx_overrun_ack = roachf_2048ch_2GPU_gbe_gpu_rx_overrun_ack
+ PORT roachf_2048ch_2GPU_gbe_gpu_tx_data = roachf_2048ch_2GPU_gbe_gpu_tx_data
+ PORT roachf_2048ch_2GPU_gbe_gpu_tx_dest_ip = roachf_2048ch_2GPU_gbe_gpu_tx_dest_ip
+ PORT roachf_2048ch_2GPU_gbe_gpu_tx_dest_port = roachf_2048ch_2GPU_gbe_gpu_tx_dest_port
+ PORT roachf_2048ch_2GPU_gbe_gpu_tx_end_of_frame = roachf_2048ch_2GPU_gbe_gpu_tx_end_of_frame
+ PORT roachf_2048ch_2GPU_gbe_gpu_tx_valid = roachf_2048ch_2GPU_gbe_gpu_tx_valid
+ PORT roachf_2048ch_ADCs_quadc0_adc0_data = roachf_2048ch_ADCs_quadc0_adc0_data
+ PORT roachf_2048ch_ADCs_quadc0_adc1_data = roachf_2048ch_ADCs_quadc0_adc1_data
+ PORT roachf_2048ch_ADCs_quadc0_adc2_data = roachf_2048ch_ADCs_quadc0_adc2_data
+ PORT roachf_2048ch_ADCs_quadc0_adc3_data = roachf_2048ch_ADCs_quadc0_adc3_data
+ PORT roachf_2048ch_ADCs_quadc0_sync = roachf_2048ch_ADCs_quadc0_sync
+ PORT roachf_2048ch_ADCs_quadc0_valid = roachf_2048ch_ADCs_quadc0_valid
+ PORT roachf_2048ch_ADCs_quadc1_adc0_data = roachf_2048ch_ADCs_quadc1_adc0_data
+ PORT roachf_2048ch_ADCs_quadc1_adc1_data = roachf_2048ch_ADCs_quadc1_adc1_data
+ PORT roachf_2048ch_ADCs_quadc1_adc2_data = roachf_2048ch_ADCs_quadc1_adc2_data
+ PORT roachf_2048ch_ADCs_quadc1_adc3_data = roachf_2048ch_ADCs_quadc1_adc3_data
+ PORT roachf_2048ch_ADCs_quadc1_sync = roachf_2048ch_ADCs_quadc1_sync
+ PORT roachf_2048ch_ADCs_quadc1_valid = roachf_2048ch_ADCs_quadc1_valid
+ PORT roachf_2048ch_LEDs_led1_arm_gateway = roachf_2048ch_LEDs_led1_arm_gateway
+ PORT roachf_2048ch_LEDs_led2_sync_gateway = roachf_2048ch_LEDs_led2_sync_gateway
+ PORT roachf_2048ch_LEDs_led4_eq_clip_gateway = roachf_2048ch_LEDs_led4_eq_clip_gateway
+ PORT roachf_2048ch_LEDs_led5_adc_clip_gateway = roachf_2048ch_LEDs_led5_adc_clip_gateway
+ PORT roachf_2048ch_Loopback_loop_cnt0_user_data_in = roachf_2048ch_Loopback_loop_cnt0_user_data_in
+ PORT roachf_2048ch_Loopback_loop_err_cnt0_user_data_in = roachf_2048ch_Loopback_loop_err_cnt0_user_data_in
+ PORT roachf_2048ch_Loopback_loopback_mux0_mcnt_user_data_in = roachf_2048ch_Loopback_loopback_mux0_mcnt_user_data_in
+ PORT roachf_2048ch_Loopback_statii_user_data_in = roachf_2048ch_Loopback_statii_user_data_in
+ PORT roachf_2048ch_Switch_gbe_sw_led_rx = roachf_2048ch_Switch_gbe_sw_led_rx
+ PORT roachf_2048ch_Switch_gbe_sw_led_tx = roachf_2048ch_Switch_gbe_sw_led_tx
+ PORT roachf_2048ch_Switch_gbe_sw_led_up = roachf_2048ch_Switch_gbe_sw_led_up
+ PORT roachf_2048ch_Switch_gbe_sw_rx_bad_frame = roachf_2048ch_Switch_gbe_sw_rx_bad_frame
+ PORT roachf_2048ch_Switch_gbe_sw_rx_data = roachf_2048ch_Switch_gbe_sw_rx_data
+ PORT roachf_2048ch_Switch_gbe_sw_rx_end_of_frame = roachf_2048ch_Switch_gbe_sw_rx_end_of_frame
+ PORT roachf_2048ch_Switch_gbe_sw_rx_overrun = roachf_2048ch_Switch_gbe_sw_rx_overrun
+ PORT roachf_2048ch_Switch_gbe_sw_rx_source_ip = roachf_2048ch_Switch_gbe_sw_rx_source_ip
+ PORT roachf_2048ch_Switch_gbe_sw_rx_source_port = roachf_2048ch_Switch_gbe_sw_rx_source_port
+ PORT roachf_2048ch_Switch_gbe_sw_rx_valid = roachf_2048ch_Switch_gbe_sw_rx_valid
+ PORT roachf_2048ch_Switch_gbe_sw_tx_afull = roachf_2048ch_Switch_gbe_sw_tx_afull
+ PORT roachf_2048ch_Switch_gbe_sw_tx_overflow = roachf_2048ch_Switch_gbe_sw_tx_overflow
+ PORT roachf_2048ch_Switch_gbe_sw_rst = roachf_2048ch_Switch_gbe_sw_rst
+ PORT roachf_2048ch_Switch_gbe_sw_rx_ack = roachf_2048ch_Switch_gbe_sw_rx_ack
+ PORT roachf_2048ch_Switch_gbe_sw_rx_overrun_ack = roachf_2048ch_Switch_gbe_sw_rx_overrun_ack
+ PORT roachf_2048ch_Switch_gbe_sw_tx_data = roachf_2048ch_Switch_gbe_sw_tx_data
+ PORT roachf_2048ch_Switch_gbe_sw_tx_dest_ip = roachf_2048ch_Switch_gbe_sw_tx_dest_ip
+ PORT roachf_2048ch_Switch_gbe_sw_tx_dest_port = roachf_2048ch_Switch_gbe_sw_tx_dest_port
+ PORT roachf_2048ch_Switch_gbe_sw_tx_end_of_frame = roachf_2048ch_Switch_gbe_sw_tx_end_of_frame
+ PORT roachf_2048ch_Switch_gbe_sw_tx_valid = roachf_2048ch_Switch_gbe_sw_tx_valid
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_out = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_out
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_addr = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_addr
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_in = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_in
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_we = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_we
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_out = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_out
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_addr = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_addr
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_in = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_in
+ PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_we = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_we
+ PORT roachf_2048ch_control_ctl_regs_ant_base_user_data_out = roachf_2048ch_control_ctl_regs_ant_base_user_data_out
+ PORT roachf_2048ch_control_ctl_regs_feng_ctl_user_data_out = roachf_2048ch_control_ctl_regs_feng_ctl_user_data_out
+ PORT roachf_2048ch_control_ctl_regs_gbe_sw_port_user_data_out = roachf_2048ch_control_ctl_regs_gbe_sw_port_user_data_out
+ PORT roachf_2048ch_control_ctl_regs_gpu_ip_user_data_out = roachf_2048ch_control_ctl_regs_gpu_ip_user_data_out
+ PORT roachf_2048ch_control_ctl_regs_gpu_port_user_data_out = roachf_2048ch_control_ctl_regs_gpu_port_user_data_out
+ PORT roachf_2048ch_control_ctl_regs_ip_base_user_data_out = roachf_2048ch_control_ctl_regs_ip_base_user_data_out
+ PORT roachf_2048ch_control_ctl_regs_my_ip_user_data_out = roachf_2048ch_control_ctl_regs_my_ip_user_data_out
+ PORT roachf_2048ch_control_delay_delay_user_data_out = roachf_2048ch_control_delay_delay_user_data_out
+ PORT roachf_2048ch_control_eq_coefs_eq0_ctl_user_data_out = roachf_2048ch_control_eq_coefs_eq0_ctl_user_data_out
+ PORT roachf_2048ch_control_eq_coefs_eq1_ctl_user_data_out = roachf_2048ch_control_eq_coefs_eq1_ctl_user_data_out
+ PORT roachf_2048ch_control_eq_coefs_eq2_ctl_user_data_out = roachf_2048ch_control_eq_coefs_eq2_ctl_user_data_out
+ PORT roachf_2048ch_control_eq_coefs_eq3_ctl_user_data_out = roachf_2048ch_control_eq_coefs_eq3_ctl_user_data_out
+ PORT roachf_2048ch_control_insel_insel_user_data_out = roachf_2048ch_control_insel_insel_user_data_out
+ PORT roachf_2048ch_control_seed_seed_data_user_data_out = roachf_2048ch_control_seed_seed_data_user_data_out
+ PORT roachf_2048ch_status_gbe_gpu_user_data_in = roachf_2048ch_status_gbe_gpu_user_data_in
+ PORT roachf_2048ch_status_gbe_sw_user_data_in = roachf_2048ch_status_gbe_sw_user_data_in
+END
+
+############################
+# Simulink interfaces      #
+############################
+
+# roachf_2048ch/XSG core config
+
+BEGIN dcm_module
+  PARAMETER INSTANCE = arb_clk_dcm
+  PARAMETER HW_VER = 1.00.d
+  PARAMETER C_EXT_RESET_HIGH = 0
+  PARAMETER C_CLK0_BUF = TRUE
+  PARAMETER C_CLKFX_BUF = TRUE
+  PARAMETER C_CLKIN_PERIOD = 10.000000
+  PARAMETER C_CLKFX_DIVIDE = 1
+  PARAMETER C_CLKFX_MULTIPLY = 2
+  PARAMETER C_DFS_FREQUENCY_MODE = HIGH
+  PORT RST    = sys_clk_lock
+  PORT CLKIN  = sys_clk
+  PORT CLKFB  = arb_clk_fb
+  PORT CLK0   = arb_clk_fb
+  PORT CLKFX  = arb_clk_int
+  PORT LOCKED = arb_clk_lock
+END
+
+BEGIN dcm_module
+  PARAMETER INSTANCE = arb_clk_dcm_phasegen
+  PARAMETER HW_VER = 1.00.d
+  PARAMETER C_EXT_RESET_HIGH = 0
+  PARAMETER C_CLK0_BUF = TRUE
+  PARAMETER C_CLK90_BUF = TRUE
+  PARAMETER C_CLK180_BUF = TRUE
+  PARAMETER C_CLK270_BUF = TRUE
+  PARAMETER C_CLKIN_PERIOD = 5.000000
+  PARAMETER C_DFS_FREQUENCY_MODE = HIGH
+  PARAMETER C_DLL_FREQUENCY_MODE = HIGH
+  PORT RST = arb_clk_lock
+  PORT CLKIN  = arb_clk_int
+  PORT CLKFB  = arb_clk
+  PORT CLK0   = arb_clk
+  PORT CLK90  = arb_clk90
+  PORT CLK180 = arb_clk180
+  PORT CLK270 = arb_clk270
+END
+
+BEGIN signal_rename
+  PARAMETER INSTANCE = rename_fab_clk
+  PARAMETER HW_VER = 1.00.a
+  PORT sig_in  = arb_clk
+  PORT sig_out = fab_clk
+END
+
+
+# roachf_2048ch/2GPU/gbe_gpu
+BEGIN kat_ten_gb_eth
+ PARAMETER INSTANCE = roachf_2048ch_2GPU_gbe_gpu
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER SWING = 800
+ PARAMETER PREEMPHASYS = 3
+ PARAMETER FABRIC_MAC = 0x123456780000
+ PARAMETER FABRIC_IP = 0xC0A80514
+ PARAMETER FABRIC_PORT = 0x2710
+ PARAMETER FABRIC_GATEWAY = 0x1
+ PARAMETER FABRIC_ENABLE = 0
+ PARAMETER LARGE_PACKETS = 1
+ PARAMETER RX_DIST_RAM = 0
+ PARAMETER CPU_RX_ENABLE = 1
+ PARAMETER CPU_TX_ENABLE = 1
+ PARAMETER C_BASEADDR = 0x01000000
+ PARAMETER C_HIGHADDR = 0x01003FFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ BUS_INTERFACE XAUI_CONF = xaui_conf3
+ BUS_INTERFACE XGMII = xgmii3
+ PORT led_rx = roachf_2048ch_2GPU_gbe_gpu_led_rx
+ PORT led_tx = roachf_2048ch_2GPU_gbe_gpu_led_tx
+ PORT led_up = roachf_2048ch_2GPU_gbe_gpu_led_up
+ PORT rx_bad_frame = roachf_2048ch_2GPU_gbe_gpu_rx_bad_frame
+ PORT rx_data = roachf_2048ch_2GPU_gbe_gpu_rx_data
+ PORT rx_end_of_frame = roachf_2048ch_2GPU_gbe_gpu_rx_end_of_frame
+ PORT rx_overrun = roachf_2048ch_2GPU_gbe_gpu_rx_overrun
+ PORT rx_source_ip = roachf_2048ch_2GPU_gbe_gpu_rx_source_ip
+ PORT rx_source_port = roachf_2048ch_2GPU_gbe_gpu_rx_source_port
+ PORT rx_valid = roachf_2048ch_2GPU_gbe_gpu_rx_valid
+ PORT tx_afull = roachf_2048ch_2GPU_gbe_gpu_tx_afull
+ PORT tx_overflow = roachf_2048ch_2GPU_gbe_gpu_tx_overflow
+ PORT rst = roachf_2048ch_2GPU_gbe_gpu_rst
+ PORT rx_ack = roachf_2048ch_2GPU_gbe_gpu_rx_ack
+ PORT rx_overrun_ack = roachf_2048ch_2GPU_gbe_gpu_rx_overrun_ack
+ PORT tx_data = roachf_2048ch_2GPU_gbe_gpu_tx_data
+ PORT tx_dest_ip = roachf_2048ch_2GPU_gbe_gpu_tx_dest_ip
+ PORT tx_dest_port = roachf_2048ch_2GPU_gbe_gpu_tx_dest_port
+ PORT tx_end_of_frame = roachf_2048ch_2GPU_gbe_gpu_tx_end_of_frame
+ PORT tx_valid = roachf_2048ch_2GPU_gbe_gpu_tx_valid
+ PORT clk = arb_clk
+ PORT xaui_clk = mgt_clk_1
+END
+
+BEGIN xaui_phy
+  PARAMETER INSTANCE = xaui_phy_3
+  PARAMETER HW_VER = 1.00.a
+  PARAMETER USE_KAT_XAUI = 0
+  BUS_INTERFACE XAUI_SYS = xaui_sys3
+  BUS_INTERFACE XGMII    = xgmii3
+  PORT reset   = sys_reset
+  PORT mgt_clk = mgt_clk_1
+END
+
+# roachf_2048ch/ADCs/quadc0
+BEGIN quadc_interface
+ PARAMETER INSTANCE = roachf_2048ch_ADCs_quadc0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER CLK_FREQ = 200
+ PORT adc0_data = roachf_2048ch_ADCs_quadc0_adc0_data
+ PORT adc1_data = roachf_2048ch_ADCs_quadc0_adc1_data
+ PORT adc2_data = roachf_2048ch_ADCs_quadc0_adc2_data
+ PORT adc3_data = roachf_2048ch_ADCs_quadc0_adc3_data
+ PORT sync = roachf_2048ch_ADCs_quadc0_sync
+ PORT valid = roachf_2048ch_ADCs_quadc0_valid
+ PORT adc0_clk_in_p = quadc0_adc0_clk_in_p
+ PORT adc1_clk_in_p = quadc0_adc1_clk_in_p
+ PORT adc2_clk_in_p = quadc0_adc2_clk_in_p
+ PORT adc3_clk_in_p = quadc0_adc3_clk_in_p
+ PORT adc0_data_in_p = quadc0_adc0_data_in_p
+ PORT adc1_data_in_p = quadc0_adc1_data_in_p
+ PORT adc2_data_in_p = quadc0_adc2_data_in_p
+ PORT adc3_data_in_p = quadc0_adc3_data_in_p
+ PORT adc0_clk_in_n = quadc0_adc0_clk_in_n
+ PORT adc1_clk_in_n = quadc0_adc1_clk_in_n
+ PORT adc2_clk_in_n = quadc0_adc2_clk_in_n
+ PORT adc3_clk_in_n = quadc0_adc3_clk_in_n
+ PORT adc0_data_in_n = quadc0_adc0_data_in_n
+ PORT adc1_data_in_n = quadc0_adc1_data_in_n
+ PORT adc2_data_in_n = quadc0_adc2_data_in_n
+ PORT adc3_data_in_n = quadc0_adc3_data_in_n
+ PORT sync_in_p = quadc0_sync_in_p
+ PORT sync_in_n = quadc0_sync_in_n
+ PORT user_clk = arb_clk
+ PORT dcm_reset = net_gnd
+ PORT reset = net_gnd
+ PORT adc0_clk = adc0_clk
+ PORT adc1_clk = quadc0_0_adc1_clk
+ PORT adc2_clk = quadc0_0_adc2_clk
+ PORT adc3_clk = quadc0_0_adc3_clk
+ PORT adc0_clk90 = adc0_clk90
+END
+PORT quadc0_adc0_clk_in_p = quadc0_adc0_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc1_clk_in_p = quadc0_adc1_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc2_clk_in_p = quadc0_adc2_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc3_clk_in_p = quadc0_adc3_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc0_data_in_p = quadc0_adc0_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc0_adc1_data_in_p = quadc0_adc1_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc0_adc2_data_in_p = quadc0_adc2_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc0_adc3_data_in_p = quadc0_adc3_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc0_adc0_clk_in_n = quadc0_adc0_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc1_clk_in_n = quadc0_adc1_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc2_clk_in_n = quadc0_adc2_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc3_clk_in_n = quadc0_adc3_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc0_adc0_data_in_n = quadc0_adc0_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc0_adc1_data_in_n = quadc0_adc1_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc0_adc2_data_in_n = quadc0_adc2_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc0_adc3_data_in_n = quadc0_adc3_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc0_sync_in_p = quadc0_sync_in_p, DIR = in
+PORT quadc0_sync_in_n = quadc0_sync_in_n, DIR = in
+
+# roachf_2048ch/ADCs/quadc1
+BEGIN quadc_interface
+ PARAMETER INSTANCE = roachf_2048ch_ADCs_quadc1
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER CLK_FREQ = 200
+ PORT adc0_data = roachf_2048ch_ADCs_quadc1_adc0_data
+ PORT adc1_data = roachf_2048ch_ADCs_quadc1_adc1_data
+ PORT adc2_data = roachf_2048ch_ADCs_quadc1_adc2_data
+ PORT adc3_data = roachf_2048ch_ADCs_quadc1_adc3_data
+ PORT sync = roachf_2048ch_ADCs_quadc1_sync
+ PORT valid = roachf_2048ch_ADCs_quadc1_valid
+ PORT adc0_clk_in_p = quadc1_adc0_clk_in_p
+ PORT adc1_clk_in_p = quadc1_adc1_clk_in_p
+ PORT adc2_clk_in_p = quadc1_adc2_clk_in_p
+ PORT adc3_clk_in_p = quadc1_adc3_clk_in_p
+ PORT adc0_data_in_p = quadc1_adc0_data_in_p
+ PORT adc1_data_in_p = quadc1_adc1_data_in_p
+ PORT adc2_data_in_p = quadc1_adc2_data_in_p
+ PORT adc3_data_in_p = quadc1_adc3_data_in_p
+ PORT adc0_clk_in_n = quadc1_adc0_clk_in_n
+ PORT adc1_clk_in_n = quadc1_adc1_clk_in_n
+ PORT adc2_clk_in_n = quadc1_adc2_clk_in_n
+ PORT adc3_clk_in_n = quadc1_adc3_clk_in_n
+ PORT adc0_data_in_n = quadc1_adc0_data_in_n
+ PORT adc1_data_in_n = quadc1_adc1_data_in_n
+ PORT adc2_data_in_n = quadc1_adc2_data_in_n
+ PORT adc3_data_in_n = quadc1_adc3_data_in_n
+ PORT sync_in_p = quadc1_sync_in_p
+ PORT sync_in_n = quadc1_sync_in_n
+ PORT user_clk = arb_clk
+ PORT dcm_reset = net_gnd
+ PORT reset = net_gnd
+ PORT adc0_clk = adc1_clk
+ PORT adc1_clk = quadc0_1_adc1_clk
+ PORT adc2_clk = quadc0_1_adc2_clk
+ PORT adc3_clk = quadc0_1_adc3_clk
+ PORT adc0_clk90 = adc1_clk90
+END
+PORT quadc1_adc0_clk_in_p = quadc1_adc0_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc1_clk_in_p = quadc1_adc1_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc2_clk_in_p = quadc1_adc2_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc3_clk_in_p = quadc1_adc3_clk_in_p, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc0_data_in_p = quadc1_adc0_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc1_adc1_data_in_p = quadc1_adc1_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc1_adc2_data_in_p = quadc1_adc2_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc1_adc3_data_in_p = quadc1_adc3_data_in_p, DIR = in, VEC = [7:0]
+PORT quadc1_adc0_clk_in_n = quadc1_adc0_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc1_clk_in_n = quadc1_adc1_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc2_clk_in_n = quadc1_adc2_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc3_clk_in_n = quadc1_adc3_clk_in_n, DIR = in, SIGIS = CLK, CLK_FREQ = 200000000
+PORT quadc1_adc0_data_in_n = quadc1_adc0_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc1_adc1_data_in_n = quadc1_adc1_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc1_adc2_data_in_n = quadc1_adc2_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc1_adc3_data_in_n = quadc1_adc3_data_in_n, DIR = in, VEC = [7:0]
+PORT quadc1_sync_in_p = quadc1_sync_in_p, DIR = in
+PORT quadc1_sync_in_n = quadc1_sync_in_n, DIR = in
+
+# roachf_2048ch/LEDs/led1_arm
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roachf_2048ch_LEDs_led1_arm
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roachf_2048ch_LEDs_led1_arm_gateway
+ PORT io_pad = roachf_2048ch_LEDs_led1_arm_ext
+ PORT clk = arb_clk
+ PORT clk90 = arb_clk90
+END
+PORT roachf_2048ch_LEDs_led1_arm_ext = roachf_2048ch_LEDs_led1_arm_ext, DIR = out, VEC = [0:0]
+
+# roachf_2048ch/LEDs/led2_sync
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roachf_2048ch_LEDs_led2_sync
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roachf_2048ch_LEDs_led2_sync_gateway
+ PORT io_pad = roachf_2048ch_LEDs_led2_sync_ext
+ PORT clk = arb_clk
+ PORT clk90 = arb_clk90
+END
+PORT roachf_2048ch_LEDs_led2_sync_ext = roachf_2048ch_LEDs_led2_sync_ext, DIR = out, VEC = [0:0]
+
+# roachf_2048ch/LEDs/led4_eq_clip
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roachf_2048ch_LEDs_led4_eq_clip
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roachf_2048ch_LEDs_led4_eq_clip_gateway
+ PORT io_pad = roachf_2048ch_LEDs_led4_eq_clip_ext
+ PORT clk = arb_clk
+ PORT clk90 = arb_clk90
+END
+PORT roachf_2048ch_LEDs_led4_eq_clip_ext = roachf_2048ch_LEDs_led4_eq_clip_ext, DIR = out, VEC = [0:0]
+
+# roachf_2048ch/LEDs/led5_adc_clip
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roachf_2048ch_LEDs_led5_adc_clip
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roachf_2048ch_LEDs_led5_adc_clip_gateway
+ PORT io_pad = roachf_2048ch_LEDs_led5_adc_clip_ext
+ PORT clk = arb_clk
+ PORT clk90 = arb_clk90
+END
+PORT roachf_2048ch_LEDs_led5_adc_clip_ext = roachf_2048ch_LEDs_led5_adc_clip_ext, DIR = out, VEC = [0:0]
+
+# roachf_2048ch/Loopback/loop_cnt0
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roachf_2048ch_Loopback_loop_cnt0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01004000
+ PARAMETER C_HIGHADDR = 0x010040FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roachf_2048ch_Loopback_loop_cnt0_user_data_in
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/Loopback/loop_err_cnt0
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roachf_2048ch_Loopback_loop_err_cnt0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01004100
+ PARAMETER C_HIGHADDR = 0x010041FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roachf_2048ch_Loopback_loop_err_cnt0_user_data_in
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/Loopback/loopback_mux0/mcnt
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roachf_2048ch_Loopback_loopback_mux0_mcnt
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01004200
+ PARAMETER C_HIGHADDR = 0x010042FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roachf_2048ch_Loopback_loopback_mux0_mcnt_user_data_in
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/Loopback/statii
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roachf_2048ch_Loopback_statii
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01004300
+ PARAMETER C_HIGHADDR = 0x010043FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roachf_2048ch_Loopback_statii_user_data_in
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/Switch/gbe_sw
+BEGIN kat_ten_gb_eth
+ PARAMETER INSTANCE = roachf_2048ch_Switch_gbe_sw
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER SWING = 800
+ PARAMETER PREEMPHASYS = 3
+ PARAMETER FABRIC_MAC = 0x123456780000
+ PARAMETER FABRIC_IP = 0xC0A80514
+ PARAMETER FABRIC_PORT = 0x2710
+ PARAMETER FABRIC_GATEWAY = 0x1
+ PARAMETER FABRIC_ENABLE = 0
+ PARAMETER LARGE_PACKETS = 1
+ PARAMETER RX_DIST_RAM = 0
+ PARAMETER CPU_RX_ENABLE = 1
+ PARAMETER CPU_TX_ENABLE = 1
+ PARAMETER C_BASEADDR = 0x01008000
+ PARAMETER C_HIGHADDR = 0x0100BFFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ BUS_INTERFACE XAUI_CONF = xaui_conf0
+ BUS_INTERFACE XGMII = xgmii0
+ PORT led_rx = roachf_2048ch_Switch_gbe_sw_led_rx
+ PORT led_tx = roachf_2048ch_Switch_gbe_sw_led_tx
+ PORT led_up = roachf_2048ch_Switch_gbe_sw_led_up
+ PORT rx_bad_frame = roachf_2048ch_Switch_gbe_sw_rx_bad_frame
+ PORT rx_data = roachf_2048ch_Switch_gbe_sw_rx_data
+ PORT rx_end_of_frame = roachf_2048ch_Switch_gbe_sw_rx_end_of_frame
+ PORT rx_overrun = roachf_2048ch_Switch_gbe_sw_rx_overrun
+ PORT rx_source_ip = roachf_2048ch_Switch_gbe_sw_rx_source_ip
+ PORT rx_source_port = roachf_2048ch_Switch_gbe_sw_rx_source_port
+ PORT rx_valid = roachf_2048ch_Switch_gbe_sw_rx_valid
+ PORT tx_afull = roachf_2048ch_Switch_gbe_sw_tx_afull
+ PORT tx_overflow = roachf_2048ch_Switch_gbe_sw_tx_overflow
+ PORT rst = roachf_2048ch_Switch_gbe_sw_rst
+ PORT rx_ack = roachf_2048ch_Switch_gbe_sw_rx_ack
+ PORT rx_overrun_ack = roachf_2048ch_Switch_gbe_sw_rx_overrun_ack
+ PORT tx_data = roachf_2048ch_Switch_gbe_sw_tx_data
+ PORT tx_dest_ip = roachf_2048ch_Switch_gbe_sw_tx_dest_ip
+ PORT tx_dest_port = roachf_2048ch_Switch_gbe_sw_tx_dest_port
+ PORT tx_end_of_frame = roachf_2048ch_Switch_gbe_sw_tx_end_of_frame
+ PORT tx_valid = roachf_2048ch_Switch_gbe_sw_tx_valid
+ PORT clk = arb_clk
+ PORT xaui_clk = mgt_clk_0
+END
+
+BEGIN xaui_phy
+  PARAMETER INSTANCE = xaui_phy_0
+  PARAMETER HW_VER = 1.00.a
+  PARAMETER USE_KAT_XAUI = 0
+  BUS_INTERFACE XAUI_SYS = xaui_sys0
+  BUS_INTERFACE XGMII    = xgmii0
+  PORT reset   = sys_reset
+  PORT mgt_clk = mgt_clk_0
+END
+
+# roachf_2048ch/Transpose/dbuf_ct_bram/Shared BRAM
+BEGIN bram_if
+ PARAMETER INSTANCE = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramif
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER ADDR_SIZE = 15
+ BUS_INTERFACE PORTA = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk_porta
+ PORT clk_in   = arb_clk
+ PORT addr     = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_addr    
+ PORT data_in  = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_in 
+ PORT data_out = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_out
+ PORT we       = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_we      
+END
+
+BEGIN bram_block
+ PARAMETER INSTANCE = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE PORTA = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk_porta
+ BUS_INTERFACE PORTB = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk_portb
+END
+
+BEGIN opb_bram_if_cntlr
+ PARAMETER INSTANCE = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_OPB_CLK_PERIOD_PS = 10000
+ PARAMETER C_BASEADDR = 0x01020000
+ PARAMETER C_HIGHADDR = 0x0103FFFF
+ BUS_INTERFACE SOPB = opb0
+ BUS_INTERFACE PORTA = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk_portb
+END
+
+
+# roachf_2048ch/Transpose/dbuf_ct_bram/Shared BRAM1
+BEGIN bram_if
+ PARAMETER INSTANCE = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramif
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER ADDR_SIZE = 15
+ BUS_INTERFACE PORTA = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk_porta
+ PORT clk_in   = arb_clk
+ PORT addr     = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_addr    
+ PORT data_in  = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_in 
+ PORT data_out = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_out
+ PORT we       = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_we      
+END
+
+BEGIN bram_block
+ PARAMETER INSTANCE = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE PORTA = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk_porta
+ BUS_INTERFACE PORTB = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk_portb
+END
+
+BEGIN opb_bram_if_cntlr
+ PARAMETER INSTANCE = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_OPB_CLK_PERIOD_PS = 10000
+ PARAMETER C_BASEADDR = 0x01040000
+ PARAMETER C_HIGHADDR = 0x0105FFFF
+ BUS_INTERFACE SOPB = opb0
+ BUS_INTERFACE PORTA = roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk_portb
+END
+
+
+# roachf_2048ch/control/ctl_regs/ant_base
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_ctl_regs_ant_base
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060000
+ PARAMETER C_HIGHADDR = 0x010600FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_ctl_regs_ant_base_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/ctl_regs/feng_ctl
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_ctl_regs_feng_ctl
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060100
+ PARAMETER C_HIGHADDR = 0x010601FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_ctl_regs_feng_ctl_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/ctl_regs/gbe_sw_port
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_ctl_regs_gbe_sw_port
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060200
+ PARAMETER C_HIGHADDR = 0x010602FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_ctl_regs_gbe_sw_port_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/ctl_regs/gpu_ip
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_ctl_regs_gpu_ip
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060300
+ PARAMETER C_HIGHADDR = 0x010603FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_ctl_regs_gpu_ip_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/ctl_regs/gpu_port
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_ctl_regs_gpu_port
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060400
+ PARAMETER C_HIGHADDR = 0x010604FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_ctl_regs_gpu_port_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/ctl_regs/ip_base
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_ctl_regs_ip_base
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060500
+ PARAMETER C_HIGHADDR = 0x010605FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_ctl_regs_ip_base_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/ctl_regs/my_ip
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_ctl_regs_my_ip
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060600
+ PARAMETER C_HIGHADDR = 0x010606FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_ctl_regs_my_ip_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/delay/delay
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_delay_delay
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060700
+ PARAMETER C_HIGHADDR = 0x010607FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_delay_delay_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/eq_coefs/eq0_ctl
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_eq_coefs_eq0_ctl
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060800
+ PARAMETER C_HIGHADDR = 0x010608FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_eq_coefs_eq0_ctl_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/eq_coefs/eq1_ctl
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_eq_coefs_eq1_ctl
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060900
+ PARAMETER C_HIGHADDR = 0x010609FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_eq_coefs_eq1_ctl_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/eq_coefs/eq2_ctl
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_eq_coefs_eq2_ctl
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060A00
+ PARAMETER C_HIGHADDR = 0x01060AFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_eq_coefs_eq2_ctl_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/eq_coefs/eq3_ctl
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_eq_coefs_eq3_ctl
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060B00
+ PARAMETER C_HIGHADDR = 0x01060BFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_eq_coefs_eq3_ctl_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/insel/insel
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_insel_insel
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060C00
+ PARAMETER C_HIGHADDR = 0x01060CFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_insel_insel_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/control/seed/seed_data
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roachf_2048ch_control_seed_seed_data
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060D00
+ PARAMETER C_HIGHADDR = 0x01060DFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roachf_2048ch_control_seed_seed_data_user_data_out
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/status/gbe_gpu
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roachf_2048ch_status_gbe_gpu
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060E00
+ PARAMETER C_HIGHADDR = 0x01060EFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roachf_2048ch_status_gbe_gpu_user_data_in
+ PORT user_clk = arb_clk
+END
+
+# roachf_2048ch/status/gbe_sw
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roachf_2048ch_status_gbe_sw
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01060F00
+ PARAMETER C_HIGHADDR = 0x01060FFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roachf_2048ch_status_gbe_sw_user_data_in
+ PORT user_clk = arb_clk
+END
+

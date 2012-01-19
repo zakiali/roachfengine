@@ -1,0 +1,918 @@
+Release 11.5 - xst L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </tools/xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </tools/xilinx/11.5/ISE/virtex5/data/virtex5.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper_xst.prj"
+Verilog Include Directory          : {"/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/" "/tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc5vsx95tff1136-1
+Output File Name                   : "../implementation/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" in Library roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a.
+Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> compiled.
+Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> (Architecture <STRUCTURE>) compiled.
+Compiling vhdl file "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper.vhd" in Library work.
+Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> compiled.
+Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> in library <work> (architecture <STRUCTURE>).
+
+Analyzing hierarchy for entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> in library <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a> (architecture <STRUCTURE>) with generics.
+	C_FAMILY = "virtex5"
+	C_MEMSIZE = 131072
+	C_NUM_WE = 4
+	C_PORT_AWIDTH = 32
+	C_PORT_DWIDTH = 32
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> in library <work> (Architecture <STRUCTURE>).
+    Set user-defined property "KEEP_HIERARCHY =  yes" for unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper>.
+    Set user-defined property "KEEP_HIERARCHY =  yes" for unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> analyzed. Unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> generated.
+
+Analyzing generic Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> in library <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a> (Architecture <STRUCTURE>).
+	C_FAMILY = "virtex5"
+	C_MEMSIZE = 131072
+	C_NUM_WE = 4
+	C_PORT_AWIDTH = 32
+	C_PORT_DWIDTH = 32
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 933: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 933: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 933: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 933: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 933: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 933: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 933: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_0> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 975: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 975: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 975: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 975: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 975: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 975: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 975: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_1> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1017: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1017: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1017: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1017: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1017: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1017: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1017: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_2> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1059: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1059: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1059: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1059: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1059: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1059: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1059: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_3> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1101: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1101: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1101: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1101: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1101: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1101: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1101: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_4> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1143: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1143: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1143: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1143: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1143: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1143: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1143: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_5> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1185: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1185: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1185: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1185: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1185: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1185: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1185: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_6> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1227: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1227: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1227: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1227: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1227: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1227: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1227: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_7> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1269: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1269: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1269: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1269: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1269: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1269: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1269: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_8> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1311: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1311: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1311: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1311: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1311: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1311: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1311: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_9> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1353: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1353: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1353: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1353: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1353: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1353: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1353: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_10> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1395: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1395: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1395: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1395: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1395: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1395: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1395: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_11> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1437: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1437: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1437: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1437: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1437: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1437: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1437: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_12> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1479: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1479: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1479: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1479: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1479: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1479: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1479: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_13> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1521: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1521: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1521: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1521: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1521: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1521: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1521: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_14> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1563: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1563: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1563: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1563: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1563: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1563: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1563: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_15> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1605: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1605: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1605: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1605: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1605: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1605: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1605: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_16> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1647: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1647: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1647: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1647: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1647: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1647: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1647: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_17> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1689: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1689: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1689: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1689: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1689: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1689: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1689: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_18> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1731: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1731: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1731: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1731: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1731: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1731: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1731: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_19> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1773: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1773: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1773: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1773: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1773: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1773: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1773: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_20> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1815: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1815: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1815: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1815: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1815: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1815: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1815: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_21> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1857: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1857: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1857: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1857: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1857: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1857: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1857: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_22> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1899: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1899: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1899: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1899: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1899: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1899: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1899: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_23> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1941: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1941: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1941: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1941: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1941: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1941: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1941: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_24> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1983: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1983: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1983: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1983: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1983: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1983: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 1983: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_25> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2025: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2025: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2025: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2025: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2025: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2025: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2025: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_26> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2067: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2067: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2067: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2067: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2067: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2067: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2067: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_27> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2109: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2109: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2109: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2109: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2109: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2109: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2109: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_28> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2151: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2151: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2151: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2151: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2151: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2151: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2151: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_29> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2193: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2193: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2193: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2193: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2193: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2193: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2193: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_30> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2235: Unconnected output port 'CASCADEOUTLATA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2235: Unconnected output port 'CASCADEOUTREGA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2235: Unconnected output port 'DOPA' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2235: Unconnected output port 'CASCADEOUTLATB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2235: Unconnected output port 'CASCADEOUTREGB' of component 'RAMB36'.
+WARNING:Xst:753 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2235: Unconnected output port 'DOPB' of component 'RAMB36'.
+WARNING:Xst:2211 - "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd" line 2235: Instantiating black box module <RAMB36>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_A =  1" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "READ_WIDTH_B =  1" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_A =  1" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Set user-defined property "WRITE_WIDTH_B =  1" for instance <ramb36_31> in unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+Entity <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> analyzed. Unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate>.
+    Related source file is "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/elaborate/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate.vhd".
+WARNING:Xst:647 - Input <BRAM_Addr_A<0:14>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Addr_A<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Addr_B<0:14>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Addr_B<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <pgassign97<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign93<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign9<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign89<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign85<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign81<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign77<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign73<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign69<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign65<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign61<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign57<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign53<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign5<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign49<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign45<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign41<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign37<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign33<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign29<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign257<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign253<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign25<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign249<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign245<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign241<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign237<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign233<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign229<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign225<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign221<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign217<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign213<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign21<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign209<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign205<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign201<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign197<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign193<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign189<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign185<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign181<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign177<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign173<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign17<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign169<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign165<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign161<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign157<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign153<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign149<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign145<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign141<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign137<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign133<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign13<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign129<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign125<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign121<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign117<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign113<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign109<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign105<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign101<31:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pgassign1<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> synthesized.
+
+
+Synthesizing Unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper>.
+    Related source file is "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/hdl/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper.vhd".
+Unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance ramb36_0 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_1 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_2 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_3 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_4 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_5 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_6 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_7 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_8 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_9 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_10 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_11 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_12 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_13 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_14 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_15 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_16 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_17 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_18 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_19 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_20 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_21 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_22 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_23 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_24 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_25 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_26 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_27 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_28 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_29 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_30 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ramb36_31 in unit roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate of type RAMB36 has been replaced by RAMB36_EXP
+
+Optimizing unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper> ...
+
+Optimizing unit <roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_elaborate> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 206
+
+Cell Usage :
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+# RAMS                             : 32
+#      RAMB36_EXP                  : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         206
+ Number of bonded IOBs:                   0  out of    640     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               32  out of    244    13%  
+    Number using Block RAM only:         32
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                 | Load  |
+-----------------------------------+-----------------------------------------------------------------------+-------+
+BRAM_Clk_A                         | NONE(roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0)| 32    |
+BRAM_Clk_B                         | NONE(roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0)| 32    |
+-----------------------------------+-----------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+Control Signal                                                                                                                     | Buffer(FF name)                                                       | Load  |
+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/net_gnd0(roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/XST_GND:G)| NONE(roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0)| 256   |
+-----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 0.624ns
+   Maximum output required time after clock: 2.190ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_A'
+  Total number of paths / destination ports: 1312 / 1312
+-------------------------------------------------------------------------
+Offset:              0.624ns (Levels of Logic = 1)
+  Source:            BRAM_WEN_A<0> (PAD)
+  Destination:       roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0 (RAM)
+  Destination Clock: BRAM_Clk_A rising
+
+  Data Path: BRAM_WEN_A<0> to roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk'
+     RAMB36_EXP:WEAU0          0.624          ramb36_0
+    ----------------------------------------
+    Total                      0.624ns (0.624ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_B'
+  Total number of paths / destination ports: 1312 / 1312
+-------------------------------------------------------------------------
+Offset:              0.624ns (Levels of Logic = 1)
+  Source:            BRAM_WEN_B<0> (PAD)
+  Destination:       roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0 (RAM)
+  Destination Clock: BRAM_Clk_B rising
+
+  Data Path: BRAM_WEN_B<0> to roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk'
+     RAMB36_EXP:WEBU0          0.624          ramb36_0
+    ----------------------------------------
+    Total                      0.624ns (0.624ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'BRAM_Clk_B'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              2.190ns (Levels of Logic = 1)
+  Source:            roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0 (RAM)
+  Destination:       BRAM_Din_B<0> (PAD)
+  Source Clock:      BRAM_Clk_B rising
+
+  Data Path: roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0 to BRAM_Din_B<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB36_EXP:REGCLKBL->DOB0    0   2.190   0.000  ramb36_0 (BRAM_Din_B<0>)
+     end scope: 'roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk'
+    ----------------------------------------
+    Total                      2.190ns (2.190ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'BRAM_Clk_A'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              2.190ns (Levels of Logic = 1)
+  Source:            roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0 (RAM)
+  Destination:       BRAM_Din_A<0> (PAD)
+  Source Clock:      BRAM_Clk_A rising
+
+  Data Path: roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0 to BRAM_Din_A<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB36_EXP:REGCLKAL->DOA0    0   2.190   0.000  ramb36_0 (BRAM_Din_A<0>)
+     end scope: 'roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk'
+    ----------------------------------------
+    Total                      2.190ns (2.190ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 37.00 secs
+Total CPU time to Xst completion: 36.09 secs
+ 
+--> 
+
+
+Total memory usage is 442584 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  294 (   0 filtered)
+Number of infos    :   33 (   0 filtered)
+

@@ -1,0 +1,78 @@
+// File: /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/implementation/system.bmm
+
+ADDRESS_MAP epb_opb_bridge_inst  100
+	ADDRESS_SPACE roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk_combined COMBINED [0x01020000:0x0105ffff]
+		ADDRESS_RANGE RAMB32
+		BUS_BLOCK
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_0 [31:31] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_1 [30:30] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_2 [29:29] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_3 [28:28] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_4 [27:27] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_5 [26:26] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_6 [25:25] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_7 [24:24] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_8 [23:23] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_9 [22:22] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_10 [21:21] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_11 [20:20] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_12 [19:19] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_13 [18:18] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_14 [17:17] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_15 [16:16] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_16 [15:15] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_17 [14:14] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_18 [13:13] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_19 [12:12] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_20 [11:11] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_21 [10:10] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_22 [9:9] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_23 [8:8] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_24 [7:7] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_25 [6:6] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_26 [5:5] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_27 [4:4] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_28 [3:3] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_29 [2:2] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_30 [1:1] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk/ramb36_31 [0:0] ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB32
+		BUS_BLOCK
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_0 [31:31] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_1 [30:30] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_2 [29:29] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_3 [28:28] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_4 [27:27] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_5 [26:26] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_6 [25:25] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_7 [24:24] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_8 [23:23] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_9 [22:22] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_10 [21:21] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_11 [20:20] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_12 [19:19] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_13 [18:18] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_14 [17:17] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_15 [16:16] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_16 [15:15] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_17 [14:14] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_18 [13:13] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_19 [12:12] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_20 [11:11] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_21 [10:10] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_22 [9:9] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_23 [8:8] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_24 [7:7] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_25 [6:6] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_26 [5:5] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_27 [4:4] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_28 [3:3] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_29 [2:2] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_30 [1:1] ;
+			roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk/ramb36_31 [0:0] ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+	END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

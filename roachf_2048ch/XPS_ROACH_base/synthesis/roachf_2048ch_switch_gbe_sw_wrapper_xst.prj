@@ -1,0 +1,17 @@
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/arp_cache.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/cpu_buffer.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/opb_attach.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_ctrl_fifo.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_fifo_bram.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_fifo_dist.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_tx.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_ctrl_fifo.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_fifo.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_fifo_ext.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/ten_gig_eth_mac.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/mac_rx.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/mac_tx.v
+verilog kat_ten_gb_eth_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/mac_hard_crc.v
+verilog work ../hdl/roachf_2048ch_switch_gbe_sw_wrapper.v

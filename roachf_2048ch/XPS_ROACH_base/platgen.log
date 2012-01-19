@@ -1,0 +1,586 @@
+Release 11.5 - platgen Xilinx EDK 11.5 Build EDK_LS5.70
+ (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc5vsx95tff1136-1 -lang vhdl -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:1582 - IPNAME:opb_v20 INSTANCE:opb0 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 115 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK:2028 - Option "CORE_STATE" in
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quad
+   c_interface_v1_00_a/data/quadc_interface_v2_1_0.mpd line 8  is deprecated.
+   Please use Option ARCH_SUPPORT_MAP instead. 
+WARNING:EDK:1582 - IPNAME:opb_bram_if_cntlr
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 723 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK:1582 - IPNAME:opb_bram_if_cntlr
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 754 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK:1582 - IPNAME:opb_v20 INSTANCE:opb0 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 115 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK:1582 - IPNAME:opb_bram_if_cntlr
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 723 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK:1582 - IPNAME:opb_bram_if_cntlr
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 754 - deprecated core for architecture 'virtex5sx'!
+
+Overriding IP level properties ...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor epb_opb_bridge_inst
+  (0000000000-0x0000ffff) sys_block_inst	opb0
+  (0x01000000-0x01003fff) roachf_2048ch_2GPU_gbe_gpu	opb0
+  (0x01004000-0x010040ff) roachf_2048ch_Loopback_loop_cnt0	opb0
+  (0x01004100-0x010041ff) roachf_2048ch_Loopback_loop_err_cnt0	opb0
+  (0x01004200-0x010042ff) roachf_2048ch_Loopback_loopback_mux0_mcnt	opb0
+  (0x01004300-0x010043ff) roachf_2048ch_Loopback_statii	opb0
+  (0x01008000-0x0100bfff) roachf_2048ch_Switch_gbe_sw	opb0
+  (0x01020000-0x0103ffff) roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM	opb0
+  (0x01040000-0x0105ffff) roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1	opb0
+  (0x01060000-0x010600ff) roachf_2048ch_control_ctl_regs_ant_base	opb0
+  (0x01060100-0x010601ff) roachf_2048ch_control_ctl_regs_feng_ctl	opb0
+  (0x01060200-0x010602ff) roachf_2048ch_control_ctl_regs_gbe_sw_port	opb0
+  (0x01060300-0x010603ff) roachf_2048ch_control_ctl_regs_gpu_ip	opb0
+  (0x01060400-0x010604ff) roachf_2048ch_control_ctl_regs_gpu_port	opb0
+  (0x01060500-0x010605ff) roachf_2048ch_control_ctl_regs_ip_base	opb0
+  (0x01060600-0x010606ff) roachf_2048ch_control_ctl_regs_my_ip	opb0
+  (0x01060700-0x010607ff) roachf_2048ch_control_delay_delay	opb0
+  (0x01060800-0x010608ff) roachf_2048ch_control_eq_coefs_eq0_ctl	opb0
+  (0x01060900-0x010609ff) roachf_2048ch_control_eq_coefs_eq1_ctl	opb0
+  (0x01060a00-0x01060aff) roachf_2048ch_control_eq_coefs_eq2_ctl	opb0
+  (0x01060b00-0x01060bff) roachf_2048ch_control_eq_coefs_eq3_ctl	opb0
+  (0x01060c00-0x01060cff) roachf_2048ch_control_insel_insel	opb0
+  (0x01060d00-0x01060dff) roachf_2048ch_control_seed_seed_data	opb0
+  (0x01060e00-0x01060eff) roachf_2048ch_status_gbe_gpu	opb0
+  (0x01060f00-0x01060fff) roachf_2048ch_status_gbe_sw	opb0
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramif:bram_clk. Clock DRCs
+   will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1560 - IPNAME:opb_v20 INSTANCE:opb0 -
+   /tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/op
+   b_v20_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_NUM_MASTERS value
+   to 1
+INFO:EDK:1560 - IPNAME:opb_v20 INSTANCE:opb0 -
+   /tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/op
+   b_v20_v2_1_0.mpd line 75 - tool is overriding PARAMETER C_NUM_SLAVES value to
+   25
+INFO:EDK:1560 - IPNAME:bram_block
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk -
+   /tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a/data
+   /bram_block_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_MEMSIZE value
+   to 0x20000
+INFO:EDK:1560 - IPNAME:bram_block
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk -
+   /tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a/data
+   /bram_block_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_MEMSIZE value
+   to 0x20000
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME:opb_v20 INSTANCE:opb0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 115 - 1 master(s) : 25 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:xaui_reset CONNECTOR:xaui_reset -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_
+   ten_gb_eth_v1_00_a/data/kat_ten_gb_eth_v2_1_0.mpd line 77 - No driver found.
+   Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xaui_reset CONNECTOR:xaui_reset -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/kat_
+   ten_gb_eth_v1_00_a/data/kat_ten_gb_eth_v2_1_0.mpd line 77 - No driver found.
+   Port will be driven to GND!
+WARNING:EDK:2098 - PORT:xaui_reset CONNECTOR:xgmii3_xaui_reset -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui
+   _phy_v1_00_a/data/xaui_phy_v2_1_0.mpd line 48 - No driver found. Port will be
+   driven to GND!
+WARNING:EDK:2098 - PORT:xaui_reset CONNECTOR:xgmii0_xaui_reset -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui
+   _phy_v1_00_a/data/xaui_phy_v2_1_0.mpd line 48 - No driver found. Port will be
+   driven to GND!
+WARNING:EDK:2099 - PORT:sys_clk90 CONNECTOR:sys_clk90 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 78 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk180 CONNECTOR:sys_clk180 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 79 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk270 CONNECTOR:sys_clk270 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 80 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x CONNECTOR:sys_clk2x -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 82 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x90 CONNECTOR:sys_clk2x90 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 83 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x180 CONNECTOR:sys_clk2x180 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 84 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x270 CONNECTOR:sys_clk2x270 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 85 - floating connection!
+WARNING:EDK:2099 - PORT:dly_clk CONNECTOR:dly_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 86 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk CONNECTOR:aux0_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 87 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk90 CONNECTOR:aux0_clk90 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 88 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk180 CONNECTOR:aux0_clk180 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 89 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk270 CONNECTOR:aux0_clk270 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 90 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk CONNECTOR:aux1_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 91 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk90 CONNECTOR:aux1_clk90 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 92 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk180 CONNECTOR:aux1_clk180 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 93 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk270 CONNECTOR:aux1_clk270 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 94 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x CONNECTOR:aux0_clk2x -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 95 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x90 CONNECTOR:aux0_clk2x90 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 96 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x180 CONNECTOR:aux0_clk2x180 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 97 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x270 CONNECTOR:aux0_clk2x270 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 98 - floating connection!
+WARNING:EDK:2099 - PORT:idelay_rdy CONNECTOR:idelay_rdy -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 101 - floating connection!
+WARNING:EDK:2099 - PORT:soft_reset CONNECTOR:soft_reset -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 183 - floating connection!
+WARNING:EDK:2099 - PORT:CLK180 CONNECTOR:arb_clk180 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 359 - floating connection!
+WARNING:EDK:2099 - PORT:CLK270 CONNECTOR:arb_clk270 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 360 - floating connection!
+WARNING:EDK:2099 - PORT:sig_out CONNECTOR:fab_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 367 - floating connection!
+WARNING:EDK:2099 - PORT:adc0_clk CONNECTOR:adc0_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 458 - floating connection!
+WARNING:EDK:2099 - PORT:adc1_clk CONNECTOR:quadc0_0_adc1_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 459 - floating connection!
+WARNING:EDK:2099 - PORT:adc2_clk CONNECTOR:quadc0_0_adc2_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 460 - floating connection!
+WARNING:EDK:2099 - PORT:adc3_clk CONNECTOR:quadc0_0_adc3_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 461 - floating connection!
+WARNING:EDK:2099 - PORT:adc0_clk90 CONNECTOR:adc0_clk90 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 462 - floating connection!
+WARNING:EDK:2099 - PORT:adc0_clk CONNECTOR:adc1_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 515 - floating connection!
+WARNING:EDK:2099 - PORT:adc1_clk CONNECTOR:quadc0_1_adc1_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 516 - floating connection!
+WARNING:EDK:2099 - PORT:adc2_clk CONNECTOR:quadc0_1_adc2_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 517 - floating connection!
+WARNING:EDK:2099 - PORT:adc3_clk CONNECTOR:quadc0_1_adc3_clk -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 518 - floating connection!
+WARNING:EDK:2099 - PORT:adc0_clk90 CONNECTOR:adc1_clk90 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 519 - floating connection!
+
+Performing Clock DRCs...
+INFO:EDK:1038 - Did not implement clock DRCs for parameter:
+   roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:1038 - Did not implement clock DRCs for parameter:
+   roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1:c_opb_clk_period_ps.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:roachf_2048ch INSTANCE:roachf_2048ch_xsg_core_config -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 229 - Copying (BBD-specified) netlist files.
+IPNAME:kat_ten_gb_eth INSTANCE:roachf_2048ch_2gpu_gbe_gpu -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 372 - Copying (BBD-specified) netlist files.
+IPNAME:xaui_phy INSTANCE:xaui_phy_3 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 416 - Copying (BBD-specified) netlist files.
+IPNAME:quadc_interface INSTANCE:roachf_2048ch_adcs_quadc0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 427 - Copying (BBD-specified) netlist files.
+IPNAME:quadc_interface INSTANCE:roachf_2048ch_adcs_quadc1 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 484 - Copying (BBD-specified) netlist files.
+IPNAME:kat_ten_gb_eth INSTANCE:roachf_2048ch_switch_gbe_sw -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 649 - Copying (BBD-specified) netlist files.
+IPNAME:xaui_phy INSTANCE:xaui_phy_0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 693 - Copying (BBD-specified) netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block
+INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_ramblk -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 716 - elaborating IP
+IPNAME:bram_block
+INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_ramblk -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 747 - elaborating IP
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 1.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:infrastructure_inst -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 64 - Running XST synthesis
+INSTANCE:reset_block_inst -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 104 - Running XST synthesis
+INSTANCE:opb0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 115 - Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 124 - Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 143 - Running XST synthesis
+INSTANCE:sys_block_inst -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 168 - Running XST synthesis
+INSTANCE:xaui_infrastructure_inst -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 190 - Running XST synthesis
+INSTANCE:roachf_2048ch_xsg_core_config -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 229 - Running XST synthesis
+INSTANCE:arb_clk_dcm -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 325 - Running XST synthesis
+INSTANCE:arb_clk_dcm_phasegen -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 343 - Running XST synthesis
+INSTANCE:rename_fab_clk -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 363 - Running XST synthesis
+INSTANCE:roachf_2048ch_2gpu_gbe_gpu -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 372 - Running XST synthesis
+INSTANCE:xaui_phy_3 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 416 - Running XST synthesis
+INSTANCE:roachf_2048ch_adcs_quadc0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 427 - Running XST synthesis
+INSTANCE:roachf_2048ch_adcs_quadc1 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 484 - Running XST synthesis
+INSTANCE:roachf_2048ch_leds_led1_arm -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 541 - Running XST synthesis
+INSTANCE:roachf_2048ch_leds_led2_sync -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 556 - Running XST synthesis
+INSTANCE:roachf_2048ch_leds_led4_eq_clip -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 571 - Running XST synthesis
+INSTANCE:roachf_2048ch_leds_led5_adc_clip -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 586 - Running XST synthesis
+INSTANCE:roachf_2048ch_loopback_loop_cnt0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 601 - Running XST synthesis
+INSTANCE:roachf_2048ch_loopback_loop_err_cnt0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 613 - Running XST synthesis
+INSTANCE:roachf_2048ch_loopback_loopback_mux0_mcnt -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 625 - Running XST synthesis
+INSTANCE:roachf_2048ch_loopback_statii -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 637 - Running XST synthesis
+INSTANCE:roachf_2048ch_switch_gbe_sw -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 649 - Running XST synthesis
+INSTANCE:xaui_phy_0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 693 - Running XST synthesis
+INSTANCE:roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramif -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 704 - Running XST synthesis
+INSTANCE:roachf_2048ch_transpose_dbuf_ct_bram_shared_bram_ramblk -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 716 - Running XST synthesis
+INSTANCE:roachf_2048ch_transpose_dbuf_ct_bram_shared_bram -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 723 - Running XST synthesis
+INSTANCE:roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramif -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 735 - Running XST synthesis
+INSTANCE:roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1_ramblk -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 747 - Running XST synthesis
+INSTANCE:roachf_2048ch_transpose_dbuf_ct_bram_shared_bram1 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 754 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_ctl_regs_ant_base -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 766 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_ctl_regs_feng_ctl -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 778 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_ctl_regs_gbe_sw_port -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 790 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_ctl_regs_gpu_ip -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 802 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_ctl_regs_gpu_port -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 814 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_ctl_regs_ip_base -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 826 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_ctl_regs_my_ip -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 838 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_delay_delay -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 850 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_eq_coefs_eq0_ctl -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 862 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_eq_coefs_eq1_ctl -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 874 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_eq_coefs_eq2_ctl -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 886 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_eq_coefs_eq3_ctl -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 898 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_insel_insel -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 910 - Running XST synthesis
+INSTANCE:roachf_2048ch_control_seed_seed_data -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 922 - Running XST synthesis
+INSTANCE:roachf_2048ch_status_gbe_gpu -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 934 - Running XST synthesis
+INSTANCE:roachf_2048ch_status_gbe_sw -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 946 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:roachf_2048ch_xsg_core_config_wrapper
+INSTANCE:roachf_2048ch_xsg_core_config -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 229 - Running NGCBUILD
+IPNAME:roachf_2048ch_2gpu_gbe_gpu_wrapper INSTANCE:roachf_2048ch_2gpu_gbe_gpu -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 372 - Running NGCBUILD
+IPNAME:xaui_phy_3_wrapper INSTANCE:xaui_phy_3 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 416 - Running NGCBUILD
+IPNAME:roachf_2048ch_adcs_quadc0_wrapper INSTANCE:roachf_2048ch_adcs_quadc0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 427 - Running NGCBUILD
+IPNAME:roachf_2048ch_adcs_quadc1_wrapper INSTANCE:roachf_2048ch_adcs_quadc1 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 484 - Running NGCBUILD
+IPNAME:roachf_2048ch_switch_gbe_sw_wrapper INSTANCE:roachf_2048ch_switch_gbe_sw
+- /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 649 - Running NGCBUILD
+IPNAME:xaui_phy_0_wrapper INSTANCE:xaui_phy_0 -
+/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+line 693 - Running NGCBUILD
+
+Rebuilding cache ...
+
+Total run time: 688.00 seconds

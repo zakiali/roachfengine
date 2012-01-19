@@ -1,0 +1,2 @@
+VHDL gpio_simulink2ext_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/gpio_simulink2ext_v1_00_a/hdl/vhdl/gpio_simulink2ext.vhd
+vhdl work ../hdl/roachf_2048ch_leds_led2_sync_wrapper.vhd

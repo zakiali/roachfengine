@@ -1,0 +1,3 @@
+verilog quadc_interface_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quadc_interface_v1_00_a/hdl/verilog/quadc_interface.v
+verilog quadc_interface_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quadc_interface_v1_00_a/hdl/verilog/async_fifo_generator_v2_2_33x16.v
+verilog work ../hdl/roachf_2048ch_adcs_quadc0_wrapper.v

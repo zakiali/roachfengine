@@ -1,0 +1,679 @@
+Release 11.5 - xst L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </tools/xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </tools/xilinx/11.5/ISE/virtex5/data/virtex5.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "roachf_2048ch_adcs_quadc1_wrapper_xst.prj"
+Verilog Include Directory          : {"/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/" "/tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc5vsx95tff1136-1
+Output File Name                   : "../implementation/roachf_2048ch_adcs_quadc1_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : roachf_2048ch_adcs_quadc1_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/roachf_2048ch_adcs_quadc1_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quadc_interface_v1_00_a/hdl/verilog/quadc_interface.v" in library quadc_interface_v1_00_a
+Compiling verilog file "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quadc_interface_v1_00_a/hdl/verilog/async_fifo_generator_v2_2_33x16.v" in library quadc_interface_v1_00_a
+Module <quadc_interface> compiled
+Module <async_fifo_generator_v2_2_33x16> compiled
+Compiling verilog file "../hdl/roachf_2048ch_adcs_quadc1_wrapper.v" in library work
+Module <roachf_2048ch_adcs_quadc1_wrapper> compiled
+No errors in compilation
+Analysis of file <"roachf_2048ch_adcs_quadc1_wrapper_xst.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <roachf_2048ch_adcs_quadc1_wrapper> in library <work>.
+
+Analyzing hierarchy for module <quadc_interface> in library <quadc_interface_v1_00_a> with parameters.
+	CLK_FREQ = "00000000000000000000000011001000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <roachf_2048ch_adcs_quadc1_wrapper>.
+Module <roachf_2048ch_adcs_quadc1_wrapper> is correct for synthesis.
+ 
+Analyzing module <quadc_interface> in library <quadc_interface_v1_00_a>.
+	CLK_FREQ = 32'sb00000000000000000000000011001000
+Module <quadc_interface> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFGDS_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFGDS_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFGDS_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFGDS_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFGDS_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFGDS_AD10CLK> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFGDS_AD10CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFGDS_AD10CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFGDS_AD10CLK> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFGDS_AD10CLK> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2CLK> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2CLK> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2CLK> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2CLK> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3CLK> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3CLK> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3CLK> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3CLK> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3CLK> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_SYNC> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_SYNC> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_SYNC> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_SYNC> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_SYNC> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_SYNC> in unit <quadc_interface>.
+    Set user-defined property "FPGA_DONT_TOUCH =  true" for instance <async_fifo_adc_data> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC0DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC0DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC0DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC0DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC0DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC0DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC1DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC1DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC1DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC1DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC1DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC1DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC2DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC2DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC2DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC2DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC2DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC2DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[7]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[6]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[5]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[4]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[3]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[2]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[1]> in unit <quadc_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFDS_ADC3DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <IBUFDS_ADC3DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFDS_ADC3DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFDS_ADC3DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUFDS_ADC3DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <IBUFDS_ADC3DATA[0]> in unit <quadc_interface>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "CLKIN_PERIOD =  5.000000" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  HIGH" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  HIGH" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <GEN_DCM..DCM_ADC0CLK> in unit <quadc_interface>.
+WARNING:Xst:37 - Detected unknown constraint/property "FPGA_DONT_TOUCH". This constraint/property is not supported by the current software release and will be ignored.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <quadc_interface>.
+    Related source file is "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quadc_interface_v1_00_a/hdl/verilog/quadc_interface.v".
+WARNING:Xst:1305 - Output <adc2_clk> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <adc3_clk> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <adc1_clk> is never assigned. Tied to value 0.
+WARNING:Xst:646 - Signal <dcm_adc0_status> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dcm_adc0_locked> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <adc3_clk_in> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <adc2_clk_in> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <adc1_clk_in> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <adc0_clk_2x> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit register for signal <adc0_data_capture>.
+    Found 8-bit register for signal <adc0_data_recapture>.
+    Found 8-bit register for signal <adc1_data_capture>.
+    Found 8-bit register for signal <adc1_data_recapture>.
+    Found 8-bit register for signal <adc2_data_capture>.
+    Found 8-bit register for signal <adc2_data_recapture>.
+    Found 8-bit register for signal <adc3_data_capture>.
+    Found 8-bit register for signal <adc3_data_recapture>.
+    Found 8-bit register for signal <fifo_adc0>.
+    Found 8-bit register for signal <fifo_adc1>.
+    Found 8-bit register for signal <fifo_adc2>.
+    Found 8-bit register for signal <fifo_adc3>.
+    Found 1-bit register for signal <fifo_rd_en>.
+    Found 1-bit register for signal <fifo_sync>.
+    Found 1-bit register for signal <sync_capture>.
+    Found 1-bit register for signal <sync_recapture>.
+    Summary:
+	inferred 100 D-type flip-flop(s).
+Unit <quadc_interface> synthesized.
+
+
+Synthesizing Unit <roachf_2048ch_adcs_quadc1_wrapper>.
+    Related source file is "../hdl/roachf_2048ch_adcs_quadc1_wrapper.v".
+Unit <roachf_2048ch_adcs_quadc1_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ 1-bit register                                        : 4
+ 8-bit register                                        : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading module "async_fifo_generator_v2_2_33x16.ngo" ( "async_fifo_generator_v2_2_33x16.ngo" unchanged since last run )...
+Reading core <../implementation/roachf_2048ch_adcs_quadc1_wrapper/async_fifo_generator_v2_2_33x16_fifo_generator_v2_2_xst_1.ngc>.
+Reading Secure Unit <U0/fgas>.
+Loading core <async_fifo_generator_v2_2_33x16_fifo_generator_v2_2_xst_1> for timing and area information for instance <BU2>.
+Loading core <async_fifo_generator_v2_2_33x16> for timing and area information for instance <async_fifo_adc_data>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 100
+ Flip-Flops                                            : 100
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance GEN_DCM..DCM_ADC0CLK in unit quadc_interface of type DCM has been replaced by DCM_ADV
+
+Optimizing unit <roachf_2048ch_adcs_quadc1_wrapper> ...
+
+Optimizing unit <quadc_interface> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2260 - The FF/Latch <cntblk/gen_rd_cntr/bin_cnt_top/bld_bin_cnt/count_0> in Unit <U0/fgas> is equivalent to the following FF/Latch : <cntblk/gen_rd_cntr/bin_cnt_top/bld_bin_cnt/count_0_1> 
+INFO:Xst:2260 - The FF/Latch <cntblk/gen_rd_cntr/bin_cnt_top/bld_bin_cnt/count_0> in Unit <U0/fgas> is equivalent to the following FF/Latch : <cntblk/gen_rd_cntr/bin_cnt_top/bld_bin_cnt/count_0_1> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 100
+ Flip-Flops                                            : 100
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/roachf_2048ch_adcs_quadc1_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 116
+
+Cell Usage :
+# BELS                             : 61
+#      GND                         : 3
+#      INV                         : 1
+#      LUT1                        : 5
+#      LUT2                        : 21
+#      LUT2_D                      : 2
+#      LUT2_L                      : 4
+#      LUT3                        : 5
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 11
+#      LUT4_D                      : 1
+#      LUT4_L                      : 5
+#      VCC                         : 1
+# FlipFlops/Latches                : 188
+#      FD                          : 66
+#      FD_1                        : 33
+#      FDC                         : 25
+#      FDCE                        : 54
+#      FDP                         : 4
+#      FDPE                        : 5
+#      FDR                         : 1
+# RAMS                             : 33
+#      RAM16X1D                    : 33
+# Clock Buffers                    : 3
+#      BUFG                        : 3
+# IO Buffers                       : 37
+#      IBUFDS                      : 35
+#      IBUFGDS                     : 2
+# DCM_ADVs                         : 1
+#      DCM_ADV                     : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             188  out of  58880     0%  
+ Number of Slice LUTs:                  123  out of  58880     0%  
+    Number used as Logic:                57  out of  58880     0%  
+    Number used as Memory:               66  out of  24320     0%  
+       Number used as RAM:               66
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    282
+   Number with an unused Flip Flop:      94  out of    282    33%  
+   Number with an unused LUT:           159  out of    282    56%  
+   Number of fully used LUT-FF pairs:    29  out of    282    10%  
+   Number of unique control sets:        16
+
+IO Utilization: 
+ Number of IOs:                         116
+ Number of bonded IOBs:                  74  out of    640    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                3  out of     32     9%  
+ Number of DCM_ADVs:                      1  out of     12     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                               | Load  |
+-----------------------------------+-----------------------------------------------------+-------+
+adc0_clk_in_p                      | roachf_2048ch_ADCs_quadc1/GEN_DCM..DCM_ADC0CLK:CLK0 | 126   |
+adc0_clk_in_p                      | roachf_2048ch_ADCs_quadc1/GEN_DCM..DCM_ADC0CLK:CLK90| 33    |
+user_clk                           | NONE(roachf_2048ch_ADCs_quadc1/fifo_rd_en)          | 62    |
+-----------------------------------+-----------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                               | Buffer(FF name)                                                                                                   | Load  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+-------+
+roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/inblk/rd_rst_int<3>(roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/inblk/rd_rst_fb:Q)   | NONE(roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/cntblk/gen_rd_cntr/bin_cnt_top/bld_bin_cnt/count_0)| 59    |
+roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/inblk/wr_rst_int<3>(roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/inblk/wr_rst_int_1:Q)| NONE(roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/cntblk/gen_wr_cntr/bin_cnt_top/bld_bin_cnt/count_0)| 25    |
+reset                                                                                                                                                        | NONE                                                                                                              | 4     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.270ns (Maximum Frequency: 440.529MHz)
+   Minimum input arrival time before clock: 1.154ns
+   Maximum output required time after clock: 0.471ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc0_clk_in_p'
+  Clock period: 2.267ns (frequency: 441.112MHz)
+  Total number of paths / destination ports: 342 / 299
+-------------------------------------------------------------------------
+Delay:               2.267ns (Levels of Logic = 3)
+  Source:            roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/flblk/clkmod/rdx/PNTR_B_3 (FF)
+  Destination:       roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/flblk/thrmod/flogic/RAM_FULL_i (FF)
+  Source Clock:      adc0_clk_in_p rising
+  Destination Clock: adc0_clk_in_p rising
+
+  Data Path: roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/flblk/clkmod/rdx/PNTR_B_3 to roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/flblk/thrmod/flogic/RAM_FULL_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.794  flblk/clkmod/rdx/PNTR_B_3 (debug_rd_pntr_w<3>)
+     LUT4:I0->O            1   0.094   0.480  flblk/thrmod/flogic/comp1/dout_i53 (CHOICE44)
+     LUT4_L:I3->LO         1   0.094   0.240  flblk/thrmod/flogic/comp1/dout_i59 (flblk/thrmod/flogic/comp_full1)
+     LUT4_L:I2->LO         1   0.094   0.000  flblk/thrmod/flogic/FULL_NONREG_i1 (flblk/thrmod/flogic/FULL_NONREG)
+     FDP:D                    -0.018          flblk/thrmod/flogic/RAM_FULL_i
+    ----------------------------------------
+    Total                      2.267ns (0.753ns logic, 1.514ns route)
+                                       (33.2% logic, 66.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'user_clk'
+  Clock period: 2.270ns (frequency: 440.529MHz)
+  Total number of paths / destination ports: 292 / 103
+-------------------------------------------------------------------------
+Delay:               2.270ns (Levels of Logic = 4)
+  Source:            roachf_2048ch_ADCs_quadc1/fifo_rd_en (FF)
+  Destination:       roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/flblk/thrmod/elogic/RAM_EMPTY_i (FF)
+  Source Clock:      user_clk rising
+  Destination Clock: user_clk rising
+
+  Data Path: roachf_2048ch_ADCs_quadc1/fifo_rd_en to roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/flblk/thrmod/elogic/RAM_EMPTY_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.471   0.822  roachf_2048ch_ADCs_quadc1/fifo_rd_en (roachf_2048ch_ADCs_quadc1/fifo_rd_en)
+     begin scope: 'roachf_2048ch_ADCs_quadc1/async_fifo_adc_data'
+     begin scope: 'BU2'
+     begin scope: 'U0/fgas'
+     LUT4:I0->O            1   0.094   0.789  flblk/thrmod/elogic/c2/dout_i59_SW0 (N215)
+     LUT4_L:I0->LO         1   0.094   0.000  flblk/thrmod/elogic/EMPTY_NONREG_i1 (flblk/thrmod/elogic/EMPTY_NONREG)
+     FDP:D                    -0.018          flblk/thrmod/elogic/RAM_EMPTY_i
+    ----------------------------------------
+    Total                      2.270ns (0.659ns logic, 1.611ns route)
+                                       (29.0% logic, 71.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc0_clk_in_p'
+  Total number of paths / destination ports: 66 / 33
+-------------------------------------------------------------------------
+Offset:              1.154ns (Levels of Logic = 1)
+  Source:            sync_in_p (PAD)
+  Destination:       roachf_2048ch_ADCs_quadc1/sync_capture (FF)
+  Destination Clock: adc0_clk_in_p falling
+
+  Data Path: sync_in_p to roachf_2048ch_ADCs_quadc1/sync_capture
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFDS:I->O           1   0.818   0.336  roachf_2048ch_ADCs_quadc1/IBUFDS_SYNC (roachf_2048ch_ADCs_quadc1/sync_in)
+     FD_1:D                   -0.018          roachf_2048ch_ADCs_quadc1/sync_capture
+    ----------------------------------------
+    Total                      1.154ns (0.818ns logic, 0.336ns route)
+                                       (70.9% logic, 29.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'user_clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.573ns (Levels of Logic = 0)
+  Source:            reset (PAD)
+  Destination:       roachf_2048ch_ADCs_quadc1/fifo_rd_en (FF)
+  Destination Clock: user_clk rising
+
+  Data Path: reset to roachf_2048ch_ADCs_quadc1/fifo_rd_en
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:R                     0.573          roachf_2048ch_ADCs_quadc1/fifo_rd_en
+    ----------------------------------------
+    Total                      0.573ns (0.573ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'user_clk'
+  Total number of paths / destination ports: 34 / 34
+-------------------------------------------------------------------------
+Offset:              0.471ns (Levels of Logic = 2)
+  Source:            roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/memblk/distinst/DOB_0 (FF)
+  Destination:       sync (PAD)
+  Source Clock:      user_clk rising
+
+  Data Path: roachf_2048ch_ADCs_quadc1/async_fifo_adc_data/BU2/U0/fgas/memblk/distinst/DOB_0 to sync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             0   0.471   0.000  memblk/distinst/DOB_0 (DOUT<0>)
+     end scope: 'U0/fgas'
+     end scope: 'BU2'
+     end scope: 'roachf_2048ch_ADCs_quadc1/async_fifo_adc_data'
+    ----------------------------------------
+    Total                      0.471ns (0.471ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+WARNING:Xst:616 - Invalid property "FPGA_DONT_TOUCH true": Did not attach to roachf_2048ch_ADCs_quadc1/async_fifo_adc_data.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.91 secs
+ 
+--> 
+
+
+Total memory usage is 445236 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

@@ -1,0 +1,11 @@
+#############################################################################
+##
+## IP Name  : roachf_2048ch
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+Files
+roachf_2048ch.ngc

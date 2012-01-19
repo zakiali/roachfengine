@@ -1,0 +1,43 @@
+Release 11.5 Physical Synthesis Report L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc. All rights reserved.
+
+TABLE OF CONTENTS
+  1) Physical Synthesis Options Summary
+  2) Optimizations statistics and details
+
+
+=========================================================================
+*                 Physical Synthesis Options Summary                    *
+=========================================================================
+---- Options
+Global Optimization                 : OFF
+    Retiming                        : OFF
+    Equivalent Register Removal     : OFF
+Timing-Driven Packing and Placement : ON
+    Logic Optimization              : OFF
+    Register Duplication            : ON
+
+---- Target Parameters
+Target Device                       : 5vsx95tff1136-1
+
+=========================================================================
+
+
+=========================================================================
+*                        Optimizations                                  *
+=========================================================================
+---- Statistics
+   Number of LUTs added by Replication                       | 2               
+
+   Overall change in number of design objects                | +2               
+
+
+---- Details
+
+New or modified components                             | Optimization             | Objective           
+-------------------------------------------------------|--------------------------|----------------------
+opb0_M_ABus<29>_REPLICA_0                              | Replication              | Fanout Optimization
+opb0_M_ABus<29>_REPLICA_1                              | Replication              | Fanout Optimization
+
+
+

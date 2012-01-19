@@ -1,0 +1,2 @@
+verilog signal_rename_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/signal_rename_v1_00_a/hdl/verilog/signal_rename.v
+verilog work ../hdl/rename_fab_clk_wrapper.v

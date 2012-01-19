@@ -1,0 +1,5 @@
+#!/bin/bash
+cp implementation/system.bit ../bit_files/roachf_2048ch_2011_Dec_19_1402.bit
+./mkbof -o implementation/system.bof -s core_info.tab -t 3 implementation/system.bin
+chmod +x implementation/system.bof
+cp implementation/system.bof ../bit_files/roachf_2048ch_2011_Dec_19_1402.bof

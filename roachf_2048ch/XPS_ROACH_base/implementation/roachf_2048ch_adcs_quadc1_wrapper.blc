@@ -1,0 +1,45 @@
+Release 11.5 ngcbuild L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: /tools/xilinx/11.5/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc5vsx95tff1136-1 -intstyle silent -sd .. roachf_2048ch_adcs_quadc1_wrapper.ngc
+../roachf_2048ch_adcs_quadc1_wrapper.ngc
+
+Reading NGO file
+"/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/implementatio
+n/roachf_2048ch_adcs_quadc1_wrapper/roachf_2048ch_adcs_quadc1_wrapper.ngc" ...
+Executing edif2ngd -noa "async_fifo_generator_v2_2_33x16.edn"
+"async_fifo_generator_v2_2_33x16.ngo"
+Release 11.5 - edif2ngd L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 11.5 edif2ngd L.70 (lin64)
+INFO:NgdBuild - Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file </tools/xilinx/11.5/EDK/data/edif2ngd.pfd> with
+local file </tools/xilinx/11.5/ISE/data/edif2ngd.pfd>
+Writing module to "async_fifo_generator_v2_2_33x16.ngo"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/implementatio
+n/roachf_2048ch_adcs_quadc1_wrapper/async_fifo_generator_v2_2_33x16.ngo"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/implementatio
+n/roachf_2048ch_adcs_quadc1_wrapper/async_fifo_generator_v2_2_33x16_fifo_generat
+or_v2_2_xst_1.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 295416 kilobytes
+
+Writing NGC file "../roachf_2048ch_adcs_quadc1_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  5 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "../roachf_2048ch_adcs_quadc1_wrapper.blc"...

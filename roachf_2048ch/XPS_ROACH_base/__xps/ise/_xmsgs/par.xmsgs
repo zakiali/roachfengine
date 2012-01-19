@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="65" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78619)]</arg> overrides constraint <arg fmt="%s" index="2">&lt;NET &quot;roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78617)]</arg>.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="65" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78623)]</arg> overrides constraint <arg fmt="%s" index="2">&lt;NET &quot;roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78621)]</arg>.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">infrastructure_inst/dly_clk</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="info" file="Timing" num="2761" delta="new" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+<msg type="info" file="Timing" num="2761" delta="new" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+<msg type="warning" file="ParHelpers" num="361" delta="new" >There are <arg fmt="%d" index="1">1</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+<msg type="warning" file="Par" num="283" delta="new" >There are <arg fmt="%d" index="1">1</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+</messages>
+

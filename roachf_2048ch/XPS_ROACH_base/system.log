@@ -1,0 +1,32 @@
+Saved contents of this file to system_log.11.4 during revup to EDK 11.5.
+
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 11.5 Build EDK_LS5.70
+
+Xilinx EDK 11.5 Build EDK_LS5.70
+
+WARNING:EDK - IPNAME:opb_v20 INSTANCE:opb0 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 115 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK - Option "CORE_STATE" in
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/quad
+   c_interface_v1_00_a/data/quadc_interface_v2_1_0.mpd line 8  is deprecated.
+   Please use Option ARCH_SUPPORT_MAP instead. 
+WARNING:EDK - IPNAME:opb_bram_if_cntlr
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 723 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK - IPNAME:opb_bram_if_cntlr
+   INSTANCE:roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1 -
+   /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/system.mhs
+   line 754 - deprecated core for architecture 'virtex5sx'!
+
+XPS% Evaluating file run_xps.tcl
+No changes to be saved in MSS file
+Saved project XMP file

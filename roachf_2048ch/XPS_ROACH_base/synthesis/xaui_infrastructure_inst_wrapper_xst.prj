@@ -1,0 +1,4 @@
+verilog xaui_infrastructure_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v
+verilog xaui_infrastructure_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/transceiver_bank.v
+verilog xaui_infrastructure_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/transceiver.v
+verilog work ../hdl/xaui_infrastructure_inst_wrapper.v

@@ -1,0 +1,1113 @@
+Release 11.5 - xst L.70 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </tools/xilinx/11.5/EDK/virtex5/data/virtex5.acd> with local file </tools/xilinx/11.5/ISE/virtex5/data/virtex5.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "xaui_infrastructure_inst_wrapper_xst.prj"
+Verilog Include Directory          : {"/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/" "/tools/xilinx/11.5/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc5vsx95tff1136-1
+Output File Name                   : "../implementation/xaui_infrastructure_inst_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : xaui_infrastructure_inst_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/xaui_infrastructure_inst_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v" in library xaui_infrastructure_v1_00_a
+Compiling verilog file "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/transceiver_bank.v" in library xaui_infrastructure_v1_00_a
+Module <xaui_infrastructure> compiled
+Compiling verilog file "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/transceiver.v" in library xaui_infrastructure_v1_00_a
+Module <transceiver_bank> compiled
+Module <transceiver> compiled
+Compiling verilog file "../hdl/xaui_infrastructure_inst_wrapper.v" in library work
+Module <xaui_infrastructure_inst_wrapper> compiled
+No errors in compilation
+Analysis of file <"xaui_infrastructure_inst_wrapper_xst.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <xaui_infrastructure_inst_wrapper> in library <work>.
+
+Analyzing hierarchy for module <xaui_infrastructure> in library <xaui_infrastructure_v1_00_a> with parameters.
+	DIFF_BOOST = "TRUE"
+	DISABLE_0 = "00000000000000000000000000000000"
+	DISABLE_1 = "00000000000000000000000000000001"
+	DISABLE_2 = "00000000000000000000000000000001"
+	DISABLE_3 = "00000000000000000000000000000000"
+	RX_POLARITY_HACK_0 = "0101"
+	RX_POLARITY_HACK_1 = "0101"
+	RX_POLARITY_HACK_2 = "0101"
+	RX_POLARITY_HACK_3 = "0101"
+	TX_POLARITY_HACK_0 = "1010"
+	TX_POLARITY_HACK_1 = "1010"
+	TX_POLARITY_HACK_2 = "1010"
+	TX_POLARITY_HACK_3 = "1010"
+
+Analyzing hierarchy for module <transceiver_bank> in library <xaui_infrastructure_v1_00_a> with parameters.
+	DIFF_BOOST = "TRUE"
+	RX_POLARITY_HACK = "0101"
+	TX_POLARITY_HACK = "1010"
+
+Analyzing hierarchy for module <transceiver> in library <xaui_infrastructure_v1_00_a> with parameters.
+	CHAN_BOND_LEVEL_0 = "00000000000000000000000000000001"
+	CHAN_BOND_LEVEL_1 = "00000000000000000000000000000000"
+	CHAN_BOND_MODE_0 = "MASTER"
+	CHAN_BOND_MODE_1 = "SLAVE"
+	DIFF_BOOST = "TRUE"
+	LOOPTYPE = "00000000000000000000000000000001"
+	LOOPTYPE_FAR_PARALLEL = "00000000000000000000000000000010"
+	LOOPTYPE_FAR_SERIAL = "00000000000000000000000000000011"
+	LOOPTYPE_NEAR_PARALLEL = "00000000000000000000000000000000"
+	LOOPTYPE_NEAR_SERIAL = "00000000000000000000000000000001"
+	RX_POLARITY_HACK_0 = "1"
+	RX_POLARITY_HACK_1 = "0"
+	TILE_CHAN_BOND_LEVEL_0 = "00000000000000000000000000000001"
+	TILE_CHAN_BOND_LEVEL_1 = "00000000000000000000000000000000"
+	TILE_CHAN_BOND_MODE_0 = "MASTER"
+	TILE_CHAN_BOND_MODE_1 = "SLAVE"
+	TX_POLARITY_HACK_0 = "0"
+	TX_POLARITY_HACK_1 = "1"
+
+Analyzing hierarchy for module <transceiver> in library <xaui_infrastructure_v1_00_a> with parameters.
+	CHAN_BOND_LEVEL_0 = "00000000000000000000000000000000"
+	CHAN_BOND_LEVEL_1 = "00000000000000000000000000000000"
+	CHAN_BOND_MODE_0 = "SLAVE"
+	CHAN_BOND_MODE_1 = "SLAVE"
+	DIFF_BOOST = "TRUE"
+	LOOPTYPE = "00000000000000000000000000000001"
+	LOOPTYPE_FAR_PARALLEL = "00000000000000000000000000000010"
+	LOOPTYPE_FAR_SERIAL = "00000000000000000000000000000011"
+	LOOPTYPE_NEAR_PARALLEL = "00000000000000000000000000000000"
+	LOOPTYPE_NEAR_SERIAL = "00000000000000000000000000000001"
+	RX_POLARITY_HACK_0 = "1"
+	RX_POLARITY_HACK_1 = "0"
+	TILE_CHAN_BOND_LEVEL_0 = "00000000000000000000000000000000"
+	TILE_CHAN_BOND_LEVEL_1 = "00000000000000000000000000000000"
+	TILE_CHAN_BOND_MODE_0 = "SLAVE"
+	TILE_CHAN_BOND_MODE_1 = "SLAVE"
+	TX_POLARITY_HACK_0 = "0"
+	TX_POLARITY_HACK_1 = "1"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <xaui_infrastructure_inst_wrapper>.
+Module <xaui_infrastructure_inst_wrapper> is correct for synthesis.
+ 
+Analyzing module <xaui_infrastructure> in library <xaui_infrastructure_v1_00_a>.
+	DIFF_BOOST = "TRUE"
+	DISABLE_0 = 32'sb00000000000000000000000000000000
+	DISABLE_1 = 32'sb00000000000000000000000000000001
+	DISABLE_2 = 32'sb00000000000000000000000000000001
+	DISABLE_3 = 32'sb00000000000000000000000000000000
+	RX_POLARITY_HACK_0 = 4'b0101
+	RX_POLARITY_HACK_1 = 4'b0101
+	RX_POLARITY_HACK_2 = 4'b0101
+	RX_POLARITY_HACK_3 = 4'b0101
+	TX_POLARITY_HACK_0 = 4'b1010
+	TX_POLARITY_HACK_1 = 4'b1010
+	TX_POLARITY_HACK_2 = 4'b1010
+	TX_POLARITY_HACK_3 = 4'b1010
+Module <xaui_infrastructure> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <ibufds_refclk_top> in unit <xaui_infrastructure>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <ibufds_refclk_top> in unit <xaui_infrastructure>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <ibufds_refclk_top> in unit <xaui_infrastructure>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <ibufds_refclk_top> in unit <xaui_infrastructure>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <ibufds_refclk_top> in unit <xaui_infrastructure>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <ibufds_refclk_top> in unit <xaui_infrastructure>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <ibufds_refclk_bottom> in unit <xaui_infrastructure>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <ibufds_refclk_bottom> in unit <xaui_infrastructure>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <ibufds_refclk_bottom> in unit <xaui_infrastructure>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <ibufds_refclk_bottom> in unit <xaui_infrastructure>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <ibufds_refclk_bottom> in unit <xaui_infrastructure>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <ibufds_refclk_bottom> in unit <xaui_infrastructure>.
+    Set user-defined property "BANDWIDTH =  OPTIMIZED" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKFBOUT_MULT =  4" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKFBOUT_PHASE =  0.000000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKIN_PERIOD =  6.400000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT0_DIVIDE =  4" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT0_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT0_PHASE =  0.000000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT1_DIVIDE =  2" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT1_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT1_PHASE =  0.000000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT2_DIVIDE =  1" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT2_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT2_PHASE =  0.000000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT3_DIVIDE =  1" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT3_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT3_PHASE =  0.000000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT4_DIVIDE =  1" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT4_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT4_PHASE =  0.000000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT5_DIVIDE =  1" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT5_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT5_PHASE =  0.000000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "CLK_FEEDBACK =  CLKFBOUT" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "COMPENSATION =  SYSTEM_SYNCHRONOUS" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "DIVCLK_DIVIDE =  1" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "REF_JITTER =  0.100000" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "RESET_ON_LOSS_OF_LOCK =  FALSE" for instance <PLL_BASE_inst_t> in unit <xaui_infrastructure>.
+    Set user-defined property "BANDWIDTH =  OPTIMIZED" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKFBOUT_MULT =  4" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKFBOUT_PHASE =  0.000000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKIN_PERIOD =  6.400000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT0_DIVIDE =  4" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT0_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT0_PHASE =  0.000000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT1_DIVIDE =  2" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT1_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT1_PHASE =  0.000000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT2_DIVIDE =  1" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT2_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT2_PHASE =  0.000000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT3_DIVIDE =  1" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT3_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT3_PHASE =  0.000000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT4_DIVIDE =  1" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT4_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT4_PHASE =  0.000000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT5_DIVIDE =  1" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT5_DUTY_CYCLE =  0.500000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLKOUT5_PHASE =  0.000000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "CLK_FEEDBACK =  CLKFBOUT" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "COMPENSATION =  SYSTEM_SYNCHRONOUS" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "DIVCLK_DIVIDE =  1" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "REF_JITTER =  0.100000" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+    Set user-defined property "RESET_ON_LOSS_OF_LOCK =  FALSE" for instance <PLL_BASE_inst_b> in unit <xaui_infrastructure>.
+Analyzing module <transceiver_bank> in library <xaui_infrastructure_v1_00_a>.
+	DIFF_BOOST = "TRUE"
+	RX_POLARITY_HACK = 4'b0101
+	TX_POLARITY_HACK = 4'b1010
+Module <transceiver_bank> is correct for synthesis.
+ 
+Analyzing module <transceiver.1> in library <xaui_infrastructure_v1_00_a>.
+	CHAN_BOND_LEVEL_0 = 32'sb00000000000000000000000000000001
+	CHAN_BOND_LEVEL_1 = 32'sb00000000000000000000000000000000
+	CHAN_BOND_MODE_0 = "MASTER"
+	CHAN_BOND_MODE_1 = "SLAVE"
+	DIFF_BOOST = "TRUE"
+	LOOPTYPE = 32'sb00000000000000000000000000000001
+	LOOPTYPE_FAR_PARALLEL = 32'sb00000000000000000000000000000010
+	LOOPTYPE_FAR_SERIAL = 32'sb00000000000000000000000000000011
+	LOOPTYPE_NEAR_PARALLEL = 32'sb00000000000000000000000000000000
+	LOOPTYPE_NEAR_SERIAL = 32'sb00000000000000000000000000000001
+	RX_POLARITY_HACK_0 = 1'b1
+	RX_POLARITY_HACK_1 = 1'b0
+	TILE_CHAN_BOND_LEVEL_0 = 32'sb00000000000000000000000000000001
+	TILE_CHAN_BOND_LEVEL_1 = 32'sb00000000000000000000000000000000
+	TILE_CHAN_BOND_MODE_0 = "MASTER"
+	TILE_CHAN_BOND_MODE_1 = "SLAVE"
+	TX_POLARITY_HACK_0 = 1'b0
+	TX_POLARITY_HACK_1 = 1'b1
+Module <transceiver.1> is correct for synthesis.
+ 
+    Set user-defined property "AC_CAP_DIS_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "AC_CAP_DIS_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "ALIGN_COMMA_WORD_0 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "ALIGN_COMMA_WORD_1 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_1_MAX_SKEW_0 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_1_MAX_SKEW_1 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_2_MAX_SKEW_0 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_2_MAX_SKEW_1 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_LEVEL_0 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_LEVEL_1 =  0" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_MODE_0 =  MASTER" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_MODE_1 =  SLAVE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_1_0 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_1_1 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_ENABLE_0 =  0001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_1_ENABLE_1 =  0001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_1_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_1_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_ENABLE_0 =  0000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_ENABLE_1 =  0000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_USE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_2_USE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_LEN_0 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CHAN_BOND_SEQ_LEN_1 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK25_DIVIDER =  10" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLKINDC_B =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_CORRECT_USE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_CORRECT_USE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_ADJ_LEN_0 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_ADJ_LEN_1 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_DET_LEN_0 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_DET_LEN_1 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_INSERT_IDLE_FLAG_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_INSERT_IDLE_FLAG_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_KEEP_IDLE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_KEEP_IDLE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_MAX_LAT_0 =  18" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_MAX_LAT_1 =  18" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_MIN_LAT_0 =  16" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_MIN_LAT_1 =  16" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_PRECEDENCE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_PRECEDENCE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_REPEAT_WAIT_0 =  0" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_REPEAT_WAIT_1 =  0" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_1_0 =  0100011100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_1_1 =  0100011100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_ENABLE_0 =  0001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_1_ENABLE_1 =  0001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_1_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_1_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_ENABLE_0 =  0000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_ENABLE_1 =  0000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_USE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "CLK_COR_SEQ_2_USE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "COMMA_10B_ENABLE_0 =  0001111111" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "COMMA_10B_ENABLE_1 =  0001111111" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "COMMA_DOUBLE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "COMMA_DOUBLE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "COM_BURST_VAL_0 =  1111" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "COM_BURST_VAL_1 =  1111" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "DEC_MCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "DEC_MCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "DEC_PCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "DEC_PCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "DEC_VALID_COMMA_ONLY_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "DEC_VALID_COMMA_ONLY_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "MCOMMA_10B_VALUE_0 =  1010000011" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "MCOMMA_10B_VALUE_1 =  1010000011" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "MCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "MCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "OOBDETECT_THRESHOLD_0 =  001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "OOBDETECT_THRESHOLD_1 =  001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "OOB_CLK_DIVIDER =  6" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "OVERSAMPLE_MODE =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PCI_EXPRESS_MODE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PCI_EXPRESS_MODE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PCOMMA_10B_VALUE_0 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PCOMMA_10B_VALUE_1 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PCS_COM_CFG =  1680A0E" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_DIVSEL_FB =  2" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_DIVSEL_REF =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_RXDIVSEL_OUT_0 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_RXDIVSEL_OUT_1 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_SATA_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_SATA_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_TXDIVSEL_COMM_OUT =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_TXDIVSEL_OUT_0 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PLL_TXDIVSEL_OUT_1 =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PMA_CDR_SCAN_0 =  6C07640" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PMA_CDR_SCAN_1 =  6C07640" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PMA_RX_CFG_0 =  09F0088" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PMA_RX_CFG_1 =  09F0088" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PRBS_ERR_THRESHOLD_0 =  00000001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "PRBS_ERR_THRESHOLD_1 =  00000001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RCV_TERM_GND_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RCV_TERM_GND_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RCV_TERM_MID_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RCV_TERM_MID_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RCV_TERM_VTTRX_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RCV_TERM_VTTRX_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_BUFFER_USE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_BUFFER_USE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_DECODE_SEQ_MATCH_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_DECODE_SEQ_MATCH_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_LOSS_OF_SYNC_FSM_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_LOSS_OF_SYNC_FSM_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_LOS_INVALID_INCR_0 =  8" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_LOS_INVALID_INCR_1 =  8" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_LOS_THRESHOLD_0 =  128" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_LOS_THRESHOLD_1 =  128" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_SLIDE_MODE_0 =  PCS" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_SLIDE_MODE_1 =  PCS" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_STATUS_FMT_0 =  PCIE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_STATUS_FMT_1 =  PCIE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_XCLK_SEL_0 =  RXREC" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "RX_XCLK_SEL_1 =  RXREC" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_BURST_VAL_0 =  100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_BURST_VAL_1 =  100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_IDLE_VAL_0 =  100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_IDLE_VAL_1 =  100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MAX_BURST_0 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MAX_BURST_1 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MAX_INIT_0 =  22" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MAX_INIT_1 =  22" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MAX_WAKE_0 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MAX_WAKE_1 =  7" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MIN_BURST_0 =  4" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MIN_BURST_1 =  4" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MIN_INIT_0 =  12" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MIN_INIT_1 =  12" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MIN_WAKE_0 =  4" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SATA_MIN_WAKE_1 =  4" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SIM_GTPRESET_SPEEDUP =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SIM_MODE =  FAST" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SIM_PLL_PERDIV2 =  001" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SIM_RECEIVER_DETECT_PASS0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "SIM_RECEIVER_DETECT_PASS1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TERMINATION_CTRL =  10100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TERMINATION_IMP_0 =  50" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TERMINATION_IMP_1 =  50" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TERMINATION_OVRD =  FALSE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TRANS_TIME_FROM_P2_0 =  0060" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TRANS_TIME_FROM_P2_1 =  0060" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TRANS_TIME_NON_P2_0 =  0025" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TRANS_TIME_NON_P2_1 =  0025" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TRANS_TIME_TO_P2_0 =  0100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TRANS_TIME_TO_P2_1 =  0100" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TXRX_INVERT_0 =  00000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TXRX_INVERT_1 =  00000" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TX_BUFFER_USE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TX_BUFFER_USE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TX_DIFF_BOOST_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TX_DIFF_BOOST_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TX_SYNC_FILTERB =  1" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TX_XCLK_SEL_0 =  TXOUT" for instance <gtp_dual_i> in unit <transceiver.1>.
+    Set user-defined property "TX_XCLK_SEL_1 =  TXOUT" for instance <gtp_dual_i> in unit <transceiver.1>.
+Analyzing module <transceiver.2> in library <xaui_infrastructure_v1_00_a>.
+	CHAN_BOND_LEVEL_0 = 32'sb00000000000000000000000000000000
+	CHAN_BOND_LEVEL_1 = 32'sb00000000000000000000000000000000
+	CHAN_BOND_MODE_0 = "SLAVE"
+	CHAN_BOND_MODE_1 = "SLAVE"
+	DIFF_BOOST = "TRUE"
+	LOOPTYPE = 32'sb00000000000000000000000000000001
+	LOOPTYPE_FAR_PARALLEL = 32'sb00000000000000000000000000000010
+	LOOPTYPE_FAR_SERIAL = 32'sb00000000000000000000000000000011
+	LOOPTYPE_NEAR_PARALLEL = 32'sb00000000000000000000000000000000
+	LOOPTYPE_NEAR_SERIAL = 32'sb00000000000000000000000000000001
+	RX_POLARITY_HACK_0 = 1'b1
+	RX_POLARITY_HACK_1 = 1'b0
+	TILE_CHAN_BOND_LEVEL_0 = 32'sb00000000000000000000000000000000
+	TILE_CHAN_BOND_LEVEL_1 = 32'sb00000000000000000000000000000000
+	TILE_CHAN_BOND_MODE_0 = "SLAVE"
+	TILE_CHAN_BOND_MODE_1 = "SLAVE"
+	TX_POLARITY_HACK_0 = 1'b0
+	TX_POLARITY_HACK_1 = 1'b1
+Module <transceiver.2> is correct for synthesis.
+ 
+    Set user-defined property "AC_CAP_DIS_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "AC_CAP_DIS_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "ALIGN_COMMA_WORD_0 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "ALIGN_COMMA_WORD_1 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_1_MAX_SKEW_0 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_1_MAX_SKEW_1 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_2_MAX_SKEW_0 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_2_MAX_SKEW_1 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_LEVEL_0 =  0" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_LEVEL_1 =  0" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_MODE_0 =  SLAVE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_MODE_1 =  SLAVE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_1_0 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_1_1 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_ENABLE_0 =  0001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_1_ENABLE_1 =  0001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_1_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_1_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_ENABLE_0 =  0000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_ENABLE_1 =  0000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_USE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_2_USE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_LEN_0 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CHAN_BOND_SEQ_LEN_1 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK25_DIVIDER =  10" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLKINDC_B =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_CORRECT_USE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_CORRECT_USE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_ADJ_LEN_0 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_ADJ_LEN_1 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_DET_LEN_0 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_DET_LEN_1 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_INSERT_IDLE_FLAG_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_INSERT_IDLE_FLAG_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_KEEP_IDLE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_KEEP_IDLE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_MAX_LAT_0 =  18" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_MAX_LAT_1 =  18" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_MIN_LAT_0 =  16" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_MIN_LAT_1 =  16" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_PRECEDENCE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_PRECEDENCE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_REPEAT_WAIT_0 =  0" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_REPEAT_WAIT_1 =  0" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_1_0 =  0100011100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_1_1 =  0100011100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_ENABLE_0 =  0001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_1_ENABLE_1 =  0001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_1_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_1_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_2_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_2_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_3_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_3_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_4_0 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_4_1 =  0000000000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_ENABLE_0 =  0000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_ENABLE_1 =  0000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_USE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "CLK_COR_SEQ_2_USE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "COMMA_10B_ENABLE_0 =  0001111111" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "COMMA_10B_ENABLE_1 =  0001111111" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "COMMA_DOUBLE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "COMMA_DOUBLE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "COM_BURST_VAL_0 =  1111" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "COM_BURST_VAL_1 =  1111" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "DEC_MCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "DEC_MCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "DEC_PCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "DEC_PCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "DEC_VALID_COMMA_ONLY_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "DEC_VALID_COMMA_ONLY_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "MCOMMA_10B_VALUE_0 =  1010000011" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "MCOMMA_10B_VALUE_1 =  1010000011" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "MCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "MCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "OOBDETECT_THRESHOLD_0 =  001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "OOBDETECT_THRESHOLD_1 =  001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "OOB_CLK_DIVIDER =  6" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "OVERSAMPLE_MODE =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PCI_EXPRESS_MODE_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PCI_EXPRESS_MODE_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PCOMMA_10B_VALUE_0 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PCOMMA_10B_VALUE_1 =  0101111100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PCOMMA_DETECT_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PCOMMA_DETECT_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PCS_COM_CFG =  1680A0E" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_DIVSEL_FB =  2" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_DIVSEL_REF =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_RXDIVSEL_OUT_0 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_RXDIVSEL_OUT_1 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_SATA_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_SATA_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_TXDIVSEL_COMM_OUT =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_TXDIVSEL_OUT_0 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PLL_TXDIVSEL_OUT_1 =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PMA_CDR_SCAN_0 =  6C07640" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PMA_CDR_SCAN_1 =  6C07640" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PMA_RX_CFG_0 =  09F0088" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PMA_RX_CFG_1 =  09F0088" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PRBS_ERR_THRESHOLD_0 =  00000001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "PRBS_ERR_THRESHOLD_1 =  00000001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RCV_TERM_GND_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RCV_TERM_GND_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RCV_TERM_MID_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RCV_TERM_MID_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RCV_TERM_VTTRX_0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RCV_TERM_VTTRX_1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_BUFFER_USE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_BUFFER_USE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_DECODE_SEQ_MATCH_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_DECODE_SEQ_MATCH_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_LOSS_OF_SYNC_FSM_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_LOSS_OF_SYNC_FSM_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_LOS_INVALID_INCR_0 =  8" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_LOS_INVALID_INCR_1 =  8" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_LOS_THRESHOLD_0 =  128" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_LOS_THRESHOLD_1 =  128" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_SLIDE_MODE_0 =  PCS" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_SLIDE_MODE_1 =  PCS" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_STATUS_FMT_0 =  PCIE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_STATUS_FMT_1 =  PCIE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_XCLK_SEL_0 =  RXREC" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "RX_XCLK_SEL_1 =  RXREC" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_BURST_VAL_0 =  100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_BURST_VAL_1 =  100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_IDLE_VAL_0 =  100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_IDLE_VAL_1 =  100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MAX_BURST_0 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MAX_BURST_1 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MAX_INIT_0 =  22" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MAX_INIT_1 =  22" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MAX_WAKE_0 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MAX_WAKE_1 =  7" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MIN_BURST_0 =  4" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MIN_BURST_1 =  4" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MIN_INIT_0 =  12" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MIN_INIT_1 =  12" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MIN_WAKE_0 =  4" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SATA_MIN_WAKE_1 =  4" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SIM_GTPRESET_SPEEDUP =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SIM_MODE =  FAST" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SIM_PLL_PERDIV2 =  001" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SIM_RECEIVER_DETECT_PASS0 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "SIM_RECEIVER_DETECT_PASS1 =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TERMINATION_CTRL =  10100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TERMINATION_IMP_0 =  50" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TERMINATION_IMP_1 =  50" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TERMINATION_OVRD =  FALSE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TRANS_TIME_FROM_P2_0 =  0060" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TRANS_TIME_FROM_P2_1 =  0060" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TRANS_TIME_NON_P2_0 =  0025" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TRANS_TIME_NON_P2_1 =  0025" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TRANS_TIME_TO_P2_0 =  0100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TRANS_TIME_TO_P2_1 =  0100" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TXRX_INVERT_0 =  00000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TXRX_INVERT_1 =  00000" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TX_BUFFER_USE_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TX_BUFFER_USE_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TX_DIFF_BOOST_0 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TX_DIFF_BOOST_1 =  TRUE" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TX_SYNC_FILTERB =  1" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TX_XCLK_SEL_0 =  TXOUT" for instance <gtp_dual_i> in unit <transceiver.2>.
+    Set user-defined property "TX_XCLK_SEL_1 =  TXOUT" for instance <gtp_dual_i> in unit <transceiver.2>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <transceiver_1>.
+    Related source file is "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/transceiver.v".
+WARNING:Xst:647 - Input <tx_reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <tied_to_vcc_vec_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <recclk> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXLOSSOFSYNC1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXLOSSOFSYNC0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCOMMADET1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCOMMADET0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCLKCORCNT1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCLKCORCNT0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANREALIGN1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANREALIGN0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANISALIGNED1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANISALIGNED0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANBONDSEQ1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANBONDSEQ0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEREALIGN1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEREALIGN0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEISALIGNED1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEISALIGNED0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RESETDONE1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RESETDONE0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DRDY_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DO_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <DI_IN> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+Unit <transceiver_1> synthesized.
+
+
+Synthesizing Unit <transceiver_2>.
+    Related source file is "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/transceiver.v".
+WARNING:Xst:647 - Input <tx_reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <tied_to_vcc_vec_i> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <recclk> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXLOSSOFSYNC1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXLOSSOFSYNC0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCOMMADET1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCOMMADET0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCLKCORCNT1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCLKCORCNT0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANREALIGN1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANREALIGN0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANISALIGNED1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANISALIGNED0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANBONDSEQ1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXCHANBONDSEQ0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEREALIGN1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEREALIGN0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEISALIGNED1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RXBYTEISALIGNED0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RESETDONE1_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RESETDONE0_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DRDY_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DO_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <DI_IN> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+Unit <transceiver_2> synthesized.
+
+
+Synthesizing Unit <transceiver_bank>.
+    Related source file is "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/transceiver_bank.v".
+WARNING:Xst:646 - Signal <refclk_ret_nc> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <transceiver_bank> synthesized.
+
+
+Synthesizing Unit <xaui_infrastructure>.
+    Related source file is "/scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v".
+WARNING:Xst:647 - Input <mgt_powerdown_1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_powerdown_2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xaui_infrastructure> synthesized.
+
+
+Synthesizing Unit <xaui_infrastructure_inst_wrapper>.
+    Related source file is "../hdl/xaui_infrastructure_inst_wrapper.v".
+WARNING:Xst:647 - Input <mgt_rx_reset_0<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_reset_1<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_reset_2<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_reset_3<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_tx_reset_0<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_tx_reset_1<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_tx_reset_2<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_tx_reset_3<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xaui_infrastructure_inst_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance PLL_BASE_inst_t in unit xaui_infrastructure of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:1901 - Instance PLL_BASE_inst_b in unit xaui_infrastructure of type PLL_BASE has been replaced by PLL_ADV
+
+Optimizing unit <xaui_infrastructure_inst_wrapper> ...
+
+Optimizing unit <transceiver_1> ...
+
+Optimizing unit <transceiver_2> ...
+
+Optimizing unit <xaui_infrastructure> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/xaui_infrastructure_inst_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 867
+
+Cell Usage :
+# BELS                             : 456
+#      GND                         : 1
+#      INV                         : 4
+#      LUT3                        : 360
+#      LUT4                        : 18
+#      LUT5                        : 40
+#      LUT6                        : 16
+#      MUXF7                       : 16
+#      VCC                         : 1
+# Clock Buffers                    : 6
+#      BUFG                        : 6
+# IO Buffers                       : 2
+#      IBUFDS                      : 2
+# GigabitIOs                       : 8
+#      GTP_DUAL                    : 8
+# Others                           : 2
+#      PLL_ADV                     : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  438  out of  58880     0%  
+    Number used as Logic:               438  out of  58880     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    438
+   Number with an unused Flip Flop:     438  out of    438   100%  
+   Number with an unused LUT:             0  out of    438     0%  
+   Number of fully used LUT-FF pairs:     0  out of    438     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         867
+ Number of bonded IOBs:                 356  out of    640    55%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                6  out of     32    18%  
+ Number of PLL_ADVs:                      2  out of      6    33%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------+---------------------------------------------------------------------------+-------+
+Clock Signal                                 | Clock buffer(FF name)                                                     | Load  |
+---------------------------------------------+---------------------------------------------------------------------------+-------+
+xaui_infrastructure_inst/mgt_clk_int_t       | BUFG                                                                      | 4     |
+N0                                           | NONE(xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/gtp_dual_i)| 8     |
+xaui_infrastructure_inst/mgt_clk_mult_2_int_t| BUFG                                                                      | 4     |
+xaui_infrastructure_inst/mgt_clk_int_b       | BUFG                                                                      | 4     |
+xaui_infrastructure_inst/mgt_clk_mult_2_int_b| BUFG                                                                      | 4     |
+---------------------------------------------+---------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                   | Buffer(FF name)                                                           | Load  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+N0(XST_GND:G)                                                                                                                                                    | NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i)| 552   |
+mgt_syncok_3<0>(XST_VCC:P)                                                                                                                                       | NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i)| 264   |
+mgt_powerdown_0                                                                                                                                                  | NONE                                                                      | 48    |
+mgt_powerdown_3                                                                                                                                                  | NONE                                                                      | 48    |
+mgt_txdiffctrl_0<0>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_0<1>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_0<2>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_1<0>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_1<1>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_1<2>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_2<0>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_2<1>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_2<2>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_3<0>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_3<1>                                                                                                                                              | NONE                                                                      | 24    |
+mgt_txdiffctrl_3<2>                                                                                                                                              | NONE                                                                      | 24    |
+reset                                                                                                                                                            | NONE                                                                      | 24    |
+mgt_loopback_0                                                                                                                                                   | NONE                                                                      | 12    |
+mgt_loopback_1                                                                                                                                                   | NONE                                                                      | 12    |
+mgt_loopback_2                                                                                                                                                   | NONE                                                                      | 12    |
+mgt_loopback_3                                                                                                                                                   | NONE                                                                      | 12    |
+mgt_refclk_b_p                                                                                                                                                   | IBUFDS                                                                    | 12    |
+mgt_refclk_t_p                                                                                                                                                   | IBUFDS                                                                    | 12    |
+mgt_rx_reset_0<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rx_reset_1<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rx_reset_2<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rx_reset_3<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqmix_0<0>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqmix_0<1>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqmix_1<0>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqmix_1<1>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqmix_2<0>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqmix_2<1>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqmix_3<0>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqmix_3<1>                                                                                                                                                 | NONE                                                                      | 12    |
+mgt_rxeqpole_0<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_0<1>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_0<2>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_0<3>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_1<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_1<1>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_1<2>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_1<3>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_2<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_2<1>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_2<2>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_2<3>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_3<0>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_3<1>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_3<2>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_rxeqpole_3<3>                                                                                                                                                | NONE                                                                      | 12    |
+mgt_txpreemphasis_0<0>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_0<1>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_0<2>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_1<0>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_1<1>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_1<2>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_2<0>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_2<1>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_2<2>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_3<0>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_3<1>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_txpreemphasis_3<2>                                                                                                                                           | NONE                                                                      | 12    |
+mgt_rx_b0_n<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b0_n<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b0_n<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b0_n<3>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b0_p<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b0_p<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b0_p<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b0_p<3>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_n<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_n<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_n<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_n<3>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_p<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_p<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_p<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_b1_p<3>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_n<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_n<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_n<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_n<3>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_p<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_p<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_p<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t0_p<3>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_n<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_n<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_n<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_n<3>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_p<0>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_p<1>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_p<2>                                                                                                                                                   | NONE                                                                      | 3     |
+mgt_rx_t1_p<3>                                                                                                                                                   | NONE                                                                      | 3     |
+xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_0/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_1/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_2/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_3/transceiver_0/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/rxelecidlereset0_i(xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/rxelecidlereset0_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/rxelecidlereset1_i(xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/rxelecidlereset1_i1:O)    | NONE(xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/gtp_dual_i)| 3     |
+xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/rxenelecidleresetb_i(xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/rxenelecidleresetb_i1:O)| NONE(xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/gtp_dual_i)| 3     |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 0.809ns
+   Maximum output required time after clock: 2.505ns
+   Maximum combinational path delay: 1.081ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xaui_infrastructure_inst/mgt_clk_int_t'
+  Total number of paths / destination ports: 136 / 104
+-------------------------------------------------------------------------
+Offset:              0.809ns (Levels of Logic = 1)
+  Source:            mgt_loopback_3 (PAD)
+  Destination:       xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/gtp_dual_i (HSIO)
+  Destination Clock: xaui_infrastructure_inst/mgt_clk_int_t rising
+
+  Data Path: mgt_loopback_3 to xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/gtp_dual_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT3:I0->O            2   0.094   0.341  xaui_infrastructure_inst/mgt_enable_align_int_3<3>1 (xaui_infrastructure_inst/mgt_enable_align_int_3<3>)
+     GTP_DUAL:RXENMCOMMAALIGN1       -0.303          xaui_infrastructure_inst/transceiver_bank_3/transceiver_1/gtp_dual_i
+    ----------------------------------------
+    Total                      0.809ns (0.468ns logic, 0.341ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xaui_infrastructure_inst/mgt_clk_int_b'
+  Total number of paths / destination ports: 136 / 104
+-------------------------------------------------------------------------
+Offset:              0.809ns (Levels of Logic = 1)
+  Source:            mgt_loopback_1 (PAD)
+  Destination:       xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/gtp_dual_i (HSIO)
+  Destination Clock: xaui_infrastructure_inst/mgt_clk_int_b rising
+
+  Data Path: mgt_loopback_1 to xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/gtp_dual_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT3:I0->O            2   0.094   0.341  xaui_infrastructure_inst/mgt_enable_align_int_1<3>1 (xaui_infrastructure_inst/mgt_enable_align_int_1<3>)
+     GTP_DUAL:RXENMCOMMAALIGN1       -0.303          xaui_infrastructure_inst/transceiver_bank_1/transceiver_1/gtp_dual_i
+    ----------------------------------------
+    Total                      0.809ns (0.468ns logic, 0.341ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'xaui_infrastructure_inst/mgt_clk_int_b'
+  Total number of paths / destination ports: 228 / 184
+-------------------------------------------------------------------------
+Offset:              2.505ns (Levels of Logic = 2)
+  Source:            xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i (HSIO)
+  Destination:       mgt_rxbufferr_0<1> (PAD)
+  Source Clock:      xaui_infrastructure_inst/mgt_clk_int_b rising
+
+  Data Path: xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i to mgt_rxbufferr_0<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     GTP_DUAL:RXUSRCLK21->RXBUFSTATUS12    4   1.168   0.989  xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/gtp_dual_i (xaui_infrastructure_inst/transceiver_bank_0/transceiver_0/RXBUFSTATUS1_OUT<2>)
+     LUT6:I1->O            1   0.094   0.000  xaui_infrastructure_inst/mgt_rxbufferr_0<1>11 (xaui_infrastructure_inst/mgt_rxbufferr_0<1>1)
+     MUXF7:I1->O           0   0.254   0.000  xaui_infrastructure_inst/mgt_rxbufferr_0<1>1_f7 (mgt_rxbufferr_0<1>)
+    ----------------------------------------
+    Total                      2.505ns (1.516ns logic, 0.989ns route)
+                                       (60.5% logic, 39.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'xaui_infrastructure_inst/mgt_clk_int_t'
+  Total number of paths / destination ports: 228 / 184
+-------------------------------------------------------------------------
+Offset:              2.505ns (Levels of Logic = 2)
+  Source:            xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/gtp_dual_i (HSIO)
+  Destination:       mgt_rxbufferr_2<1> (PAD)
+  Source Clock:      xaui_infrastructure_inst/mgt_clk_int_t rising
+
+  Data Path: xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/gtp_dual_i to mgt_rxbufferr_2<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     GTP_DUAL:RXUSRCLK21->RXBUFSTATUS12    4   1.168   0.989  xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/gtp_dual_i (xaui_infrastructure_inst/transceiver_bank_2/transceiver_0/RXBUFSTATUS1_OUT<2>)
+     LUT6:I1->O            1   0.094   0.000  xaui_infrastructure_inst/mgt_rxbufferr_2<1>11 (xaui_infrastructure_inst/mgt_rxbufferr_2<1>1)
+     MUXF7:I1->O           0   0.254   0.000  xaui_infrastructure_inst/mgt_rxbufferr_2<1>1_f7 (mgt_rxbufferr_2<1>)
+    ----------------------------------------
+    Total                      2.505ns (1.516ns logic, 0.989ns route)
+                                       (60.5% logic, 39.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 406 / 388
+-------------------------------------------------------------------------
+Delay:               1.081ns (Levels of Logic = 2)
+  Source:            mgt_loopback_0 (PAD)
+  Destination:       mgt_rxbufferr_0<3> (PAD)
+
+  Data Path: mgt_loopback_0 to mgt_rxbufferr_0<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT6:I0->O            1   0.094   0.000  xaui_infrastructure_inst/mgt_rxbufferr_0<3>11 (xaui_infrastructure_inst/mgt_rxbufferr_0<3>1)
+     MUXF7:I1->O           0   0.254   0.000  xaui_infrastructure_inst/mgt_rxbufferr_0<3>1_f7 (mgt_rxbufferr_0<3>)
+    ----------------------------------------
+    Total                      1.081ns (1.081ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.43 secs
+ 
+--> 
+
+
+Total memory usage is 432700 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   67 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

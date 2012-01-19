@@ -1,0 +1,1 @@
+/tools/xilinx/11.5/DSP_Tools/lin64/sysgen/bin/saferun -a /scratch/zaki/workspace/roachfengine/roachf_2048ch/sysgen/roachf_2048ch_cw_import.log -- /tools/xilinx/11.5/ISE/bin/lin64/xtclsh roachf_2048ch_cw_import.tcl

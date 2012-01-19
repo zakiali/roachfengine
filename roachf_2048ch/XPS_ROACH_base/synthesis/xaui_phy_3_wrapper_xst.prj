@@ -1,0 +1,13 @@
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/xaui_phy.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/xaui_v7_2.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/deskew_state.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/fix_term.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/pcs_deskew.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/pcs_rx.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/pcs_sync.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/pcs_tx.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/sync_state.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/tx_state.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/xaui_kat.v
+verilog xaui_phy_v1_00_a /scratch/zaki/workspace/roachfengine/roachf_2048ch/XPS_ROACH_base/pcores/xaui_phy_v1_00_a/hdl/verilog/xaui_kat.vh
+verilog work ../hdl/xaui_phy_3_wrapper.v

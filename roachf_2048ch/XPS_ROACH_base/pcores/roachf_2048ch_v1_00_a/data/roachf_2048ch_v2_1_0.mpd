@@ -1,0 +1,173 @@
+#############################################################################
+##
+## IP Name  : roachf_2048ch
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+BEGIN roachf_2048ch
+
+###################
+# Generic Options #
+###################
+OPTION IPTYPE = IP
+OPTION STYLE  = BLACKBOX
+
+###################
+# Clock port      #
+###################
+PORT clk = "", DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+
+###################
+# Interfaces      #
+###################
+
+# roachf_2048ch/XSG core config
+
+# roachf_2048ch/2GPU/gbe_gpu
+PORT roachf_2048ch_2GPU_gbe_gpu_led_rx = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_led_tx = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_led_up = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_bad_frame = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_data = "", DIR = in, VEC = [63:0]
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_end_of_frame = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_overrun = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_source_ip = "", DIR = in, VEC = [31:0]
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_source_port = "", DIR = in, VEC = [15:0]
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_valid = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_tx_afull = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_tx_overflow = "", DIR = in
+PORT roachf_2048ch_2GPU_gbe_gpu_rst = "", DIR = out
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_ack = "", DIR = out
+PORT roachf_2048ch_2GPU_gbe_gpu_rx_overrun_ack = "", DIR = out
+PORT roachf_2048ch_2GPU_gbe_gpu_tx_data = "", DIR = out, VEC = [63:0]
+PORT roachf_2048ch_2GPU_gbe_gpu_tx_dest_ip = "", DIR = out, VEC = [31:0]
+PORT roachf_2048ch_2GPU_gbe_gpu_tx_dest_port = "", DIR = out, VEC = [15:0]
+PORT roachf_2048ch_2GPU_gbe_gpu_tx_end_of_frame = "", DIR = out
+PORT roachf_2048ch_2GPU_gbe_gpu_tx_valid = "", DIR = out
+
+# roachf_2048ch/ADCs/quadc0
+PORT roachf_2048ch_ADCs_quadc0_adc0_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc0_adc1_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc0_adc2_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc0_adc3_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc0_sync = "", DIR = in
+PORT roachf_2048ch_ADCs_quadc0_valid = "", DIR = in
+
+# roachf_2048ch/ADCs/quadc1
+PORT roachf_2048ch_ADCs_quadc1_adc0_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc1_adc1_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc1_adc2_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc1_adc3_data = "", DIR = in, VEC = [7:0]
+PORT roachf_2048ch_ADCs_quadc1_sync = "", DIR = in
+PORT roachf_2048ch_ADCs_quadc1_valid = "", DIR = in
+
+# roachf_2048ch/LEDs/led1_arm
+PORT roachf_2048ch_LEDs_led1_arm_gateway = "", DIR = out
+
+# roachf_2048ch/LEDs/led2_sync
+PORT roachf_2048ch_LEDs_led2_sync_gateway = "", DIR = out
+
+# roachf_2048ch/LEDs/led4_eq_clip
+PORT roachf_2048ch_LEDs_led4_eq_clip_gateway = "", DIR = out
+
+# roachf_2048ch/LEDs/led5_adc_clip
+PORT roachf_2048ch_LEDs_led5_adc_clip_gateway = "", DIR = out
+
+# roachf_2048ch/Loopback/loop_cnt0
+PORT roachf_2048ch_Loopback_loop_cnt0_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roachf_2048ch/Loopback/loop_err_cnt0
+PORT roachf_2048ch_Loopback_loop_err_cnt0_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roachf_2048ch/Loopback/loopback_mux0/mcnt
+PORT roachf_2048ch_Loopback_loopback_mux0_mcnt_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roachf_2048ch/Loopback/statii
+PORT roachf_2048ch_Loopback_statii_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roachf_2048ch/Switch/gbe_sw
+PORT roachf_2048ch_Switch_gbe_sw_led_rx = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_led_tx = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_led_up = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_rx_bad_frame = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_rx_data = "", DIR = in, VEC = [63:0]
+PORT roachf_2048ch_Switch_gbe_sw_rx_end_of_frame = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_rx_overrun = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_rx_source_ip = "", DIR = in, VEC = [31:0]
+PORT roachf_2048ch_Switch_gbe_sw_rx_source_port = "", DIR = in, VEC = [15:0]
+PORT roachf_2048ch_Switch_gbe_sw_rx_valid = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_tx_afull = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_tx_overflow = "", DIR = in
+PORT roachf_2048ch_Switch_gbe_sw_rst = "", DIR = out
+PORT roachf_2048ch_Switch_gbe_sw_rx_ack = "", DIR = out
+PORT roachf_2048ch_Switch_gbe_sw_rx_overrun_ack = "", DIR = out
+PORT roachf_2048ch_Switch_gbe_sw_tx_data = "", DIR = out, VEC = [63:0]
+PORT roachf_2048ch_Switch_gbe_sw_tx_dest_ip = "", DIR = out, VEC = [31:0]
+PORT roachf_2048ch_Switch_gbe_sw_tx_dest_port = "", DIR = out, VEC = [15:0]
+PORT roachf_2048ch_Switch_gbe_sw_tx_end_of_frame = "", DIR = out
+PORT roachf_2048ch_Switch_gbe_sw_tx_valid = "", DIR = out
+
+# roachf_2048ch/Transpose/dbuf_ct_bram/Shared BRAM
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_out = "", DIR = in, VEC = [31:0]
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_addr = "", DIR = out, VEC = [14:0]
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_data_in = "", DIR = out, VEC = [31:0]
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM_we = "", DIR = out
+
+# roachf_2048ch/Transpose/dbuf_ct_bram/Shared BRAM1
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_out = "", DIR = in, VEC = [31:0]
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_addr = "", DIR = out, VEC = [14:0]
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_data_in = "", DIR = out, VEC = [31:0]
+PORT roachf_2048ch_Transpose_dbuf_ct_bram_Shared_BRAM1_we = "", DIR = out
+
+# roachf_2048ch/control/ctl_regs/ant_base
+PORT roachf_2048ch_control_ctl_regs_ant_base_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/ctl_regs/feng_ctl
+PORT roachf_2048ch_control_ctl_regs_feng_ctl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/ctl_regs/gbe_sw_port
+PORT roachf_2048ch_control_ctl_regs_gbe_sw_port_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/ctl_regs/gpu_ip
+PORT roachf_2048ch_control_ctl_regs_gpu_ip_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/ctl_regs/gpu_port
+PORT roachf_2048ch_control_ctl_regs_gpu_port_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/ctl_regs/ip_base
+PORT roachf_2048ch_control_ctl_regs_ip_base_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/ctl_regs/my_ip
+PORT roachf_2048ch_control_ctl_regs_my_ip_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/delay/delay
+PORT roachf_2048ch_control_delay_delay_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/eq_coefs/eq0_ctl
+PORT roachf_2048ch_control_eq_coefs_eq0_ctl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/eq_coefs/eq1_ctl
+PORT roachf_2048ch_control_eq_coefs_eq1_ctl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/eq_coefs/eq2_ctl
+PORT roachf_2048ch_control_eq_coefs_eq2_ctl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/eq_coefs/eq3_ctl
+PORT roachf_2048ch_control_eq_coefs_eq3_ctl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/insel/insel
+PORT roachf_2048ch_control_insel_insel_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/control/seed/seed_data
+PORT roachf_2048ch_control_seed_seed_data_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roachf_2048ch/status/gbe_gpu
+PORT roachf_2048ch_status_gbe_gpu_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roachf_2048ch/status/gbe_sw
+PORT roachf_2048ch_status_gbe_sw_user_data_in = "", DIR = out, VEC = [31:0]
+
+END

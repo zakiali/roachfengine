@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="65" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78619)]</arg> overrides constraint <arg fmt="%s" index="2">&lt;NET &quot;roachf_2048ch_ADCs_quadc0/roachf_2048ch_ADCs_quadc0/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78617)]</arg>.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="65" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78623)]</arg> overrides constraint <arg fmt="%s" index="2">&lt;NET &quot;roachf_2048ch_ADCs_quadc1/roachf_2048ch_ADCs_quadc1/adc0_clk_in&quot; PERIOD =         5 ns HIGH 50%;&gt; [system.pcf(78621)]</arg>.
+</msg>
+
+<msg type="info" file="Timing" num="2752" delta="new" >To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in the unconstrained paths section(s) of the report.</msg>
+
+<msg type="info" file="Timing" num="3339" delta="new" >The clock-to-out numbers in this timing report are based on a 50 Ohm transmission line loading model.  For the details of this model, and for more information on accounting for different loading conditions, please see the device datasheet.</msg>
+
+</messages>
+
