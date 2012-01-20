@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.80"
+    ComputedModelVersion    "1.81"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -25,9 +25,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "zaki"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Dec 19 15:58:53 2011"
-  RTWModifiedTimeStamp	  246210675
-  ModelVersionFormat	  "1.%<AutoIncrement:80>"
+  LastModifiedDate	  "Thu Jan 19 22:59:40 2012"
+  RTWModifiedTimeStamp	  248914775
+  ModelVersionFormat	  "1.%<AutoIncrement:81>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -711,7 +711,7 @@ Model {
   }
   System {
     Name		    "roachf_2048ch"
-    Location		    [27, 125, 989, 695]
+    Location		    [25, 100, 987, 670]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -725,7 +725,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    3256
+    SIDHighWatermark	    3269
     Block {
       BlockType		      Reference
       Name		      " System Generator"
@@ -792,8 +792,8 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"2GPU"
-	Location		[80, 12, 936, 655]
-	Open			off
+	Location		[78, -13, 934, 630]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -820,7 +820,7 @@ Model {
 	  Name			  "Constant"
 	  SID			  3096
 	  Ports			  [0, 1]
-	  Position		  [555, 369, 585, 381]
+	  Position		  [615, 369, 645, 381]
 	  ShowName		  off
 	  LibraryVersion	  "1.2"
 	  SourceBlock		  "xbsIndex_r4/Constant"
@@ -860,7 +860,7 @@ Model {
 	  Name			  "Constant1"
 	  SID			  3097
 	  Ports			  [0, 1]
-	  Position		  [555, 389, 585, 401]
+	  Position		  [615, 389, 645, 401]
 	  ShowName		  off
 	  LibraryVersion	  "1.2"
 	  SourceBlock		  "xbsIndex_r4/Constant"
@@ -909,25 +909,16 @@ Model {
 	  BlockType		  From
 	  Name			  "From10"
 	  SID			  3087
-	  Position		  [470, 268, 560, 282]
+	  Position		  [530, 268, 620, 282]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "data2gpu"
 	}
 	Block {
 	  BlockType		  From
-	  Name			  "From11"
-	  SID			  3164
-	  Position		  [470, 288, 560, 302]
-	  ShowName		  off
-	  CloseFcn		  "tagdialog Close"
-	  GotoTag		  "valid2gpu"
-	}
-	Block {
-	  BlockType		  From
 	  Name			  "From12"
 	  SID			  3165
-	  Position		  [470, 348, 560, 362]
+	  Position		  [530, 348, 620, 362]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "eof2gpu"
@@ -936,10 +927,29 @@ Model {
 	  BlockType		  From
 	  Name			  "From13"
 	  SID			  3095
-	  Position		  [470, 248, 560, 262]
+	  Position		  [530, 248, 620, 262]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gbe_gpu_rst"
+	  TagVisibility		  "global"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From14"
+	  SID			  3269
+	  Position		  [340, 183, 430, 197]
+	  ShowName		  off
+	  CloseFcn		  "tagdialog Close"
+	  GotoTag		  "valid2gpu"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From15"
+	  SID			  3266
+	  Position		  [295, 163, 385, 177]
+	  ShowName		  off
+	  CloseFcn		  "tagdialog Close"
+	  GotoTag		  "gbe_gpu_disable"
 	  TagVisibility		  "global"
 	}
 	Block {
@@ -1006,7 +1016,7 @@ Model {
 	  BlockType		  From
 	  Name			  "From8"
 	  SID			  3058
-	  Position		  [470, 308, 560, 322]
+	  Position		  [530, 308, 620, 322]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gpu_ip"
@@ -1016,7 +1026,7 @@ Model {
 	  BlockType		  From
 	  Name			  "From9"
 	  SID			  3059
-	  Position		  [470, 328, 560, 342]
+	  Position		  [530, 328, 620, 342]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gpu_port"
@@ -1035,7 +1045,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto10"
 	  SID			  3167
-	  Position		  [795, 354, 870, 366]
+	  Position		  [855, 354, 930, 366]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_eof"
 	  TagVisibility		  "global"
@@ -1044,7 +1054,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto11"
 	  SID			  3168
-	  Position		  [795, 364, 870, 376]
+	  Position		  [855, 364, 930, 376]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_rx_bfr"
 	  TagVisibility		  "global"
@@ -1053,7 +1063,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto12"
 	  SID			  3169
-	  Position		  [795, 374, 880, 386]
+	  Position		  [855, 374, 940, 386]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_rx_orun"
 	  TagVisibility		  "global"
@@ -1062,7 +1072,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto13"
 	  SID			  3175
-	  Position		  [795, 325, 880, 335]
+	  Position		  [855, 325, 940, 335]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_rx_valid"
 	  TagVisibility		  "global"
@@ -1071,7 +1081,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto14"
 	  SID			  3176
-	  Position		  [795, 334, 870, 346]
+	  Position		  [855, 334, 930, 346]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_srcip"
 	  TagVisibility		  "global"
@@ -1080,7 +1090,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto15"
 	  SID			  3177
-	  Position		  [795, 344, 880, 356]
+	  Position		  [855, 344, 940, 356]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_src_prt"
 	  TagVisibility		  "global"
@@ -1098,7 +1108,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto3"
 	  SID			  3166
-	  Position		  [795, 265, 870, 275]
+	  Position		  [855, 265, 930, 275]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_led_up"
 	  TagVisibility		  "global"
@@ -1107,7 +1117,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto4"
 	  SID			  3170
-	  Position		  [795, 274, 870, 286]
+	  Position		  [855, 274, 930, 286]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_led_rx"
 	  TagVisibility		  "global"
@@ -1116,7 +1126,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto5"
 	  SID			  3171
-	  Position		  [795, 284, 870, 296]
+	  Position		  [855, 284, 930, 296]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_led_tx"
 	  TagVisibility		  "global"
@@ -1134,7 +1144,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto7"
 	  SID			  3172
-	  Position		  [795, 295, 880, 305]
+	  Position		  [855, 295, 940, 305]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_tx_afull"
 	  TagVisibility		  "global"
@@ -1143,7 +1153,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto8"
 	  SID			  3173
-	  Position		  [795, 304, 880, 316]
+	  Position		  [855, 304, 940, 316]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_tx_oflow"
 	  TagVisibility		  "global"
@@ -1152,10 +1162,72 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto9"
 	  SID			  3174
-	  Position		  [795, 314, 870, 326]
+	  Position		  [855, 314, 930, 326]
 	  ShowName		  off
 	  GotoTag		  "gbe_gpu_rx"
 	  TagVisibility		  "global"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Inverter"
+	  SID			  3267
+	  Ports			  [1, 1]
+	  Position		  [410, 163, 435, 177]
+	  ShowName		  off
+	  LibraryVersion	  "1.2"
+	  SourceBlock		  "xbsIndex_r4/Inverter"
+	  SourceType		  "Xilinx Inverter Block"
+	  infoedit		  "Bitwise logical negation (one's complement) operator."
+	  en			  off
+	  latency		  "0"
+	  dbl_ovrd		  off
+	  xl_use_area		  off
+	  xl_area		  "[0,0,0,0,0,0,0]"
+	  has_advanced_control	  "0"
+	  sggui_pos		  "20,20,432,344"
+	  block_type		  "inv"
+	  block_version		  "11.4"
+	  sg_icon_stat		  "25,14,1,1,white,blue,0,267846e5,right,"
+	  sg_mask_display	  "fprintf('','COMMENT: begin icon graphics');\npatch([0 1 1 0 ],[0 0 1 1 ],[0.77 0.82 0.91]);\npat"
+	  "ch([0.32 0.24 0.36 0.24 0.32 0.48 0.52 0.56 0.72 0.6 0.48 0.4 0.52 0.4 0.48 0.6 0.72 0.56 0.52 0.48 0.32 ],[0.14285"
+	  "7 0.285714 0.5 0.714286 0.857143 0.857143 0.785714 0.857143 0.857143 0.642857 0.857143 0.714286 0.5 0.285714 0.1428"
+	  "57 0.357143 0.142857 0.142857 0.214286 0.142857 0.142857 ],[0.98 0.96 0.92]);\nplot([0 1 1 0 0 ],[0 0 1 1 0 ]);\nfp"
+	  "rintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin icon text');\ncolor('black');disp('not');\nfpri"
+	  "ntf('','COMMENT: end icon text');\n"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Logical"
+	  SID			  3268
+	  Ports			  [2, 1]
+	  Position		  [475, 158, 495, 202]
+	  ShowName		  off
+	  LibraryVersion	  "1.2"
+	  SourceBlock		  "xbsIndex_r4/Logical"
+	  SourceType		  "Xilinx Logical Block Block"
+	  logical_function	  "AND"
+	  inputs		  "2"
+	  en			  off
+	  latency		  "0"
+	  precision		  "Full"
+	  arith_type		  "Unsigned"
+	  n_bits		  "16"
+	  bin_pt		  "0"
+	  align_bp		  on
+	  dbl_ovrd		  off
+	  xl_use_area		  off
+	  xl_area		  "[0,0,0,0,0,0,0]"
+	  has_advanced_control	  "0"
+	  sggui_pos		  "-1,-1,-1,-1"
+	  block_type		  "logical"
+	  block_version		  "11.4"
+	  sg_icon_stat		  "20,44,2,1,white,blue,0,0a851f85,right,"
+	  sg_mask_display	  "fprintf('','COMMENT: begin icon graphics');\npatch([0 1 1 0 ],[0 0 1 1 ],[0.77 0.82 0.91]);\npat"
+	  "ch([0.2 0.05 0.3 0.05 0.2 0.45 0.5 0.55 0.85 0.65 0.45 0.3 0.55 0.3 0.45 0.65 0.85 0.55 0.5 0.45 0.2 ],[0.318182 0."
+	  "386364 0.5 0.613636 0.681818 0.681818 0.659091 0.681818 0.681818 0.590909 0.681818 0.613636 0.5 0.386364 0.318182 0"
+	  ".409091 0.318182 0.318182 0.340909 0.318182 0.318182 ],[0.98 0.96 0.92]);\nplot([0 1 1 0 0 ],[0 0 1 1 0 ]);\nfprint"
+	  "f('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin icon text');\ncolor('black');disp('\\newlineand\\ne"
+	  "wlinez^{-0}','texmode','on');\nfprintf('','COMMENT: end icon text');\n"
 	}
 	Block {
 	  BlockType		  Terminator
@@ -1169,7 +1241,7 @@ Model {
 	  SID			  2712
 	  Tag			  "xps:tengbe_v2"
 	  Ports			  [8, 12]
-	  Position		  [615, 245, 775, 405]
+	  Position		  [675, 245, 835, 405]
 	  BackgroundColor	  "[1.000000, 1.000000, 0.000000]"
 	  LibraryVersion	  "1.436"
 	  SourceBlock		  "xps_library/ten_Gbe_v2"
@@ -2466,12 +2538,6 @@ Model {
 	  DstPort		  2
 	}
 	Line {
-	  SrcBlock		  "From11"
-	  SrcPort		  1
-	  DstBlock		  "gbe_gpu"
-	  DstPort		  3
-	}
-	Line {
 	  SrcBlock		  "pack-it"
 	  SrcPort		  1
 	  DstBlock		  "Goto6"
@@ -2584,6 +2650,31 @@ Model {
 	  SrcPort		  12
 	  DstBlock		  "Goto12"
 	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "From15"
+	  SrcPort		  1
+	  DstBlock		  "Inverter"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Inverter"
+	  SrcPort		  1
+	  DstBlock		  "Logical"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "From14"
+	  SrcPort		  1
+	  DstBlock		  "Logical"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Logical"
+	  SrcPort		  1
+	  Points		  [10, 0; 0, 115]
+	  DstBlock		  "gbe_gpu"
+	  DstPort		  3
 	}
       }
     }
@@ -47055,7 +47146,7 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"Switch"
-	Location		[5, -10, 642, 605]
+	Location		[193, 76, 974, 691]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -47170,6 +47261,16 @@ Model {
 	}
 	Block {
 	  BlockType		  From
+	  Name			  "From10"
+	  SID			  3264
+	  Position		  [400, 473, 490, 487]
+	  ShowName		  off
+	  CloseFcn		  "tagdialog Close"
+	  GotoTag		  "gbe_sw_tx_vld"
+	  TagVisibility		  "global"
+	}
+	Block {
+	  BlockType		  From
 	  Name			  "From108"
 	  SID			  1530
 	  Position		  [25, 301, 145, 319]
@@ -47212,7 +47313,7 @@ Model {
 	  BlockType		  From
 	  Name			  "From3"
 	  SID			  2569
-	  Position		  [535, 248, 625, 262]
+	  Position		  [620, 248, 710, 262]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gbe_sw_rst"
@@ -47222,20 +47323,10 @@ Model {
 	  BlockType		  From
 	  Name			  "From4"
 	  SID			  2595
-	  Position		  [535, 268, 625, 282]
+	  Position		  [620, 268, 710, 282]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gbe_sw_tx_data"
-	  TagVisibility		  "global"
-	}
-	Block {
-	  BlockType		  From
-	  Name			  "From5"
-	  SID			  2596
-	  Position		  [535, 288, 625, 302]
-	  ShowName		  off
-	  CloseFcn		  "tagdialog Close"
-	  GotoTag		  "gbe_sw_tx_vld"
 	  TagVisibility		  "global"
 	}
 	Block {
@@ -47252,7 +47343,7 @@ Model {
 	  BlockType		  From
 	  Name			  "From6"
 	  SID			  2597
-	  Position		  [535, 308, 625, 322]
+	  Position		  [620, 308, 710, 322]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gbe_sw_tx_ip"
@@ -47262,7 +47353,7 @@ Model {
 	  BlockType		  From
 	  Name			  "From7"
 	  SID			  2598
-	  Position		  [535, 328, 625, 342]
+	  Position		  [620, 328, 710, 342]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gbe_sw_tx_port"
@@ -47272,17 +47363,27 @@ Model {
 	  BlockType		  From
 	  Name			  "From8"
 	  SID			  2599
-	  Position		  [535, 348, 625, 362]
+	  Position		  [620, 348, 710, 362]
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "gbe_sw_tx_eof"
 	  TagVisibility		  "global"
 	}
 	Block {
+	  BlockType		  From
+	  Name			  "From9"
+	  SID			  3263
+	  Position		  [350, 453, 440, 467]
+	  ShowName		  off
+	  CloseFcn		  "tagdialog Close"
+	  GotoTag		  "gbe_sw_disable"
+	  TagVisibility		  "global"
+	}
+	Block {
 	  BlockType		  Goto
 	  Name			  "Goto1"
 	  SID			  2570
-	  Position		  [855, 265, 930, 275]
+	  Position		  [940, 265, 1015, 275]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_led_up"
 	  TagVisibility		  "global"
@@ -47291,7 +47392,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto10"
 	  SID			  2586
-	  Position		  [855, 354, 930, 366]
+	  Position		  [940, 354, 1015, 366]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_eof"
 	  TagVisibility		  "global"
@@ -47300,7 +47401,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto11"
 	  SID			  2587
-	  Position		  [855, 364, 930, 376]
+	  Position		  [940, 364, 1015, 376]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_rx_bfr"
 	  TagVisibility		  "global"
@@ -47309,7 +47410,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto12"
 	  SID			  2588
-	  Position		  [855, 374, 940, 386]
+	  Position		  [940, 374, 1025, 386]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_rx_orun"
 	  TagVisibility		  "global"
@@ -47363,7 +47464,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto18"
 	  SID			  2634
-	  Position		  [850, 394, 945, 406]
+	  Position		  [935, 394, 1030, 406]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_tx_discard"
 	  TagVisibility		  "global"
@@ -47372,7 +47473,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto2"
 	  SID			  2571
-	  Position		  [855, 274, 930, 286]
+	  Position		  [940, 274, 1015, 286]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_led_rx"
 	  TagVisibility		  "global"
@@ -47381,7 +47482,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto3"
 	  SID			  2579
-	  Position		  [855, 284, 930, 296]
+	  Position		  [940, 284, 1015, 296]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_led_tx"
 	  TagVisibility		  "global"
@@ -47390,7 +47491,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto4"
 	  SID			  2580
-	  Position		  [855, 295, 940, 305]
+	  Position		  [940, 295, 1025, 305]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_tx_afull"
 	  TagVisibility		  "global"
@@ -47399,7 +47500,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto5"
 	  SID			  2581
-	  Position		  [855, 304, 940, 316]
+	  Position		  [940, 304, 1025, 316]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_tx_oflow"
 	  TagVisibility		  "global"
@@ -47408,7 +47509,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto6"
 	  SID			  2582
-	  Position		  [855, 314, 930, 326]
+	  Position		  [940, 314, 1015, 326]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_rx"
 	  TagVisibility		  "global"
@@ -47417,7 +47518,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto7"
 	  SID			  2583
-	  Position		  [855, 325, 940, 335]
+	  Position		  [940, 325, 1025, 335]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_rx_valid"
 	  TagVisibility		  "global"
@@ -47426,7 +47527,7 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto8"
 	  SID			  2584
-	  Position		  [855, 334, 930, 346]
+	  Position		  [940, 334, 1015, 346]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_srcip"
 	  TagVisibility		  "global"
@@ -47435,10 +47536,72 @@ Model {
 	  BlockType		  Goto
 	  Name			  "Goto9"
 	  SID			  2585
-	  Position		  [855, 344, 940, 356]
+	  Position		  [940, 344, 1025, 356]
 	  ShowName		  off
 	  GotoTag		  "gbe_sw_src_prt"
 	  TagVisibility		  "global"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Inverter"
+	  SID			  3262
+	  Ports			  [1, 1]
+	  Position		  [465, 453, 490, 467]
+	  ShowName		  off
+	  LibraryVersion	  "1.2"
+	  SourceBlock		  "xbsIndex_r4/Inverter"
+	  SourceType		  "Xilinx Inverter Block"
+	  infoedit		  "Bitwise logical negation (one's complement) operator."
+	  en			  off
+	  latency		  "0"
+	  dbl_ovrd		  off
+	  xl_use_area		  off
+	  xl_area		  "[0,0,0,0,0,0,0]"
+	  has_advanced_control	  "0"
+	  sggui_pos		  "20,20,432,344"
+	  block_type		  "inv"
+	  block_version		  "11.4"
+	  sg_icon_stat		  "25,14,1,1,white,blue,0,267846e5,right,"
+	  sg_mask_display	  "fprintf('','COMMENT: begin icon graphics');\npatch([0 1 1 0 ],[0 0 1 1 ],[0.77 0.82 0.91]);\npat"
+	  "ch([0.32 0.24 0.36 0.24 0.32 0.48 0.52 0.56 0.72 0.6 0.48 0.4 0.52 0.4 0.48 0.6 0.72 0.56 0.52 0.48 0.32 ],[0.14285"
+	  "7 0.285714 0.5 0.714286 0.857143 0.857143 0.785714 0.857143 0.857143 0.642857 0.857143 0.714286 0.5 0.285714 0.1428"
+	  "57 0.357143 0.142857 0.142857 0.214286 0.142857 0.142857 ],[0.98 0.96 0.92]);\nplot([0 1 1 0 0 ],[0 0 1 1 0 ]);\nfp"
+	  "rintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin icon text');\ncolor('black');disp('not');\nfpri"
+	  "ntf('','COMMENT: end icon text');\n"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Logical"
+	  SID			  3261
+	  Ports			  [2, 1]
+	  Position		  [530, 448, 550, 492]
+	  ShowName		  off
+	  LibraryVersion	  "1.2"
+	  SourceBlock		  "xbsIndex_r4/Logical"
+	  SourceType		  "Xilinx Logical Block Block"
+	  logical_function	  "AND"
+	  inputs		  "2"
+	  en			  off
+	  latency		  "0"
+	  precision		  "Full"
+	  arith_type		  "Unsigned"
+	  n_bits		  "16"
+	  bin_pt		  "0"
+	  align_bp		  on
+	  dbl_ovrd		  off
+	  xl_use_area		  off
+	  xl_area		  "[0,0,0,0,0,0,0]"
+	  has_advanced_control	  "0"
+	  sggui_pos		  "-1,-1,-1,-1"
+	  block_type		  "logical"
+	  block_version		  "11.4"
+	  sg_icon_stat		  "20,44,2,1,white,blue,0,0a851f85,right,"
+	  sg_mask_display	  "fprintf('','COMMENT: begin icon graphics');\npatch([0 1 1 0 ],[0 0 1 1 ],[0.77 0.82 0.91]);\npat"
+	  "ch([0.2 0.05 0.3 0.05 0.2 0.45 0.5 0.55 0.85 0.65 0.45 0.3 0.55 0.3 0.45 0.65 0.85 0.55 0.5 0.45 0.2 ],[0.318182 0."
+	  "386364 0.5 0.613636 0.681818 0.681818 0.659091 0.681818 0.681818 0.590909 0.681818 0.613636 0.5 0.386364 0.318182 0"
+	  ".409091 0.318182 0.318182 0.340909 0.318182 0.318182 ],[0.98 0.96 0.92]);\nplot([0 1 1 0 0 ],[0 0 1 1 0 ]);\nfprint"
+	  "f('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin icon text');\ncolor('black');disp('\\newlineand\\ne"
+	  "wlinez^{-0}','texmode','on');\nfprintf('','COMMENT: end icon text');\n"
 	}
 	Block {
 	  BlockType		  Reference
@@ -47446,7 +47609,7 @@ Model {
 	  SID			  1755
 	  Tag			  "xps:tengbe_v2"
 	  Ports			  [8, 12]
-	  Position		  [635, 245, 795, 405]
+	  Position		  [720, 245, 880, 405]
 	  BackgroundColor	  "[1.000000, 1.000000, 0.000000]"
 	  LibraryVersion	  "1.436"
 	  SourceBlock		  "xps_library/ten_Gbe_v2"
@@ -50488,8 +50651,9 @@ Model {
 	  DstPort		  2
 	}
 	Line {
-	  SrcBlock		  "From5"
+	  SrcBlock		  "Logical"
 	  SrcPort		  1
+	  Points		  [0, -175]
 	  DstBlock		  "gbe_sw"
 	  DstPort		  3
 	}
@@ -50510,6 +50674,24 @@ Model {
 	  SrcPort		  1
 	  DstBlock		  "gbe_sw"
 	  DstPort		  6
+	}
+	Line {
+	  SrcBlock		  "From9"
+	  SrcPort		  1
+	  DstBlock		  "Inverter"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Inverter"
+	  SrcPort		  1
+	  DstBlock		  "Logical"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "From10"
+	  SrcPort		  1
+	  DstBlock		  "Logical"
+	  DstPort		  2
 	}
 	Annotation {
 	  Name			  "Finally, for the packetized correlator F Engine, data is sent over\nXAUI to the BEE2/ROACH.  We choose to"
@@ -72135,8 +72317,8 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"control"
-	Location		[52, 83, 967, 634]
-	Open			off
+	Location		[366, 535, 912, 683]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -72453,7 +72635,7 @@ Model {
 	      BlockType		      Goto
 	      Name		      "Goto"
 	      SID		      1151
-	      Position		      [405, 232, 485, 248]
+	      Position		      [405, 252, 485, 268]
 	      ShowName		      off
 	      GotoTag		      "use_sram_tvg"
 	      TagVisibility	      "global"
@@ -72483,6 +72665,24 @@ Model {
 	      Position		      [405, 92, 515, 108]
 	      ShowName		      off
 	      GotoTag		      "gbe_gpu_rst"
+	      TagVisibility	      "global"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto12"
+	      SID		      3257
+	      Position		      [405, 272, 485, 288]
+	      ShowName		      off
+	      GotoTag		      "gbe_sw_disable"
+	      TagVisibility	      "global"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto13"
+	      SID		      3259
+	      Position		      [405, 232, 485, 248]
+	      ShowName		      off
+	      GotoTag		      "gbe_gpu_disable"
 	      TagVisibility	      "global"
 	    }
 	    Block {
@@ -72525,7 +72725,7 @@ Model {
 	      BlockType		      Goto
 	      Name		      "Goto48"
 	      SID		      1155
-	      Position		      [405, 272, 485, 288]
+	      Position		      [405, 292, 485, 308]
 	      ShowName		      off
 	      GotoTag		      "arm_rst"
 	      TagVisibility	      "global"
@@ -72552,7 +72752,7 @@ Model {
 	      BlockType		      Goto
 	      Name		      "Goto50"
 	      SID		      1157
-	      Position		      [405, 293, 485, 307]
+	      Position		      [405, 313, 485, 327]
 	      ShowName		      off
 	      GotoTag		      "sync_rst"
 	      TagVisibility	      "global"
@@ -72561,7 +72761,7 @@ Model {
 	      BlockType		      Goto
 	      Name		      "Goto51"
 	      SID		      1158
-	      Position		      [405, 312, 485, 328]
+	      Position		      [405, 332, 485, 348]
 	      ShowName		      off
 	      GotoTag		      "fft_shift"
 	      TagVisibility	      "global"
@@ -72624,7 +72824,7 @@ Model {
 	      base0		      "LSB of Input"
 	      dbl_ovrd		      off
 	      has_advanced_control    "0"
-	      sggui_pos		      "20,20,449,376"
+	      sggui_pos		      "20,20,553,523"
 	      block_type	      "slice"
 	      block_version	      "10.1.3"
 	      sg_icon_stat	      "25,18,1,1,white,blue,0,1fd851a7,right,"
@@ -72654,6 +72854,72 @@ Model {
 	      bit1		      "0"
 	      base1		      "MSB of Input"
 	      bit0		      "31"
+	      base0		      "LSB of Input"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "20,20,553,523"
+	      block_type	      "slice"
+	      block_version	      "10.1.3"
+	      sg_icon_stat	      "25,18,1,1,white,blue,0,1fd851a7,right,"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 1 1 0 ],[0 0 1 1 ],[0.77 0.82 0.91"
+	      "]);\npatch([0.32 0.2 0.36 0.2 0.32 0.52 0.56 0.6 0.8 0.64 0.48 0.36 0.52 0.36 0.48 0.64 0.8 0.6 0.56 0.52 0.32 "
+	      "],[0.111111 0.277778 0.5 0.722222 0.888889 0.888889 0.833333 0.888889 0.888889 0.666667 0.888889 0.722222 0.5 0"
+	      ".277778 0.111111 0.333333 0.111111 0.111111 0.166667 0.111111 0.111111 ],[0.98 0.96 0.92]);\nplot([0 1 1 0 0 ],"
+	      "[0 0 1 1 0 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin icon text');\ncolor('blac"
+	      "k');port_label('output',1,'[a:b]');\nfprintf('','COMMENT: end icon text');\n"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Slice11"
+	      SID		      3258
+	      Ports		      [1, 1]
+	      Position		      [335, 271, 360, 289]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/Slice"
+	      SourceType	      "Xilinx Bit Slice Extractor Block"
+	      infoedit		      "Extracts a given range of bits from each input sample and presents it at the output.  The outp"
+	      "ut type is ordinarily unsigned with binary point at zero, but can be Boolean when the slice is one bit wide.<br"
+	      "><br>Hardware notes: In hardware this block costs nothing."
+	      nbits		      "1"
+	      boolean_output	      off
+	      mode		      "Lower Bit Location + Width"
+	      bit1		      "0"
+	      base1		      "MSB of Input"
+	      bit0		      "18"
+	      base0		      "LSB of Input"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "20,20,553,523"
+	      block_type	      "slice"
+	      block_version	      "10.1.3"
+	      sg_icon_stat	      "25,18,1,1,white,blue,0,1fd851a7,right,"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 1 1 0 ],[0 0 1 1 ],[0.77 0.82 0.91"
+	      "]);\npatch([0.32 0.2 0.36 0.2 0.32 0.52 0.56 0.6 0.8 0.64 0.48 0.36 0.52 0.36 0.48 0.64 0.8 0.6 0.56 0.52 0.32 "
+	      "],[0.111111 0.277778 0.5 0.722222 0.888889 0.888889 0.833333 0.888889 0.888889 0.666667 0.888889 0.722222 0.5 0"
+	      ".277778 0.111111 0.333333 0.111111 0.111111 0.166667 0.111111 0.111111 ],[0.98 0.96 0.92]);\nplot([0 1 1 0 0 ],"
+	      "[0 0 1 1 0 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin icon text');\ncolor('blac"
+	      "k');port_label('output',1,'[a:b]');\nfprintf('','COMMENT: end icon text');\n"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Slice12"
+	      SID		      3260
+	      Ports		      [1, 1]
+	      Position		      [335, 231, 360, 249]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/Slice"
+	      SourceType	      "Xilinx Bit Slice Extractor Block"
+	      infoedit		      "Extracts a given range of bits from each input sample and presents it at the output.  The outp"
+	      "ut type is ordinarily unsigned with binary point at zero, but can be Boolean when the slice is one bit wide.<br"
+	      "><br>Hardware notes: In hardware this block costs nothing."
+	      nbits		      "1"
+	      boolean_output	      off
+	      mode		      "Lower Bit Location + Width"
+	      bit1		      "0"
+	      base1		      "MSB of Input"
+	      bit0		      "20"
 	      base0		      "LSB of Input"
 	      dbl_ovrd		      off
 	      has_advanced_control    "0"
@@ -72706,7 +72972,7 @@ Model {
 	      Name		      "Slice21"
 	      SID		      1161
 	      Ports		      [1, 1]
-	      Position		      [335, 311, 360, 329]
+	      Position		      [335, 331, 360, 349]
 	      ShowName		      off
 	      LibraryVersion	      "1.2"
 	      SourceBlock	      "xbsIndex_r4/Slice"
@@ -72838,7 +73104,7 @@ Model {
 	      Name		      "Slice6"
 	      SID		      1162
 	      Ports		      [1, 1]
-	      Position		      [335, 291, 360, 309]
+	      Position		      [335, 311, 360, 329]
 	      ShowName		      off
 	      LibraryVersion	      "1.2"
 	      SourceBlock	      "xbsIndex_r4/Slice"
@@ -72855,7 +73121,7 @@ Model {
 	      base0		      "LSB of Input"
 	      dbl_ovrd		      off
 	      has_advanced_control    "0"
-	      sggui_pos		      "20,20,449,376"
+	      sggui_pos		      "20,20,553,523"
 	      block_type	      "slice"
 	      block_version	      "10.1.3"
 	      sg_icon_stat	      "25,18,1,1,white,blue,0,1fd851a7,right,"
@@ -72871,7 +73137,7 @@ Model {
 	      Name		      "Slice7"
 	      SID		      1163
 	      Ports		      [1, 1]
-	      Position		      [335, 271, 360, 289]
+	      Position		      [335, 291, 360, 309]
 	      ShowName		      off
 	      LibraryVersion	      "1.2"
 	      SourceBlock	      "xbsIndex_r4/Slice"
@@ -72888,7 +73154,7 @@ Model {
 	      base0		      "LSB of Input"
 	      dbl_ovrd		      off
 	      has_advanced_control    "0"
-	      sggui_pos		      "20,20,449,376"
+	      sggui_pos		      "20,20,553,523"
 	      block_type	      "slice"
 	      block_version	      "10.1.3"
 	      sg_icon_stat	      "25,18,1,1,white,blue,0,1fd851a7,right,"
@@ -72921,7 +73187,7 @@ Model {
 	      base0		      "LSB of Input"
 	      dbl_ovrd		      off
 	      has_advanced_control    "0"
-	      sggui_pos		      "20,20,449,376"
+	      sggui_pos		      "20,20,553,523"
 	      block_type	      "slice"
 	      block_version	      "10.1.3"
 	      sg_icon_stat	      "25,18,1,1,white,blue,0,1fd851a7,right,"
@@ -72937,7 +73203,7 @@ Model {
 	      Name		      "Slice9"
 	      SID		      1165
 	      Ports		      [1, 1]
-	      Position		      [335, 231, 360, 249]
+	      Position		      [335, 251, 360, 269]
 	      ShowName		      off
 	      LibraryVersion	      "1.2"
 	      SourceBlock	      "xbsIndex_r4/Slice"
@@ -72954,7 +73220,7 @@ Model {
 	      base0		      "LSB of Input"
 	      dbl_ovrd		      off
 	      has_advanced_control    "0"
-	      sggui_pos		      "20,20,449,376"
+	      sggui_pos		      "20,20,553,523"
 	      block_type	      "slice"
 	      block_version	      "10.1.3"
 	      sg_icon_stat	      "25,18,1,1,white,blue,0,1fd851a7,right,"
@@ -73310,26 +73576,40 @@ Model {
 		Branch {
 		  Points		  [0, 20]
 		  Branch {
-		    Points		    [0, 40]
-		    Branch {
-		    DstBlock		    "Slice7"
-		    DstPort		    1
-		    }
+		    Points		    [0, 20]
 		    Branch {
 		    Points		    [0, 20]
 		    Branch {
-		    DstBlock		    "Slice6"
-		    DstPort		    1
-		    }
+		    Points		    [0, 20]
+		    Branch {
+		    Points		    [0, 20]
 		    Branch {
 		    Points		    [0, 20]
 		    DstBlock		    "Slice21"
 		    DstPort		    1
 		    }
+		    Branch {
+		    DstBlock		    "Slice6"
+		    DstPort		    1
+		    }
+		    }
+		    Branch {
+		    DstBlock		    "Slice7"
+		    DstPort		    1
+		    }
+		    }
+		    Branch {
+		    DstBlock		    "Slice11"
+		    DstPort		    1
+		    }
+		    }
+		    Branch {
+		    DstBlock		    "Slice9"
+		    DstPort		    1
 		    }
 		  }
 		  Branch {
-		    DstBlock		    "Slice9"
+		    DstBlock		    "Slice12"
 		    DstPort		    1
 		  }
 		}
@@ -73540,10 +73820,22 @@ Model {
 	      DstBlock		      "Goto11"
 	      DstPort		      1
 	    }
+	    Line {
+	      SrcBlock		      "Slice11"
+	      SrcPort		      1
+	      DstBlock		      "Goto12"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Slice12"
+	      SrcPort		      1
+	      DstBlock		      "Goto13"
+	      DstPort		      1
+	    }
 	    Annotation {
-	      Name		      "fft_shift: bits 0-15\nsync_rst: bit 16\narm_rst: bit 17\nunused: bit 18\nuse_sram_tvg: bit 19\nunu"
-	      "sed: bit20\nfft_tvg1: bit 21\nfft_tvg2: bit 22\ngpio_monsel: birs25:23\nfft_preshift: bits27:26\ncnt_rst : bit "
-	      "28\nloopback_mux_rst : 29\ngbe_sw_rst : 30"
+	      Name		      "fft_shift: bits 0-15\nsync_rst: bit 16\narm_rst: bit 17\ngbe_sw_disable: bit 18\nuse_sram_tvg: bit"
+	      " 19\nunused: bit20\nfft_tvg1: bit 21\nfft_tvg2: bit 22\ngpio_monsel: birs25:23\nfft_preshift: bits27:26\ncnt_rs"
+	      "t : bit 28\nloopback_mux_rst : 29\ngbe_sw_rst : 30"
 	      Position		      [196, 84]
 	      DropShadow	      on
 	    }
