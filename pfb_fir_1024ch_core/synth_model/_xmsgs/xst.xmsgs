@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5147</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">up</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_limit</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5244</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">up</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5244</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">load</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5244</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">din</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2761</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5528</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">up</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5774</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">c_in</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5774</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5774</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">c_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5806</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">c_in</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5806</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5806</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">c_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5838</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">c_in</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5838</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5838</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">c_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5918</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">c_in</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5918</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5918</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">c_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5950</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">c_in</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5950</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5950</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">c_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5982</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">c_in</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5982</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">5982</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">c_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">xladdsub</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2526</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRL16E</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_1024ch_core.vhd</arg>&quot; line <arg fmt="%d" index="2">2539</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;35:18&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;17:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;31:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;111:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;127:112&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;95:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;127:96&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;79:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;127:80&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;63:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;127:64&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;47:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;127:48&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;31:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;127:32&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;127:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;23:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">x&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">up&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">low_cnt_to</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">high_cnt_to</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">cnt_to&lt;63:11&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">din</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">load&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">up&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">up&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sinit</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sinit</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sinit</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sinit</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sinit</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">c_in&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">temp_cout</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">override</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">logic1&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">core_s&lt;16&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">quantized_result_out&lt;19:18&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">pfb_fir_9a25c942c7/pol1_in1_last_tap_7b0cb11a5f/pfb_add_tree_10b9fde98e/convert1/convert/latency_qr.reg_qr/partial_one.last_srl17e/reg_array[0].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pfb_fir_1024ch_core</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;pfb_fir_9a25c942c7/pol1_in1_last_tap_7b0cb11a5f/pfb_add_tree_10b9fde98e/convert1/convert/latency_qr.reg_qr/partial_one.last_srl17e/reg_array[1].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

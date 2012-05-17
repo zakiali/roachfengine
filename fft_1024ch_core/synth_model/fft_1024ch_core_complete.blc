@@ -1,0 +1,166 @@
+Release 13.3 ngcbuild O.76xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: /scratch/Xilinx/13.3/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc5vsx95t-1ff1136 fft_1024ch_core fft_1024ch_core_complete.ngc
+
+Reading NGO file
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_cor
+e.ngc" ...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_3a48054
+ca3a8deec.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_92cf
+1c8e61537910.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_33b17ff
+3d27389a4.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_aae57d0
+0ceec7456.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_18c0
+24ef1595096b.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_511d
+aee48ac62764.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_0504
+2eb8e8f7781c.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_e9ea
+aa5672e4be4d.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_83efd1f
+df9477a72.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_66e5373
+5c699b53b.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_c84d
+65465c59fb07.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_c2e8
+9722de712678.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_89660d4
+75f29ded2.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_92fa636
+7e92d9ee0.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_35c8
+1e3155ab2f6f.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_e0d3
+81bcdb78c3cc.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_721e2d2
+5fd18b8a2.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_16e54f0
+07b53b02e.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_20f6
+0aed18821bec.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_73d9
+0f0f459a7002.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_7061fc7
+4b87e2931.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_daa5a8e
+b8c5c2eed.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_9adf
+5a9f785e3fb8.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_665c019
+c1c5f5676.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_c53e
+3b0687343f7a.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_37f8445
+92d213796.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_6ea7872
+75fdc24d6.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_df2b
+b90b8fe02ecf.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_51321cc
+7c8e9865c.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_b2e2
+6777d24cb38d.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/dmg_62_598fcf3
+26e540b6a.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/dmg_62_fcbc247
+e5bff391a.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_b973
+0cea34623a8b.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_f1ca57b
+bf79f0673.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_d4d7
+0c5a247867e8.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/dmg_62_252dff5
+223562ed1.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/dmg_62_f0d8e22
+702089fe9.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_a6f6b80
+9007e69f9.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_7ca6
+94f8efe8d963.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_2d23f33
+d919b4b99.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_9f51
+13eef58d42f3.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_dd882f4
+4239ec05c.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_250528f
+931baf469.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/cntr_11_0_38c9
+cb0851a20d91.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_c6cafe6
+c47d0544c.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/bmg_62_df2046b
+aee47f05f.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 629420 kilobytes
+
+Writing NGC file "fft_1024ch_core_complete.ngc" ...
+Total REAL time to NGCBUILD completion:  8 sec
+Total CPU time to NGCBUILD completion:   8 sec
+
+Writing NGCBUILD log file "fft_1024ch_core_complete.blc"...

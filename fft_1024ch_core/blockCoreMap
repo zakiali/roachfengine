@@ -1,0 +1,5 @@
+{
+  'counter' => 'SELECT Binary_Counter virtex5 Xilinx,_Inc. 11.0',
+  'spram' => 'SELECT Block_Memory_Generator virtex5 Xilinx,_Inc. 6.2',
+  'sprom' => 'SELECT Block_Memory_Generator virtex5 Xilinx,_Inc. 6.2'
+}

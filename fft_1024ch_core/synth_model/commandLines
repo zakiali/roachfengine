@@ -1,0 +1,2 @@
+/scratch/Xilinx/13.3/ISE_DS/ISE/sysgen/bin/lin64/saferun -- /scratch/Xilinx/13.3/ISE_DS/ISE//bin/lin64/xst -ifn xst_fft_1024ch_core.scr -ofn fft_1024ch_core.syr
+/scratch/Xilinx/13.3/ISE_DS/ISE/sysgen/bin/lin64/saferun -- /scratch/Xilinx/13.3/ISE_DS/ISE//bin/lin64/ngcbuild -p xc5vsx95t-1ff1136 fft_1024ch_core fft_1024ch_core_complete.ngc

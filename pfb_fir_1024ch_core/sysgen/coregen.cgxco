@@ -1,0 +1,384 @@
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex5 Xilinx,_Inc. 11.0
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 17
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 17
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 1
+CSET Out_Width = 17
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_386215f5ee0a1ff2
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex5 Xilinx,_Inc. 6.2
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_62_13b9b50a4ba14112.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 2048
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_62_13b9b50a4ba14112
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex5 Xilinx,_Inc. 6.2
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_62_251c08a4fe5aabec.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_RAM
+CSET operating_mode_a = READ_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 16
+CSET read_width_b = 16
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 2048
+CSET write_width_a = 16
+CSET write_width_b = 16
+CSET component_name = bmg_62_251c08a4fe5aabec
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex5 Xilinx,_Inc. 6.2
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_62_499e71ff1ce34aaf.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 2048
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_62_499e71ff1ce34aaf
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex5 Xilinx,_Inc. 6.2
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_62_735f28ddf1ae429b.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 2048
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_62_735f28ddf1ae429b
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex5 Xilinx,_Inc. 6.2
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = false
+CSET byte_size = 9
+CSET coe_file = bmg_62_beb524cb9c89c7df.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Always_Enabled
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = Single_Port_ROM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = WRITE_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = false
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 2048
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_62_beb524cb9c89c7df
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex5 Xilinx,_Inc. 11.0
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 11
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_92cf1c8e61537910
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex5
+SET simulationfiles = Behavioral
+SET devicefamily = virtex5
+SET device = xc5vsx95t
+SET package = ff1136
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex5 Xilinx,_Inc. 11.0
+# 13.3_O.76xd
+# DEVICE virtex5
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = DOWN
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = true
+CSET output_width = 12
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_d8f886b0b4d10089
+GENERATE

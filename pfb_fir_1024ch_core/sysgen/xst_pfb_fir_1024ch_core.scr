@@ -1,0 +1,1 @@
+run -ifn xst_pfb_fir_1024ch_core.prj -ifmt mixed -ofn pfb_fir_1024ch_core_cw.ngc -ofmt NGC -p xc5vsx95t-1ff1136 -ent pfb_fir_1024ch_core_cw -keep_hierarchy NO -iobuf YES -bus_delimiter () -top pfb_fir_1024ch_core_cw -hierarchy_separator / -report_timing_constraint_problems warning -register_balancing no -iob Auto -uc pfb_fir_1024ch_core_cw.xcf -write_timing_constraints yes

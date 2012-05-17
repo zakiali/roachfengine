@@ -1,0 +1,52 @@
+Release 13.3 ngcbuild O.76xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: /scratch/Xilinx/13.3/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc5vsx95t-1ff1136 pfb_fir_1024ch_core pfb_fir_1024ch_core_complete.ngc
+
+Reading NGO file
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/pfb_fir_10
+24ch_core.ngc" ...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/cntr_11_0_
+92cf1c8e61537910.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/bmg_62_499
+e71ff1ce34aaf.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/bmg_62_beb
+524cb9c89c7df.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/bmg_62_13b
+9b50a4ba14112.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/bmg_62_735
+f28ddf1ae429b.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/cntr_11_0_
+d8f886b0b4d10089.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/bmg_62_251
+c08a4fe5aabec.ngc"...
+Loading design module
+"/scratch/zaki/workspace/roachfengine/pfb_fir_1024ch_core/synth_model/addsb_11_0
+_386215f5ee0a1ff2.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 599712 kilobytes
+
+Writing NGC file "pfb_fir_1024ch_core_complete.ngc" ...
+Total REAL time to NGCBUILD completion:  7 sec
+Total CPU time to NGCBUILD completion:   7 sec
+
+Writing NGCBUILD log file "pfb_fir_1024ch_core_complete.blc"...

@@ -1,0 +1,1963 @@
+V3 788
+FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd 2012/05/15.11:21:37 O.76xd
+EN work/bmg_62_aae57d00ceec7456 1337106107 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_aae57d00ceec7456/bmg_62_aae57d00ceec7456_a 1337106108 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_aae57d00ceec7456 1337106107
+EN work/bmg_62_c6cafe6c47d0544c 1337106109 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_c6cafe6c47d0544c/bmg_62_c6cafe6c47d0544c_a 1337106110 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_c6cafe6c47d0544c 1337106109
+EN work/bmg_62_83efd1fdf9477a72 1337106111 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_83efd1fdf9477a72/bmg_62_83efd1fdf9477a72_a 1337106112 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_83efd1fdf9477a72 1337106111
+EN work/cntr_11_0_18c024ef1595096b 1337106113 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_18c024ef1595096b/cntr_11_0_18c024ef1595096b_a 1337106114 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_18c024ef1595096b 1337106113
+EN work/bmg_62_7061fc74b87e2931 1337106115 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_7061fc74b87e2931/bmg_62_7061fc74b87e2931_a 1337106116 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_7061fc74b87e2931 1337106115
+EN work/bmg_62_a6f6b809007e69f9 1337106117 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_a6f6b809007e69f9/bmg_62_a6f6b809007e69f9_a 1337106118 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_a6f6b809007e69f9 1337106117
+EN work/cntr_11_0_df2bb90b8fe02ecf 1337106119 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_df2bb90b8fe02ecf/cntr_11_0_df2bb90b8fe02ecf_a 1337106120 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_df2bb90b8fe02ecf 1337106119
+EN work/cntr_11_0_9f5113eef58d42f3 1337106121 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_9f5113eef58d42f3/cntr_11_0_9f5113eef58d42f3_a 1337106122 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_9f5113eef58d42f3 1337106121
+EN work/cntr_11_0_511daee48ac62764 1337106123 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_511daee48ac62764/cntr_11_0_511daee48ac62764_a 1337106124 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_511daee48ac62764 1337106123
+EN work/bmg_62_16e54f007b53b02e 1337106125 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_16e54f007b53b02e/bmg_62_16e54f007b53b02e_a 1337106126 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_16e54f007b53b02e 1337106125
+EN work/cntr_11_0_e0d381bcdb78c3cc 1337106127 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_e0d381bcdb78c3cc/cntr_11_0_e0d381bcdb78c3cc_a 1337106128 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_e0d381bcdb78c3cc 1337106127
+EN work/bmg_62_66e53735c699b53b 1337106129 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_66e53735c699b53b/bmg_62_66e53735c699b53b_a 1337106130 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_66e53735c699b53b 1337106129
+EN work/bmg_62_89660d475f29ded2 1337106131 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_89660d475f29ded2/bmg_62_89660d475f29ded2_a 1337106132 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_89660d475f29ded2 1337106131
+EN work/cntr_11_0_20f60aed18821bec 1337106133 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_20f60aed18821bec/cntr_11_0_20f60aed18821bec_a 1337106134 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_20f60aed18821bec 1337106133
+EN work/dmg_62_fcbc247e5bff391a 1337106135 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/dmg_62_fcbc247e5bff391a/dmg_62_fcbc247e5bff391a_a 1337106136 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/dmg_62_fcbc247e5bff391a 1337106135
+EN work/bmg_62_daa5a8eb8c5c2eed 1337106137 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_daa5a8eb8c5c2eed/bmg_62_daa5a8eb8c5c2eed_a 1337106138 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_daa5a8eb8c5c2eed 1337106137
+EN work/bmg_62_51321cc7c8e9865c 1337106139 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_51321cc7c8e9865c/bmg_62_51321cc7c8e9865c_a 1337106140 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_51321cc7c8e9865c 1337106139
+EN work/cntr_11_0_d4d70c5a247867e8 1337106141 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_d4d70c5a247867e8/cntr_11_0_d4d70c5a247867e8_a 1337106142 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_d4d70c5a247867e8 1337106141
+EN work/cntr_11_0_c2e89722de712678 1337106143 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_c2e89722de712678/cntr_11_0_c2e89722de712678_a 1337106144 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_c2e89722de712678 1337106143
+EN work/bmg_62_92fa6367e92d9ee0 1337106145 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_92fa6367e92d9ee0/bmg_62_92fa6367e92d9ee0_a 1337106146 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_92fa6367e92d9ee0 1337106145
+EN work/bmg_62_f1ca57bbf79f0673 1337106147 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_f1ca57bbf79f0673/bmg_62_f1ca57bbf79f0673_a 1337106148 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_f1ca57bbf79f0673 1337106147
+EN work/cntr_11_0_e9eaaa5672e4be4d 1337106149 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_e9eaaa5672e4be4d/cntr_11_0_e9eaaa5672e4be4d_a 1337106150 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_e9eaaa5672e4be4d 1337106149
+EN work/bmg_62_721e2d25fd18b8a2 1337106151 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_721e2d25fd18b8a2/bmg_62_721e2d25fd18b8a2_a 1337106152 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_721e2d25fd18b8a2 1337106151
+EN work/cntr_11_0_35c81e3155ab2f6f 1337106153 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_35c81e3155ab2f6f/cntr_11_0_35c81e3155ab2f6f_a 1337106154 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_35c81e3155ab2f6f 1337106153
+EN work/cntr_11_0_b9730cea34623a8b 1337106155 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_b9730cea34623a8b/cntr_11_0_b9730cea34623a8b_a 1337106156 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_b9730cea34623a8b 1337106155
+EN work/bmg_62_250528f931baf469 1337106157 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_250528f931baf469/bmg_62_250528f931baf469_a 1337106158 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_250528f931baf469 1337106157
+EN work/cntr_11_0_c84d65465c59fb07 1337106159 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_c84d65465c59fb07/cntr_11_0_c84d65465c59fb07_a 1337106160 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_c84d65465c59fb07 1337106159
+EN work/bmg_62_3a48054ca3a8deec 1337106161 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_3a48054ca3a8deec/bmg_62_3a48054ca3a8deec_a 1337106162 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_3a48054ca3a8deec 1337106161
+EN work/bmg_62_dd882f44239ec05c 1337106163 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_dd882f44239ec05c/bmg_62_dd882f44239ec05c_a 1337106164 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_dd882f44239ec05c 1337106163
+EN work/cntr_11_0_b2e26777d24cb38d 1337106165 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_b2e26777d24cb38d/cntr_11_0_b2e26777d24cb38d_a 1337106166 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_b2e26777d24cb38d 1337106165
+EN work/bmg_62_df2046baee47f05f 1337106167 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_df2046baee47f05f/bmg_62_df2046baee47f05f_a 1337106168 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_df2046baee47f05f 1337106167
+EN work/bmg_62_665c019c1c5f5676 1337106169 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_665c019c1c5f5676/bmg_62_665c019c1c5f5676_a 1337106170 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_665c019c1c5f5676 1337106169
+EN work/cntr_11_0_c53e3b0687343f7a 1337106171 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_c53e3b0687343f7a/cntr_11_0_c53e3b0687343f7a_a 1337106172 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_c53e3b0687343f7a 1337106171
+EN work/cntr_11_0_92cf1c8e61537910 1337106173 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_92cf1c8e61537910/cntr_11_0_92cf1c8e61537910_a 1337106174 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_92cf1c8e61537910 1337106173
+EN work/cntr_11_0_7ca694f8efe8d963 1337106175 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_7ca694f8efe8d963/cntr_11_0_7ca694f8efe8d963_a 1337106176 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_7ca694f8efe8d963 1337106175
+EN work/cntr_11_0_73d90f0f459a7002 1337106177 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_73d90f0f459a7002/cntr_11_0_73d90f0f459a7002_a 1337106178 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_73d90f0f459a7002 1337106177
+EN work/cntr_11_0_9adf5a9f785e3fb8 1337106179 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_9adf5a9f785e3fb8/cntr_11_0_9adf5a9f785e3fb8_a 1337106180 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_9adf5a9f785e3fb8 1337106179
+EN work/bmg_62_33b17ff3d27389a4 1337106181 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_33b17ff3d27389a4/bmg_62_33b17ff3d27389a4_a 1337106182 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_33b17ff3d27389a4 1337106181
+EN work/bmg_62_2d23f33d919b4b99 1337106183 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_2d23f33d919b4b99/bmg_62_2d23f33d919b4b99_a 1337106184 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_2d23f33d919b4b99 1337106183
+EN work/cntr_11_0_38c9cb0851a20d91 1337106185 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_38c9cb0851a20d91/cntr_11_0_38c9cb0851a20d91_a 1337106186 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_38c9cb0851a20d91 1337106185
+EN work/bmg_62_6ea787275fdc24d6 1337106187 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_6ea787275fdc24d6/bmg_62_6ea787275fdc24d6_a 1337106188 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_6ea787275fdc24d6 1337106187
+EN work/bmg_62_37f844592d213796 1337106189 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/bmg_62_37f844592d213796/bmg_62_37f844592d213796_a 1337106190 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bmg_62_37f844592d213796 1337106189
+EN work/dmg_62_598fcf326e540b6a 1337106191 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/dmg_62_598fcf326e540b6a/dmg_62_598fcf326e540b6a_a 1337106192 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/dmg_62_598fcf326e540b6a 1337106191
+EN work/dmg_62_f0d8e22702089fe9 1337106193 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/dmg_62_f0d8e22702089fe9/dmg_62_f0d8e22702089fe9_a 1337106194 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/dmg_62_f0d8e22702089fe9 1337106193
+EN work/cntr_11_0_05042eb8e8f7781c 1337106195 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cntr_11_0_05042eb8e8f7781c/cntr_11_0_05042eb8e8f7781c_a 1337106196 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cntr_11_0_05042eb8e8f7781c 1337106195
+EN work/dmg_62_252dff5223562ed1 1337106197 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/dmg_62_252dff5223562ed1/dmg_62_252dff5223562ed1_a 1337106198 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/dmg_62_252dff5223562ed1 1337106197
+PH work/conv_pkg 1337106199 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508
+PB work/conv_pkg 1337106200 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PH work/conv_pkg 1337106199
+EN work/srl17e 1337106201 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/srl17e/structural 1337106202 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/srl17e 1337106201 CP srl16e CP fde
+EN work/synth_reg 1337106203 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/synth_reg/structural 1337106204 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/synth_reg 1337106203 CP srl17e
+EN work/synth_reg_reg 1337106205 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/synth_reg_reg/behav 1337106206 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/synth_reg_reg 1337106205
+EN work/single_reg_w_init 1337106207 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/single_reg_w_init/structural 1337106208 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/single_reg_w_init 1337106207 CP fdre CP fdse
+EN work/synth_reg_w_init 1337106209 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/synth_reg_w_init/structural 1337106210 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/synth_reg_w_init 1337106209 CP single_reg_w_init
+EN work/reinterpret_9a0fa0f632 1337106211 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_9a0fa0f632/behavior 1337106212 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_9a0fa0f632 1337106211
+EN work/xlslice 1337106213 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/std_logic_arith 1317710504 \
+      PB work/conv_pkg 1337106200
+AR work/xlslice/behavior 1337106214 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlslice 1337106213
+EN work/generatePowerEfficientEnable 1337106215 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/generatePowerEfficientEnable/structural 1337106216 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/generatePowerEfficientEnable 1337106215
+EN work/xldsp48e 1337106217 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/xldsp48e/behavior 1337106218 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xldsp48e 1337106217 CP work/generatePowerEfficientEnable CP DSP48E
+EN work/reinterpret_eb03bc3377 1337106219 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_eb03bc3377/behavior 1337106220 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_eb03bc3377 1337106219
+EN work/reinterpret_7ea107432a 1337106221 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_7ea107432a/behavior 1337106222 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_7ea107432a 1337106221
+EN work/constant_4c449dd556 1337106223 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_4c449dd556/behavior 1337106224 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_4c449dd556 1337106223
+EN work/constant_963ed6358a 1337106225 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_963ed6358a/behavior 1337106226 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_963ed6358a 1337106225
+EN work/constant_822933f89b 1337106227 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_822933f89b/behavior 1337106228 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_822933f89b 1337106227
+EN work/convert_func_call 1337106229 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/convert_func_call/behavior 1337106230 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/convert_func_call 1337106229
+EN work/xlconvert 1337106231 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/xlconvert/behavior 1337106232 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlconvert 1337106231 CP convert_func_call CP synth_reg
+EN work/concat_b57c4be2de 1337106233 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/concat_b57c4be2de/behavior 1337106234 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/concat_b57c4be2de 1337106233
+EN work/constant_270746ab47 1337106235 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_270746ab47/behavior 1337106236 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_270746ab47 1337106235
+EN work/reinterpret_3fb4604c01 1337106237 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_3fb4604c01/behavior 1337106238 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_3fb4604c01 1337106237
+EN work/reinterpret_4bf1ad328a 1337106239 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_4bf1ad328a/behavior 1337106240 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_4bf1ad328a 1337106239
+EN work/constant_8038205d89 1337106241 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_8038205d89/behavior 1337106242 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_8038205d89 1337106241
+EN work/concat_b198bd62b0 1337106243 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/concat_b198bd62b0/behavior 1337106244 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/concat_b198bd62b0 1337106243
+EN work/reinterpret_580feec131 1337106245 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_580feec131/behavior 1337106246 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_580feec131 1337106245
+EN work/convert_pipeline 1337106247 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/convert_pipeline/behavior 1337106248 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/convert_pipeline 1337106247 CP synth_reg
+EN work/xlconvert_pipeline 1337106249 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/xlconvert_pipeline/behavior 1337106250 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlconvert_pipeline 1337106249 CP convert_pipeline
+EN work/scale_9f61027ba4 1337106251 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/scale_9f61027ba4/behavior 1337106252 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/scale_9f61027ba4 1337106251
+EN work/constant_118598964d 1337106253 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_118598964d/behavior 1337106254 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_118598964d 1337106253
+EN work/constant_a3923dd146 1337106255 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_a3923dd146/behavior 1337106256 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_a3923dd146 1337106255
+EN work/constant_0604807f72 1337106257 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_0604807f72/behavior 1337106258 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_0604807f72 1337106257
+EN work/constant_6293007044 1337106259 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_6293007044/behavior 1337106260 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_6293007044 1337106259
+EN work/xlcounter_free 1337106261 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/xlcounter_free/behavior 1337106262 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlcounter_free 1337106261 CP cntr_11_0_18c024ef1595096b \
+      CP cntr_11_0_511daee48ac62764 CP cntr_11_0_92cf1c8e61537910 \
+      CP cntr_11_0_9f5113eef58d42f3 CP cntr_11_0_38c9cb0851a20d91 \
+      CP cntr_11_0_7ca694f8efe8d963 CP cntr_11_0_d4d70c5a247867e8 \
+      CP cntr_11_0_b9730cea34623a8b CP cntr_11_0_b2e26777d24cb38d \
+      CP cntr_11_0_df2bb90b8fe02ecf CP cntr_11_0_c53e3b0687343f7a \
+      CP cntr_11_0_9adf5a9f785e3fb8 CP cntr_11_0_73d90f0f459a7002 \
+      CP cntr_11_0_20f60aed18821bec CP cntr_11_0_e0d381bcdb78c3cc \
+      CP cntr_11_0_35c81e3155ab2f6f CP cntr_11_0_c2e89722de712678 \
+      CP cntr_11_0_c84d65465c59fb07 CP cntr_11_0_e9eaaa5672e4be4d \
+      CP cntr_11_0_05042eb8e8f7781c
+EN work/logical_aacf6e1b0e 1337106263 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/logical_aacf6e1b0e/behavior 1337106264 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/logical_aacf6e1b0e 1337106263
+EN work/logical_80f90b97d0 1337106265 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/logical_80f90b97d0/behavior 1337106266 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/logical_80f90b97d0 1337106265
+EN work/mux_1bef4ba0e4 1337106267 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_1bef4ba0e4/behavior 1337106268 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_1bef4ba0e4 1337106267
+EN work/relational_2147430058 1337106269 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_2147430058/behavior 1337106270 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_2147430058 1337106269
+EN work/relational_b4b277ae0f 1337106271 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_b4b277ae0f/behavior 1337106272 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_b4b277ae0f 1337106271
+EN work/xlcounter_limit 1337106273 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/xlcounter_limit/behavior 1337106274 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlcounter_limit 1337106273 CP cntr_11_0_92cf1c8e61537910 \
+      CP cntr_11_0_511daee48ac62764 CP cntr_11_0_b9730cea34623a8b \
+      CP cntr_11_0_df2bb90b8fe02ecf CP cntr_11_0_9adf5a9f785e3fb8 \
+      CP cntr_11_0_20f60aed18821bec
+EN work/mux_bdc1db9d7e 1337106275 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_bdc1db9d7e/behavior 1337106276 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_bdc1db9d7e 1337106275
+EN work/xlspram 1337106277 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/xlspram/behavior 1337106278 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlspram 1337106277 CP bmg_62_3a48054ca3a8deec \
+      CP bmg_62_2d23f33d919b4b99 CP bmg_62_a6f6b809007e69f9 \
+      CP bmg_62_f1ca57bbf79f0673 CP bmg_62_51321cc7c8e9865c \
+      CP bmg_62_665c019c1c5f5676 CP synth_reg
+EN work/xldelay 1337106279 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/xldelay/behavior 1337106280 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xldelay 1337106279 CP synth_reg CP synth_reg_reg
+EN work/delay_0f6b6badfe 1337106281 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_0f6b6badfe/behavior 1337106282 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_0f6b6badfe 1337106281
+EN work/xlsprom 1337106283 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/std_logic_arith 1317710504 \
+      PB work/conv_pkg 1337106200
+AR work/xlsprom/behavior 1337106284 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlsprom 1337106283 CP bmg_62_aae57d00ceec7456 \
+      CP bmg_62_33b17ff3d27389a4 CP bmg_62_df2046baee47f05f \
+      CP bmg_62_c6cafe6c47d0544c CP bmg_62_250528f931baf469 \
+      CP bmg_62_dd882f44239ec05c CP bmg_62_6ea787275fdc24d6 \
+      CP bmg_62_37f844592d213796 CP bmg_62_daa5a8eb8c5c2eed \
+      CP bmg_62_7061fc74b87e2931 CP bmg_62_16e54f007b53b02e \
+      CP bmg_62_721e2d25fd18b8a2 CP bmg_62_92fa6367e92d9ee0 \
+      CP bmg_62_89660d475f29ded2 CP bmg_62_66e53735c699b53b \
+      CP bmg_62_83efd1fdf9477a72 CP synth_reg
+EN work/constant_498bc68c14 1337106285 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_498bc68c14/behavior 1337106286 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_498bc68c14 1337106285
+EN work/mux_b75bc1e5be 1337106287 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_b75bc1e5be/behavior 1337106288 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_b75bc1e5be 1337106287
+EN work/relational_0ffd72e037 1337106289 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_0ffd72e037/behavior 1337106290 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_0ffd72e037 1337106289
+EN work/concat_c615d93998 1337106291 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/concat_c615d93998/behavior 1337106292 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/concat_c615d93998 1337106291
+EN work/reinterpret_4a8cbc85ce 1337106293 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_4a8cbc85ce/behavior 1337106294 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_4a8cbc85ce 1337106293
+EN work/addsub_27fae134d1 1337106295 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/addsub_27fae134d1/behavior 1337106296 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/addsub_27fae134d1 1337106295 CP work/synth_reg_w_init
+EN work/constant_4709ea49b5 1337106297 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_4709ea49b5/behavior 1337106298 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_4709ea49b5 1337106297
+EN work/reinterpret_d357e69fa3 1337106299 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_d357e69fa3/behavior 1337106300 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_d357e69fa3 1337106299
+EN work/reinterpret_d2180c9169 1337106301 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_d2180c9169/behavior 1337106302 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_d2180c9169 1337106301
+EN work/logical_938d99ac11 1337106303 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/logical_938d99ac11/behavior 1337106304 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/logical_938d99ac11 1337106303
+EN work/logical_e9e6541380 1337106305 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/logical_e9e6541380/behavior 1337106306 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/logical_e9e6541380 1337106305
+EN work/inverter_e5b38cca3b 1337106307 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/inverter_e5b38cca3b/behavior 1337106308 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/inverter_e5b38cca3b 1337106307
+EN work/logical_a6d07705dd 1337106309 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/logical_a6d07705dd/behavior 1337106310 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/logical_a6d07705dd 1337106309
+EN work/mux_28159dbdb9 1337106311 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_28159dbdb9/behavior 1337106312 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_28159dbdb9 1337106311
+EN work/delay_a14e3dd1bd 1337106313 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_a14e3dd1bd/behavior 1337106314 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_a14e3dd1bd 1337106313
+EN work/logical_444d3f5046 1337106315 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/logical_444d3f5046/behavior 1337106316 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/logical_444d3f5046 1337106315
+EN work/mux_4bb6f691f7 1337106317 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_4bb6f691f7/behavior 1337106318 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_4bb6f691f7 1337106317
+EN work/concat_f133931c1f 1337106319 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/concat_f133931c1f/behavior 1337106320 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/concat_f133931c1f 1337106319
+EN work/addsub_2969055f39 1337106321 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/addsub_2969055f39/behavior 1337106322 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/addsub_2969055f39 1337106321 CP work/synth_reg_w_init
+EN work/constant_9a2c97cce5 1337106323 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_9a2c97cce5/behavior 1337106324 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_9a2c97cce5 1337106323
+EN work/reinterpret_60ea556961 1337106325 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_60ea556961/behavior 1337106326 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_60ea556961 1337106325
+EN work/reinterpret_299ca43e25 1337106327 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/reinterpret_299ca43e25/behavior 1337106328 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reinterpret_299ca43e25 1337106327
+EN work/logical_182ac6c51e 1337106329 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/logical_182ac6c51e/behavior 1337106330 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/logical_182ac6c51e 1337106329
+EN work/addsub_6db2f9c02b 1337106331 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/addsub_6db2f9c02b/behavior 1337106332 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/addsub_6db2f9c02b 1337106331 CP work/synth_reg_w_init
+EN work/addsub_8ce31f90bc 1337106333 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/addsub_8ce31f90bc/behavior 1337106334 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/addsub_8ce31f90bc 1337106333 CP work/synth_reg_w_init
+EN work/delay_38898c80c0 1337106335 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_38898c80c0/behavior 1337106336 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_38898c80c0 1337106335
+EN work/mult_f295e5f0f2 1337106337 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mult_f295e5f0f2/behavior 1337106338 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mult_f295e5f0f2 1337106337
+EN work/mux_f1f44b96f0 1337106339 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_f1f44b96f0/behavior 1337106340 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_f1f44b96f0 1337106339
+EN work/scale_e5d0b4a1ec 1337106341 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/scale_e5d0b4a1ec/behavior 1337106342 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/scale_e5d0b4a1ec 1337106341
+EN work/constant_a7e2bb9e12 1337106343 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_a7e2bb9e12/behavior 1337106344 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_a7e2bb9e12 1337106343
+EN work/constant_cda50df78a 1337106345 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_cda50df78a/behavior 1337106346 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_cda50df78a 1337106345
+EN work/constant_e8ddc079e9 1337106347 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_e8ddc079e9/behavior 1337106348 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_e8ddc079e9 1337106347
+EN work/relational_5f1eb17108 1337106349 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_5f1eb17108/behavior 1337106350 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_5f1eb17108 1337106349
+EN work/relational_f9928864ea 1337106351 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_f9928864ea/behavior 1337106352 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_f9928864ea 1337106351
+EN work/counter_223a0f3237 1337106353 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/counter_223a0f3237/behavior 1337106354 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/counter_223a0f3237 1337106353
+EN work/counter_61242a554d 1337106355 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/counter_61242a554d/behavior 1337106356 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/counter_61242a554d 1337106355
+EN work/delay_ae3f84524a 1337106357 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_ae3f84524a/behavior 1337106358 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_ae3f84524a 1337106357
+EN work/delay_848c26f47b 1337106359 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_848c26f47b/behavior 1337106360 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_848c26f47b 1337106359
+EN work/delay_2f744cdafb 1337106361 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_2f744cdafb/behavior 1337106362 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_2f744cdafb 1337106361
+EN work/delay_cbdfa55dc3 1337106363 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_cbdfa55dc3/behavior 1337106364 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_cbdfa55dc3 1337106363
+EN work/delay_e18fb31a3d 1337106365 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/delay_e18fb31a3d/behavior 1337106366 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_e18fb31a3d 1337106365
+EN work/mux_69e3090cc7 1337106367 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_69e3090cc7/behavior 1337106368 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_69e3090cc7 1337106367
+EN work/mux_181e58d842 1337106369 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/mux_181e58d842/behavior 1337106370 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/mux_181e58d842 1337106369
+EN work/negate_e1a9d1ade1 1337106371 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/negate_e1a9d1ade1/behavior 1337106372 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/negate_e1a9d1ade1 1337106371
+EN work/constant_f1ac4bddff 1337106373 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_f1ac4bddff/behavior 1337106374 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_f1ac4bddff 1337106373
+EN work/constant_fbc2f0cce1 1337106375 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_fbc2f0cce1/behavior 1337106376 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_fbc2f0cce1 1337106375
+EN work/relational_f6702ea2f7 1337106377 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_f6702ea2f7/behavior 1337106378 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_f6702ea2f7 1337106377
+EN work/xlsprom_dist 1337106379 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/std_logic_arith 1317710504 \
+      PB work/conv_pkg 1337106200
+AR work/xlsprom_dist/behavior 1337106380 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/xlsprom_dist 1337106379 CP dmg_62_f0d8e22702089fe9 \
+      CP dmg_62_252dff5223562ed1 CP dmg_62_fcbc247e5bff391a \
+      CP dmg_62_598fcf326e540b6a CP synth_reg
+EN work/constant_b4ec9de7d1 1337106381 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_b4ec9de7d1/behavior 1337106382 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_b4ec9de7d1 1337106381
+EN work/constant_fd85eb7067 1337106383 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_fd85eb7067/behavior 1337106384 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_fd85eb7067 1337106383
+EN work/constant_4a391b9a0e 1337106385 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_4a391b9a0e/behavior 1337106386 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_4a391b9a0e 1337106385
+EN work/relational_6c3ee657fa 1337106387 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_6c3ee657fa/behavior 1337106388 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_6c3ee657fa 1337106387
+EN work/relational_78eac2928d 1337106389 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_78eac2928d/behavior 1337106390 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_78eac2928d 1337106389
+EN work/constant_b437b02512 1337106391 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_b437b02512/behavior 1337106392 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_b437b02512 1337106391
+EN work/constant_91ef1678ca 1337106393 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_91ef1678ca/behavior 1337106394 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_91ef1678ca 1337106393
+EN work/constant_e8aae5d3bb 1337106395 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_e8aae5d3bb/behavior 1337106396 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_e8aae5d3bb 1337106395
+EN work/relational_54048c8b02 1337106397 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_54048c8b02/behavior 1337106398 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_54048c8b02 1337106397
+EN work/relational_16235eb2bf 1337106399 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_16235eb2bf/behavior 1337106400 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_16235eb2bf 1337106399
+EN work/constant_180df391de 1337106401 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_180df391de/behavior 1337106402 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_180df391de 1337106401
+EN work/constant_7244cd602b 1337106403 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_7244cd602b/behavior 1337106404 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_7244cd602b 1337106403
+EN work/constant_7b07120b87 1337106405 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_7b07120b87/behavior 1337106406 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_7b07120b87 1337106405
+EN work/relational_9a3978c602 1337106407 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_9a3978c602/behavior 1337106408 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_9a3978c602 1337106407
+EN work/relational_23065a6aa3 1337106409 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_23065a6aa3/behavior 1337106410 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_23065a6aa3 1337106409
+EN work/constant_a267c870be 1337106411 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_a267c870be/behavior 1337106412 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_a267c870be 1337106411
+EN work/constant_7ea0f2fff7 1337106413 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_7ea0f2fff7/behavior 1337106414 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_7ea0f2fff7 1337106413
+EN work/constant_961b61f8a1 1337106415 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_961b61f8a1/behavior 1337106416 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_961b61f8a1 1337106415
+EN work/relational_931d61fb72 1337106417 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_931d61fb72/behavior 1337106418 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_931d61fb72 1337106417
+EN work/relational_fe487ce1c7 1337106419 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_fe487ce1c7/behavior 1337106420 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_fe487ce1c7 1337106419
+EN work/constant_582a3706dd 1337106421 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_582a3706dd/behavior 1337106422 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_582a3706dd 1337106421
+EN work/constant_fe72737ca0 1337106423 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_fe72737ca0/behavior 1337106424 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_fe72737ca0 1337106423
+EN work/constant_ef0e2e5fc6 1337106425 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_ef0e2e5fc6/behavior 1337106426 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_ef0e2e5fc6 1337106425
+EN work/relational_9ece3c8c4e 1337106427 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_9ece3c8c4e/behavior 1337106428 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_9ece3c8c4e 1337106427
+EN work/relational_dc5bc996c9 1337106429 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_dc5bc996c9/behavior 1337106430 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_dc5bc996c9 1337106429
+EN work/constant_67ad97ca70 1337106431 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_67ad97ca70/behavior 1337106432 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_67ad97ca70 1337106431
+EN work/constant_145086465d 1337106433 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_145086465d/behavior 1337106434 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_145086465d 1337106433
+EN work/relational_4d3cfceaf4 1337106435 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_4d3cfceaf4/behavior 1337106436 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_4d3cfceaf4 1337106435
+EN work/relational_d930162434 1337106437 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_d930162434/behavior 1337106438 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_d930162434 1337106437
+EN work/constant_a1c496ea88 1337106439 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_a1c496ea88/behavior 1337106440 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_a1c496ea88 1337106439
+EN work/constant_469094441c 1337106441 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/constant_469094441c/behavior 1337106442 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/constant_469094441c 1337106441
+EN work/relational_8fc7f5539b 1337106443 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_8fc7f5539b/behavior 1337106444 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_8fc7f5539b 1337106443
+EN work/relational_47b317dab6 1337106445 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/relational_47b317dab6/behavior 1337106446 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/relational_47b317dab6 1337106445
+EN work/c_to_ri0_entity_6093a6f1c0 1337106447 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/c_to_ri0_entity_6093a6f1c0/structural 1337106448 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/c_to_ri0_entity_6093a6f1c0 1337106447 \
+      CP work/reinterpret_9a0fa0f632 CP work/xlslice
+EN work/cadd_entity_d903f2a2c7 1337106449 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/cadd_entity_d903f2a2c7/structural 1337106450 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cadd_entity_d903f2a2c7 1337106449 CP work/constant_4c449dd556 \
+      CP work/constant_963ed6358a CP work/constant_822933f89b CP work/xlconvert \
+      CP work/concat_b57c4be2de CP work/xldsp48e CP work/constant_270746ab47 \
+      CP work/reinterpret_3fb4604c01 CP work/reinterpret_4bf1ad328a \
+      CP work/reinterpret_eb03bc3377 CP work/reinterpret_9a0fa0f632 \
+      CP work/reinterpret_7ea107432a CP work/xlslice
+EN work/csub_entity_a05e98b01f 1337106451 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/csub_entity_a05e98b01f/structural 1337106452 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/csub_entity_a05e98b01f 1337106451 CP work/constant_8038205d89 \
+      CP work/constant_963ed6358a CP work/constant_822933f89b CP work/xlconvert \
+      CP work/concat_b57c4be2de CP work/xldsp48e CP work/constant_270746ab47 \
+      CP work/reinterpret_3fb4604c01 CP work/reinterpret_4bf1ad328a \
+      CP work/reinterpret_eb03bc3377 CP work/reinterpret_9a0fa0f632 \
+      CP work/reinterpret_7ea107432a CP work/xlslice
+EN work/ri_to_c0_entity_6d1b5a34aa 1337106453 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/ri_to_c0_entity_6d1b5a34aa/structural 1337106454 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/ri_to_c0_entity_6d1b5a34aa 1337106453 CP work/concat_b198bd62b0 \
+      CP work/reinterpret_580feec131
+EN work/hilbert_dsp48e_entity_f6c0959339 1337106455 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/hilbert_dsp48e_entity_f6c0959339/structural 1337106456 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/hilbert_dsp48e_entity_f6c0959339 1337106455 \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/cadd_entity_d903f2a2c7 \
+      CP work/xlconvert_pipeline CP work/csub_entity_a05e98b01f \
+      CP work/ri_to_c0_entity_6d1b5a34aa CP work/scale_9f61027ba4
+EN work/sync_delay_en_entity_71c59eb398 1337106457 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_en_entity_71c59eb398/structural 1337106458 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_en_entity_71c59eb398 1337106457 \
+      CP work/constant_a3923dd146 CP work/constant_0604807f72 \
+      CP work/constant_6293007044 CP work/constant_118598964d \
+      CP work/xlcounter_free CP work/logical_aacf6e1b0e CP work/logical_80f90b97d0 \
+      CP work/mux_1bef4ba0e4 CP work/relational_2147430058 \
+      CP work/relational_b4b277ae0f
+EN work/reorder_even_entity_46cdc9fc47 1337106459 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/reorder_even_entity_46cdc9fc47/structural 1337106460 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reorder_even_entity_46cdc9fc47 1337106459 CP work/xlspram \
+      CP work/xlcounter_limit CP work/xldelay CP work/delay_0f6b6badfe \
+      CP work/xlsprom CP work/mux_bdc1db9d7e CP work/logical_aacf6e1b0e \
+      CP work/xlslice CP work/sync_delay_en_entity_71c59eb398
+EN work/reorder_odd_entity_702b0c4cee 1337106461 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/reorder_odd_entity_702b0c4cee/structural 1337106462 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/reorder_odd_entity_702b0c4cee 1337106461 CP work/xlspram \
+      CP work/xlcounter_limit CP work/xldelay CP work/delay_0f6b6badfe \
+      CP work/xlsprom CP work/mux_bdc1db9d7e CP work/xlslice
+EN work/bi_real_unscr_2x_entity_cf42a9c4ad 1337106463 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/bi_real_unscr_2x_entity_cf42a9c4ad/structural 1337106464 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/bi_real_unscr_2x_entity_cf42a9c4ad 1337106463 \
+      CP work/constant_498bc68c14 CP work/xlcounter_free CP work/xldelay \
+      CP work/constant_6293007044 CP work/hilbert_dsp48e_entity_f6c0959339 \
+      CP work/mux_b75bc1e5be CP work/relational_0ffd72e037 \
+      CP work/reorder_even_entity_46cdc9fc47 \
+      CP work/reorder_odd_entity_702b0c4cee
+EN work/cadd_entity_0876d38971 1337106465 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/cadd_entity_0876d38971/structural 1337106466 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cadd_entity_0876d38971 1337106465 CP work/constant_4c449dd556 \
+      CP work/constant_963ed6358a CP work/constant_822933f89b CP work/xlconvert \
+      CP work/concat_b57c4be2de CP work/xldsp48e CP work/constant_270746ab47 \
+      CP work/reinterpret_3fb4604c01 CP work/reinterpret_4bf1ad328a \
+      CP work/reinterpret_eb03bc3377 CP work/reinterpret_9a0fa0f632 \
+      CP work/reinterpret_7ea107432a CP work/xlslice
+EN work/convert_entity_cb90012123 1337106467 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/convert_entity_cb90012123/structural 1337106468 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/convert_entity_cb90012123 1337106467 CP work/addsub_27fae134d1 \
+      CP work/constant_4709ea49b5 CP work/xlslice CP work/concat_c615d93998 \
+      CP work/constant_6293007044 CP work/reinterpret_d357e69fa3 \
+      CP work/reinterpret_d2180c9169 CP work/reinterpret_4a8cbc85ce \
+      CP work/logical_938d99ac11
+EN work/convert_of0_entity_8520f090ce 1337106469 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/convert_of0_entity_8520f090ce/structural 1337106470 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/convert_of0_entity_8520f090ce 1337106469 CP work/logical_e9e6541380 \
+      CP work/logical_80f90b97d0 CP work/convert_entity_cb90012123 \
+      CP work/inverter_e5b38cca3b CP work/xlslice
+EN work/csub_entity_46bf4f188a 1337106471 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/csub_entity_46bf4f188a/structural 1337106472 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/csub_entity_46bf4f188a 1337106471 CP work/constant_8038205d89 \
+      CP work/constant_963ed6358a CP work/constant_822933f89b CP work/xlconvert \
+      CP work/concat_b57c4be2de CP work/xldsp48e CP work/constant_270746ab47 \
+      CP work/reinterpret_3fb4604c01 CP work/reinterpret_4bf1ad328a \
+      CP work/reinterpret_eb03bc3377 CP work/reinterpret_9a0fa0f632 \
+      CP work/reinterpret_7ea107432a CP work/xlslice
+EN work/twiddle_pass_through_entity_63f368faa2 1337106473 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_pass_through_entity_63f368faa2/structural 1337106474 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_pass_through_entity_63f368faa2 1337106473 \
+      CP work/c_to_ri0_entity_6093a6f1c0
+EN work/butterfly_direct_entity_7c1bf05bb7 1337106475 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_7c1bf05bb7/structural 1337106476 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_7c1bf05bb7 1337106475 \
+      CP work/cadd_entity_0876d38971 CP work/convert_of0_entity_8520f090ce \
+      CP work/csub_entity_46bf4f188a CP work/logical_a6d07705dd \
+      CP work/mux_28159dbdb9 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_9f61027ba4 CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_pass_through_entity_63f368faa2
+EN work/delay_b_entity_480abaa61d 1337106477 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_480abaa61d/structural 1337106478 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_480abaa61d 1337106477 CP work/constant_6293007044 \
+      CP work/xlcounter_limit CP work/xlspram
+EN work/sync_delay_entity_350fc3568b 1337106479 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_350fc3568b/structural 1337106480 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_350fc3568b 1337106479 CP work/constant_a3923dd146 \
+      CP work/constant_0604807f72 CP work/constant_6293007044 \
+      CP work/constant_118598964d CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_2147430058 CP work/relational_b4b277ae0f
+EN work/fft_stage_1_entity_d61c5478a5 1337106481 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_1_entity_d61c5478a5/structural 1337106482 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_1_entity_d61c5478a5 1337106481 \
+      CP work/butterfly_direct_entity_7c1bf05bb7 CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_480abaa61d CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_350fc3568b
+EN work/cadd_entity_6cf0f5325f 1337106483 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/cadd_entity_6cf0f5325f/structural 1337106484 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/cadd_entity_6cf0f5325f 1337106483 CP work/constant_4c449dd556 \
+      CP work/constant_963ed6358a CP work/constant_822933f89b CP work/xlconvert \
+      CP work/concat_b57c4be2de CP work/xldsp48e CP work/constant_270746ab47 \
+      CP work/reinterpret_3fb4604c01 CP work/reinterpret_4bf1ad328a \
+      CP work/reinterpret_eb03bc3377 CP work/reinterpret_9a0fa0f632 \
+      CP work/reinterpret_7ea107432a CP work/xlslice
+EN work/convert_entity_58e9e8dce9 1337106485 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/convert_entity_58e9e8dce9/structural 1337106486 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/convert_entity_58e9e8dce9 1337106485 CP work/addsub_2969055f39 \
+      CP work/constant_9a2c97cce5 CP work/xlslice CP work/concat_f133931c1f \
+      CP work/constant_6293007044 CP work/reinterpret_60ea556961 \
+      CP work/reinterpret_299ca43e25 CP work/reinterpret_3fb4604c01 \
+      CP work/logical_938d99ac11
+EN work/convert_of0_entity_1384f2b443 1337106487 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/convert_of0_entity_1384f2b443/structural 1337106488 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/convert_of0_entity_1384f2b443 1337106487 CP work/logical_182ac6c51e \
+      CP work/logical_80f90b97d0 CP work/convert_entity_58e9e8dce9 \
+      CP work/inverter_e5b38cca3b CP work/xlslice
+EN work/csub_entity_9672345524 1337106489 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/csub_entity_9672345524/structural 1337106490 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/csub_entity_9672345524 1337106489 CP work/constant_8038205d89 \
+      CP work/constant_963ed6358a CP work/constant_822933f89b CP work/xlconvert \
+      CP work/concat_b57c4be2de CP work/xldsp48e CP work/constant_270746ab47 \
+      CP work/reinterpret_3fb4604c01 CP work/reinterpret_4bf1ad328a \
+      CP work/reinterpret_eb03bc3377 CP work/reinterpret_9a0fa0f632 \
+      CP work/reinterpret_7ea107432a CP work/xlslice
+EN work/c_to_ri2_entity_f8c56280c8 1337106491 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/c_to_ri2_entity_f8c56280c8/structural 1337106492 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/c_to_ri2_entity_f8c56280c8 1337106491 \
+      CP work/reinterpret_9a0fa0f632 CP work/xlslice
+EN work/ri_to_c_entity_6ca6cf7bb1 1337106493 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/ri_to_c_entity_6ca6cf7bb1/structural 1337106494 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/ri_to_c_entity_6ca6cf7bb1 1337106493 CP work/concat_b198bd62b0 \
+      CP work/reinterpret_580feec131
+EN work/coeff_gen_entity_ac97b0964d 1337106495 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_ac97b0964d/structural 1337106496 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_ac97b0964d 1337106495 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom CP work/xlslice
+EN work/twiddle_general_4mult_entity_51343022cf 1337106497 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_51343022cf/structural 1337106498 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_51343022cf 1337106497 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_ac97b0964d CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_3dda9f7958 1337106499 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_3dda9f7958/structural 1337106500 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_3dda9f7958 1337106499 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_1384f2b443 \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_51343022cf
+EN work/delay_b_entity_eb383ccef8 1337106501 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_eb383ccef8/structural 1337106502 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_eb383ccef8 1337106501 CP work/xldelay
+EN work/sync_delay_entity_a5f0fe964f 1337106503 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_a5f0fe964f/structural 1337106504 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_a5f0fe964f 1337106503 CP work/constant_cda50df78a \
+      CP work/constant_e8ddc079e9 CP work/constant_6293007044 \
+      CP work/constant_a7e2bb9e12 CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_5f1eb17108 CP work/relational_f9928864ea
+EN work/fft_stage_10_entity_608db23e86 1337106505 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_10_entity_608db23e86/structural 1337106506 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_10_entity_608db23e86 1337106505 \
+      CP work/butterfly_direct_entity_3dda9f7958 CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_eb383ccef8 CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_a5f0fe964f
+EN work/coeff_gen_entity_36efec2b27 1337106507 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_36efec2b27/structural 1337106508 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_36efec2b27 1337106507 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom CP work/xlslice
+EN work/twiddle_general_4mult_entity_5314b8011b 1337106509 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_5314b8011b/structural 1337106510 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_5314b8011b 1337106509 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_36efec2b27 CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_589b1ae42b 1337106511 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_589b1ae42b/structural 1337106512 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_589b1ae42b 1337106511 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_1384f2b443 \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_5314b8011b
+EN work/delay_b_entity_997f5eab8a 1337106513 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_997f5eab8a/structural 1337106514 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_997f5eab8a 1337106513 CP work/xldelay
+EN work/sync_delay_entity_b7f63eaf1b 1337106515 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_b7f63eaf1b/structural 1337106516 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_b7f63eaf1b 1337106515 CP work/constant_cda50df78a \
+      CP work/constant_a7e2bb9e12 CP work/constant_6293007044 \
+      CP work/xlcounter_free CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_5f1eb17108 CP work/relational_f9928864ea
+EN work/fft_stage_11_entity_26ba983bc7 1337106517 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_11_entity_26ba983bc7/structural 1337106518 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_11_entity_26ba983bc7 1337106517 \
+      CP work/butterfly_direct_entity_589b1ae42b CP work/counter_223a0f3237 \
+      CP work/xldelay CP work/delay_b_entity_997f5eab8a CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_b7f63eaf1b
+EN work/twiddle_stage_2_entity_950cc35a79 1337106519 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_stage_2_entity_950cc35a79/structural 1337106520 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_stage_2_entity_950cc35a79 1337106519 \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/xlconvert_pipeline \
+      CP work/counter_61242a554d CP work/delay_ae3f84524a CP work/delay_848c26f47b \
+      CP work/delay_2f744cdafb CP work/delay_cbdfa55dc3 CP work/delay_e18fb31a3d \
+      CP work/delay_a14e3dd1bd CP work/mux_69e3090cc7 CP work/mux_181e58d842 \
+      CP work/negate_e1a9d1ade1 CP work/xlslice
+EN work/butterfly_direct_entity_cdabae6b59 1337106521 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_cdabae6b59/structural 1337106522 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_cdabae6b59 1337106521 \
+      CP work/cadd_entity_0876d38971 CP work/convert_of0_entity_8520f090ce \
+      CP work/csub_entity_46bf4f188a CP work/logical_a6d07705dd \
+      CP work/mux_28159dbdb9 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_9f61027ba4 CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_stage_2_entity_950cc35a79
+EN work/delay_b_entity_caa586227f 1337106523 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_caa586227f/structural 1337106524 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_caa586227f 1337106523 CP work/constant_6293007044 \
+      CP work/xlcounter_limit CP work/xlspram
+EN work/sync_delay_entity_f0dbf3f546 1337106525 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_f0dbf3f546/structural 1337106526 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_f0dbf3f546 1337106525 CP work/constant_498bc68c14 \
+      CP work/constant_fbc2f0cce1 CP work/constant_6293007044 \
+      CP work/constant_f1ac4bddff CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_0ffd72e037 CP work/relational_f6702ea2f7
+EN work/fft_stage_2_entity_c642f0c1ce 1337106527 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_2_entity_c642f0c1ce/structural 1337106528 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_2_entity_c642f0c1ce 1337106527 \
+      CP work/butterfly_direct_entity_cdabae6b59 CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_caa586227f CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_f0dbf3f546
+EN work/convert_of0_entity_ec0c8b5c8e 1337106529 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/convert_of0_entity_ec0c8b5c8e/structural 1337106530 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/convert_of0_entity_ec0c8b5c8e 1337106529 CP work/logical_182ac6c51e \
+      CP work/logical_80f90b97d0 CP work/convert_entity_58e9e8dce9 \
+      CP work/inverter_e5b38cca3b CP work/xlslice
+EN work/coeff_gen_entity_12d397242a 1337106531 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_12d397242a/structural 1337106532 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_12d397242a 1337106531 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom_dist CP work/xlslice
+EN work/twiddle_general_4mult_entity_7d233d93d8 1337106533 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_7d233d93d8/structural 1337106534 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_7d233d93d8 1337106533 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_12d397242a CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_7728dda2c8 1337106535 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_7728dda2c8/structural 1337106536 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_7728dda2c8 1337106535 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_ec0c8b5c8e \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_7d233d93d8
+EN work/delay_b_entity_1c18062005 1337106537 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_1c18062005/structural 1337106538 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_1c18062005 1337106537 CP work/constant_6293007044 \
+      CP work/xlcounter_limit CP work/xlspram
+EN work/sync_delay_entity_18a8dad1bf 1337106539 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_18a8dad1bf/structural 1337106540 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_18a8dad1bf 1337106539 CP work/constant_fd85eb7067 \
+      CP work/constant_4a391b9a0e CP work/constant_6293007044 \
+      CP work/constant_b4ec9de7d1 CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_6c3ee657fa CP work/relational_78eac2928d
+EN work/fft_stage_3_entity_273a1cd05b 1337106541 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_3_entity_273a1cd05b/structural 1337106542 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_3_entity_273a1cd05b 1337106541 \
+      CP work/butterfly_direct_entity_7728dda2c8 CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_1c18062005 CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_18a8dad1bf
+EN work/coeff_gen_entity_e9d8c088fa 1337106543 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_e9d8c088fa/structural 1337106544 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_e9d8c088fa 1337106543 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom_dist CP work/xlslice
+EN work/twiddle_general_4mult_entity_57ed09d25a 1337106545 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_57ed09d25a/structural 1337106546 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_57ed09d25a 1337106545 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_e9d8c088fa CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_db55f3a9ea 1337106547 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_db55f3a9ea/structural 1337106548 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_db55f3a9ea 1337106547 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_ec0c8b5c8e \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_57ed09d25a
+EN work/delay_b_entity_2c0ffecd3f 1337106549 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_2c0ffecd3f/structural 1337106550 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_2c0ffecd3f 1337106549 CP work/constant_6293007044 \
+      CP work/xlcounter_limit CP work/xlspram
+EN work/sync_delay_entity_538cd35793 1337106551 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_538cd35793/structural 1337106552 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_538cd35793 1337106551 CP work/constant_91ef1678ca \
+      CP work/constant_e8aae5d3bb CP work/constant_6293007044 \
+      CP work/constant_b437b02512 CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_54048c8b02 CP work/relational_16235eb2bf
+EN work/fft_stage_4_entity_171e508cf3 1337106553 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_4_entity_171e508cf3/structural 1337106554 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_4_entity_171e508cf3 1337106553 \
+      CP work/butterfly_direct_entity_db55f3a9ea CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_2c0ffecd3f CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_538cd35793
+EN work/coeff_gen_entity_b389a0c542 1337106555 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_b389a0c542/structural 1337106556 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_b389a0c542 1337106555 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom CP work/xlslice
+EN work/twiddle_general_4mult_entity_b60354a90e 1337106557 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_b60354a90e/structural 1337106558 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_b60354a90e 1337106557 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_b389a0c542 CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_fd702b3dc4 1337106559 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_fd702b3dc4/structural 1337106560 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_fd702b3dc4 1337106559 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_ec0c8b5c8e \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_b60354a90e
+EN work/delay_b_entity_c5c8113636 1337106561 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_c5c8113636/structural 1337106562 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_c5c8113636 1337106561 CP work/constant_6293007044 \
+      CP work/xlcounter_limit CP work/xlspram
+EN work/sync_delay_entity_8ff8cf1723 1337106563 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_8ff8cf1723/structural 1337106564 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_8ff8cf1723 1337106563 CP work/constant_7244cd602b \
+      CP work/constant_7b07120b87 CP work/constant_6293007044 \
+      CP work/constant_180df391de CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_9a3978c602 CP work/relational_23065a6aa3
+EN work/fft_stage_5_entity_47f5cf444b 1337106565 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_5_entity_47f5cf444b/structural 1337106566 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_5_entity_47f5cf444b 1337106565 \
+      CP work/butterfly_direct_entity_fd702b3dc4 CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_c5c8113636 CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_8ff8cf1723
+EN work/coeff_gen_entity_a0a7c9af6e 1337106567 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_a0a7c9af6e/structural 1337106568 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_a0a7c9af6e 1337106567 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom CP work/xlslice
+EN work/twiddle_general_4mult_entity_bbcb5a43d0 1337106569 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_bbcb5a43d0/structural 1337106570 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_bbcb5a43d0 1337106569 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_a0a7c9af6e CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_6d0f3e0aba 1337106571 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_6d0f3e0aba/structural 1337106572 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_6d0f3e0aba 1337106571 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_ec0c8b5c8e \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_bbcb5a43d0
+EN work/delay_b_entity_41e5e338ab 1337106573 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_41e5e338ab/structural 1337106574 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_41e5e338ab 1337106573 CP work/xldelay
+EN work/sync_delay_entity_d54408a058 1337106575 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_d54408a058/structural 1337106576 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_d54408a058 1337106575 CP work/constant_7ea0f2fff7 \
+      CP work/constant_961b61f8a1 CP work/constant_6293007044 \
+      CP work/constant_a267c870be CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_931d61fb72 CP work/relational_fe487ce1c7
+EN work/fft_stage_6_entity_3379c864c6 1337106577 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_6_entity_3379c864c6/structural 1337106578 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_6_entity_3379c864c6 1337106577 \
+      CP work/butterfly_direct_entity_6d0f3e0aba CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_41e5e338ab CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_d54408a058
+EN work/coeff_gen_entity_2727609715 1337106579 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_2727609715/structural 1337106580 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_2727609715 1337106579 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom CP work/xlslice
+EN work/twiddle_general_4mult_entity_c73fb03ecd 1337106581 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_c73fb03ecd/structural 1337106582 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_c73fb03ecd 1337106581 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_2727609715 CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_1478a1d18a 1337106583 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_1478a1d18a/structural 1337106584 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_1478a1d18a 1337106583 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_1384f2b443 \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_c73fb03ecd
+EN work/delay_b_entity_2eb241a2dc 1337106585 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_2eb241a2dc/structural 1337106586 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_2eb241a2dc 1337106585 CP work/xldelay
+EN work/sync_delay_entity_1e7ab04d67 1337106587 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_1e7ab04d67/structural 1337106588 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_1e7ab04d67 1337106587 CP work/constant_fe72737ca0 \
+      CP work/constant_ef0e2e5fc6 CP work/constant_6293007044 \
+      CP work/constant_582a3706dd CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_9ece3c8c4e CP work/relational_dc5bc996c9
+EN work/fft_stage_7_entity_5a026dd4c1 1337106589 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_7_entity_5a026dd4c1/structural 1337106590 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_7_entity_5a026dd4c1 1337106589 \
+      CP work/butterfly_direct_entity_1478a1d18a CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_2eb241a2dc CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_1e7ab04d67
+EN work/coeff_gen_entity_b4d8270762 1337106591 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_b4d8270762/structural 1337106592 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_b4d8270762 1337106591 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom CP work/xlslice
+EN work/twiddle_general_4mult_entity_22ac7211f0 1337106593 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_22ac7211f0/structural 1337106594 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_22ac7211f0 1337106593 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_b4d8270762 CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_e7c2f36804 1337106595 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_e7c2f36804/structural 1337106596 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_e7c2f36804 1337106595 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_1384f2b443 \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_22ac7211f0
+EN work/delay_b_entity_8f7d5701ce 1337106597 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_8f7d5701ce/structural 1337106598 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_8f7d5701ce 1337106597 CP work/xldelay
+EN work/sync_delay_entity_fb0847d8bf 1337106599 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_fb0847d8bf/structural 1337106600 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_fb0847d8bf 1337106599 CP work/constant_4c449dd556 \
+      CP work/constant_145086465d CP work/constant_6293007044 \
+      CP work/constant_67ad97ca70 CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_4d3cfceaf4 CP work/relational_d930162434
+EN work/fft_stage_8_entity_2810ce8864 1337106601 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_8_entity_2810ce8864/structural 1337106602 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_8_entity_2810ce8864 1337106601 \
+      CP work/butterfly_direct_entity_e7c2f36804 CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_8f7d5701ce CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_fb0847d8bf
+EN work/coeff_gen_entity_1db13b6ef2 1337106603 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/coeff_gen_entity_1db13b6ef2/structural 1337106604 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/coeff_gen_entity_1db13b6ef2 1337106603 CP work/xlcounter_free \
+      CP work/ri_to_c_entity_6ca6cf7bb1 CP work/xlsprom CP work/xlslice
+EN work/twiddle_general_4mult_entity_b20a5f234c 1337106605 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/twiddle_general_4mult_entity_b20a5f234c/structural 1337106606 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/twiddle_general_4mult_entity_b20a5f234c 1337106605 \
+      CP work/addsub_6db2f9c02b CP work/addsub_8ce31f90bc \
+      CP work/c_to_ri0_entity_6093a6f1c0 CP work/c_to_ri2_entity_f8c56280c8 \
+      CP work/coeff_gen_entity_1db13b6ef2 CP work/xlconvert_pipeline \
+      CP work/xldelay CP work/delay_38898c80c0 CP work/mult_f295e5f0f2
+EN work/butterfly_direct_entity_42e2cc91bd 1337106607 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/butterfly_direct_entity_42e2cc91bd/structural 1337106608 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/butterfly_direct_entity_42e2cc91bd 1337106607 \
+      CP work/cadd_entity_6cf0f5325f CP work/convert_of0_entity_1384f2b443 \
+      CP work/csub_entity_9672345524 CP work/logical_a6d07705dd \
+      CP work/mux_f1f44b96f0 CP work/ri_to_c0_entity_6d1b5a34aa \
+      CP work/scale_e5d0b4a1ec CP work/xldelay CP work/delay_a14e3dd1bd \
+      CP work/twiddle_general_4mult_entity_b20a5f234c
+EN work/delay_b_entity_f5e13c2a4d 1337106609 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/delay_b_entity_f5e13c2a4d/structural 1337106610 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/delay_b_entity_f5e13c2a4d 1337106609 CP work/xldelay
+EN work/sync_delay_entity_f73482297e 1337106611 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/sync_delay_entity_f73482297e/structural 1337106612 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/sync_delay_entity_f73482297e 1337106611 CP work/constant_822933f89b \
+      CP work/constant_469094441c CP work/constant_6293007044 \
+      CP work/constant_a1c496ea88 CP work/xlcounter_free \
+      CP work/logical_aacf6e1b0e CP work/mux_1bef4ba0e4 \
+      CP work/relational_8fc7f5539b CP work/relational_47b317dab6
+EN work/fft_stage_9_entity_30f5b66e54 1337106613 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_stage_9_entity_30f5b66e54/structural 1337106614 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_stage_9_entity_30f5b66e54 1337106613 \
+      CP work/butterfly_direct_entity_42e2cc91bd CP work/xlcounter_free \
+      CP work/xldelay CP work/delay_b_entity_f5e13c2a4d CP work/logical_444d3f5046 \
+      CP work/mux_4bb6f691f7 CP work/xlslice CP work/sync_delay_entity_f73482297e
+EN work/biplex_core_entity_28c4ebd84d 1337106615 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/biplex_core_entity_28c4ebd84d/structural 1337106616 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/biplex_core_entity_28c4ebd84d 1337106615 \
+      CP work/constant_963ed6358a CP work/fft_stage_10_entity_608db23e86 \
+      CP work/fft_stage_11_entity_26ba983bc7 \
+      CP work/fft_stage_1_entity_d61c5478a5 CP work/fft_stage_2_entity_c642f0c1ce \
+      CP work/fft_stage_3_entity_273a1cd05b CP work/fft_stage_4_entity_171e508cf3 \
+      CP work/fft_stage_5_entity_47f5cf444b CP work/fft_stage_6_entity_3379c864c6 \
+      CP work/fft_stage_7_entity_5a026dd4c1 CP work/fft_stage_8_entity_2810ce8864 \
+      CP work/fft_stage_9_entity_30f5b66e54
+EN work/fft_biplex_real_2x_entity_a05e7a283b 1337106617 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_biplex_real_2x_entity_a05e7a283b/structural 1337106618 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_biplex_real_2x_entity_a05e7a283b 1337106617 \
+      CP work/bi_real_unscr_2x_entity_cf42a9c4ad \
+      CP work/biplex_core_entity_28c4ebd84d CP work/ri_to_c0_entity_6d1b5a34aa
+EN work/fft_1024ch_core 1337106619 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_1024ch_core/structural 1337106620 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core.vhd \
+      EN work/fft_1024ch_core 1337106619 \
+      CP work/fft_biplex_real_2x_entity_a05e7a283b
+FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core_cw.vhd 2012/05/15.11:21:37 O.76xd
+EN work/xlclockdriver 1337106621 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core_cw.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508 \
+      PB work/conv_pkg 1337106200
+AR work/xlclockdriver/behavior 1337106622 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core_cw.vhd \
+      EN work/xlclockdriver 1337106621 CP synth_reg_w_init CP bufg
+EN work/default_clock_driver 1337106623 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core_cw.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/default_clock_driver/structural 1337106624 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core_cw.vhd \
+      EN work/default_clock_driver 1337106623 CP work/xlclockdriver
+EN work/fft_1024ch_core_cw 1337106625 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core_cw.vhd \
+      PB ieee/std_logic_1164 1317710503 PB work/conv_pkg 1337106200
+AR work/fft_1024ch_core_cw/structural 1337106626 \
+      FL /scratch/zaki/workspace/roachfengine/fft_1024ch_core/synth_model/fft_1024ch_core_cw.vhd \
+      EN work/fft_1024ch_core_cw 1337106625 CP work/default_clock_driver \
+      CP work/fft_1024ch_core CP xlpersistentdff

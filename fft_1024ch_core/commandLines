@@ -1,0 +1,1 @@
+/scratch/Xilinx/13.3/ISE_DS/ISE/sysgen/bin/lin64/saferun -a /scratch/zaki/workspace/roachfengine/fft_1024ch_core/fft_1024ch_core_cw_import.log -- /scratch/Xilinx/13.3/ISE_DS/ISE//bin/lin64/xtclsh ProjectGeneration.tcl
