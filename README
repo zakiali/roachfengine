@@ -1,0 +1,146 @@
+Model for an F Engine used by the Precision Array for Probing the Epoch of Reionization.
+
+The Model roachf_1024ch_ma.mdl is an 8 input design consisting of Digitizer, PFB, Packetiser, Loopback, and output 10gbe.
+2048 channel PFB. 
+
+One can select the total number of inputs in the design (which determines the packet format).
+Supported number of inputs is from 16, 32, 64, 128, 256, 512 total inputs. 
+
+REGISTERS OF NOTE
+------------------
+
+	Monitor
+	-------
+	- 'switch_gbe_status' : monitors 10gbe outputs. 
+	   bitmap = {25bits of 0 | gbe_up | gbe_rx | gbe_tx | gbe_a_full | gbe_tx_oflow | gbe_rx_badframe | gbe_rx_over_run}
+	
+	- 'switch_gbe_badframe' : Counter value of gbe rx bad frame signal. Note there is no posedge.  
+
+	- 'switch_gbe_orun' : Counter value of gbe rx overrun signal. Note there is no posedge.  
+
+	- 'switch_gbe_oflow' : Counter value of gbe tx over flow signal. Note there is no posedge.  
+
+	- 'switch_cnts_data_msb(lsb)' : The cnts block counts the number of clocks between packets etc.. use provided software to read.
+					May be somewhat convoluted to decipher. Not needed for functionality. Only for testing 
+					10gbe blocks. 
+
+	- 'loopback_rx_cnt' : Counts the number of packets output of rx packet fifo. Reset by 'cnt_rst' signal.
+
+	- 'loopback_rx_err_cnt' : Counts the number of rx fifo overfull signals. Reset by 'cnt_rst' signal.
+
+	- 'loopback_loop_err_cnt' : Counts the number of loopback fifo overfull signals. Reset by 'cnt_rst' signal.
+
+	- 'loopback_loop_cnt' : Counts the number of packets output of loop packet fifo. Reset by 'cnt_rst' signal.
+				This number should be (1/number of roaches) * loopback_rx_cnt
+	
+	- 'loopback_rx_pkt_too_big' : Count of number to oversize packets coming from the switch. 
+
+	- 'loopback_rx_pkt_too_small' : Count of number to undersize packets coming from the switch. 
+
+	- 'loopback_rx_over' : Second check of oversize packets from switch.i NOT NECESSARY.
+
+	- 'loopback_rx_under' : Second check of undersize packets from switch. NOT NECESSARY.
+
+	- 'loopback_loop_over' : Count of number of oversize packets from loopback fifo.
+
+	- 'loopback_loop_under' : Count of number of undersize packets from loopback fifo.
+
+	- 'loopback_cnts.,,,' : Same as cnts brams in switch block. Counts differences between gbe_read and loop_read signals.
+				Was used for debugging. Not needed anymore.
+
+	- 'gpu_mcnt_lsb(msb)' : Instantaneous header  of data about to be sent out over 10gbe. LSB = {bottom 16 of mcnt | Xid | Fid}
+				MSB = top 32 bits of mcnt.
+
+	- 'gpu_gbe_status' : see 'switch_gbe_status.'
+
+	- 'adc_rms_levels' : bram of rms values of the inputs. Note that the ctrl register must be written to in order for it to run. addresses: 
+				0: 24bit sum of 2^16 samples of input 0. 
+				1: 32bit sum of squares of the samples in 0.
+				2: 24bit sum of 2^16 samples of input 1.
+				3: 32bit sum of squares of the samples in 2.
+				etc.....
+
+
+
+
+
+	LEDs
+	------
+	
+	led0 : armed signal
+	led1 : sync pulse 
+	led2 : eq clip
+	led3 : adc clip
+
+
+
+
+
+
+	SNAP BLOCKS
+	-------------
+	
+	-'switch_txsnap' + 'bram_msb', 'bram_lsb' , 'bram_oob', 'ctrl', 'addr': saves meta data in oob, lsb(msb) of data. Triggered by writing to ctrl signal. See scripts to read from it.
+
+	-'switch_rxsnap' + 'bram_msb', 'bram_lsb' , 'bram_oob', 'ctrl', 'addr': saves meta data in oob, lsb(msb) of data. Triggered by writing to ctrl signal. See scripts to read from it.
+
+	-'gpu_txsnap' + 'bram_msb', 'bram_lsb' , 'bram_oob', 'ctrl', 'addr': saves meta data in oob, lsb(msb) of data. Triggered by writing to ctrl signal. See scripts to read from it.
+
+	-'adc_snap_0_3'(4_7) : use 'adc_snap_ctrl' to control snaps.
+				1024 samples of 8bit input data. Format = {[0123]_0,[0123]_0...,[0123]_1023} and {[4567]_0,[4567]_1,...,[4567]_1023}
+
+
+
+
+
+
+
+
+
+	CONTROL BLOCKS
+	---------------
+
+	- 'input_selector' : Selects the type of input. 32bit value. Every nibble corresponds to an input. lsb is input 0, msb is input 7. If writtin in hex format,
+				every hex digit is an input. Value of 3=digital zero, 2=second digital noise, 1=first digital noise, 0=adc inputs.
+				e.g. 0x33333210 = input0 has adcs on, input 1 has digital noise 1, input 2 has digital noise 2 on , inputs3-7 have dig zero.
+	
+	- 'delay_values' : Introduces a course delay into input signal path. Can delay up to 16 fpga clocks. lsb is input 0, msb is input 7.
+
+	- 'seed_data' : introduces new seed into digital noise sources. Every byte corresponds to a different WGN generator. Note that this value must be set 
+			before we arm/sync up the roaches to one another.
+
+	- 'gpu_port' : destination port for  gpu host machine. Default is 8511.
+
+	- 'gpu_ip' : destination ip address for gpu host machine.
+
+	- 'gbe_sw_port' : destination port for packets destined for switch.
+
+	- 'my_ip' : ipaddress of this f engine.
+
+	- 'ip_base' : base ip address of packets destined for switch.
+				
+	- 'ant_base_offset' : This is actually the F-Engine ID. Determines which input numbers are on this roach.
+	
+	- 'fft_shift' : sets shift schedule for ffts.
+
+	- 'n_inputs' : Register holds the number of total inputs in the correlator. This determines which transpose/packetiser to use. It is a 3 bit value.
+			The number is determined by log2(ninputs) - 4.
+
+	- 'feng_ctl' : sets various control bits. Bit map below...
+		('gbe_gpu_rst'),        #31                reset gbe block going to gpu machines.
+		('gbe_sw_rst'),         #30                reset gbe block going to gpu machines.
+		('loopback_mux_rst'),   #29                reset some loopback specific stuff. Currently not used, except for determining proper header in mux.
+		('cnt_rst'),            #28                resets various counters (error and the such) in the design.
+		('fft_preshift',2), 	#26-27             can preshift (down) into fft by up to 3 bits. 0=noshift(def) 1=1 bit, etc... 
+		('gpio_monsel',3),  	#23,24,25          DEPRECATED. Not used at all.
+		('fft_tvg2'),           #22                use fft test vector generator 2. Don't really use this. Digital noise sources are better.
+		('fft_tvg1'),           #21		   use fft test vector generator 2. Don't really use this. Digital noise sources are better.
+		('gbe_gpu_disable'),    #20                Disable gpu 10gbe block. (Valid signal always low)
+		('use_qdr_tvg'),        #19                (actually called use_sram_tvg). Use post transpose test vector. Never Used.
+		('gbe_sw_disable'),     #18                Disable switch 10gbe block. (Valid signal always low)
+		('arm_rst'),            #17                Rearm the roachs (for syncup). Note this must go from 0 to 1, for rearm to take effect.
+		('sync_rst'),           #16                Reset sync pulse manually. This is never used, since we have a 1pps distributor.
+		Padding(13),            #3-15              nada. 
+		('lb_err_cnt_rst'),     #2                 Reset the cnts blocks in switch and loopback.
+		Padding(2))             #0-1               nada.
+
