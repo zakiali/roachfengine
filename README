@@ -68,9 +68,14 @@ REGISTERS OF NOTE
 	------
 	
 	led0 : armed signal
+
 	led1 : sync pulse 
+
 	led2 : eq clip
+
 	led3 : adc clip
+
+
 
 
 
@@ -126,7 +131,7 @@ REGISTERS OF NOTE
 	- 'n_inputs' : Register holds the number of total inputs in the correlator. This determines which transpose/packetiser to use. It is a 3 bit value.
 			The number is determined by log2(ninputs) - 4.
 
-	- 'feng_ctl' : sets various control bits. Bit map below...
+	- 'feng_ctl'* : sets various control bits. Bit map below...
 		('gbe_gpu_rst'),        #31                reset gbe block going to gpu machines.
 		('gbe_sw_rst'),         #30                reset gbe block going to gpu machines.
 		('loopback_mux_rst'),   #29                reset some loopback specific stuff. Currently not used, except for determining proper header in mux.
@@ -144,3 +149,21 @@ REGISTERS OF NOTE
 		('lb_err_cnt_rst'),     #2                 Reset the cnts blocks in switch and loopback.
 		Padding(2))             #0-1               nada.
 
+		* Some notes about this block :  The 'gbe_gpu_disable' and 'gbe_sw_disable' signals need to be high before the 10gbe cores are reset with. If not, the cores will not 
+						 reset and will not transmit. Also the cores are held in rst until all the network stuff is set up. Then the final start up of the F Engine
+						 is to take the 10gbe cores out of reset and and undo the disable. The gbe disable signals make sure that no valid data goes into the cores, and therefore
+						 no data gets sent to the 10gbe cores.
+
+
+	NOTES
+       =======
+	
+	1. The 2 10gbe cores in the design are different. The core to the switch is the 10gbe_v2 core, where as the core to the GPU's is the 10gbe (original) core. It requires a special liscense from Xilinx 
+	   to be compiled with.
+
+	2. In the initialization scripts, which can be found in the corr package at git@github.com:zakiali/roachfengine.git, both the 10gbe cores are started the same way (as in I don't use
+	   tgtap to start them up). This was due to the fact that sometimes we did not have all ROACHs set up for testing, but we were sending all the packets to the switch. The packets that 
+	   were destined for non existant ROACHs were then interpreted as broadcast packets and sent everywhere, corrupting data integrity. Therefore, I populate the arp tables manually,
+	   including all the mac addresses that are supposed to be there (non existant ROACHs).
+
+	3. The name of the gbe cores relates to the cx4 ports used on the roachs. The number in the name is the port used (starting from 0).
