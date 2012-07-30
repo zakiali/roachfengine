@@ -8,6 +8,10 @@ One can select the total number of inputs in the design (which determines the
 packet format).  Supported number of inputs is from 16, 32, 64, 128, 256, 512
 total inputs. 
 
+This mdl file was built using Xilinix 13.3 toolflow and 
+casper mlib devel library at #4655b346c5f629aa63ed5e50d38a75be4ef33102.
+mlib devel can be found at git@github.com:zakiali/mlib_devel.git
+
 REGISTERS OF NOTE
 ------------------
 
