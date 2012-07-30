@@ -276,7 +276,7 @@ REGISTERS OF NOTE
 	   be compiled with.
 
 	2. In the initialization scripts, which can be found in the corr
-	   package at git@github.com:zakiali/roachfengine.git, both the 10gbe
+	   package at git@github.com:zakiali/PAPERCORR.git, both the 10gbe
 	   cores are started the same way (as in I don't use tgtap to start
 	   them up). This was due to the fact that sometimes we did not have
 	   all ROACHs set up for testing, but we were sending all the packets
